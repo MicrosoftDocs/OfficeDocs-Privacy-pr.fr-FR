@@ -1,5 +1,5 @@
 ---
-title: Mise en place de Priva
+title: Démarrer avec Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: Découvrez comment configurer Microsoft Priva pour votre organisation, définir des rôles et des autorisations et configurer des paramètres importants.
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248967"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280246"
 ---
-# <a name="get-started-with-priva"></a>Mise en place de Priva
+# <a name="get-started-with-priva"></a>Démarrer avec Priva
 
-Si vous êtes prêt à commencer à utiliser Microsoft Priva pour vous aider à identifier et réduire les risques de confidentialité, suivez ces étapes pour configurer les conditions préalables et commencer à explorer les informations sur la confidentialité.
+Si vous êtes prêt à commencer à utiliser Microsoft Priva pour obtenir de l’aide pour identifier et atténuer les risques de confidentialité, suivez ces étapes pour configurer les prérequis et commencer à explorer les insights de confidentialité.
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>Étape 1 : Confirmer les abonnements et les licences
 
@@ -37,7 +37,7 @@ Priva est disponible dans le [Centre de conformité Microsoft 365](https://comp
 
 Priva propose des options de licence pour deux solutions différentes : Priva Privacy Risk Management et Priva Subject Rights Requests. Ceux-ci peuvent être achetés individuellement ou ensemble. Lorsque vous obtenez des licences pour les demandes de droits d’objet, vous pouvez choisir le niveau de licence approprié pour le nombre de demandes que vous devez gérer. Vous pouvez acheter des demandes supplémentaires à tout moment.
 
-Pour obtenir des instructions détaillées sur les licences, consultez [instructions relatives aux licences Microsoft 365 pour la sécurité et la conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).
+Pour obtenir des instructions détaillées sur les licences, consultez [instructions relatives aux licences Microsoft 365 pour la sécurité et la conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva).
 
 > [!Note]
 > Priva n’est pas disponible pour les clients modérés, Cloud de la communauté du secteur public élevés ou du département de la Défense (DoD) du gouvernement américain Community (Cloud de la communauté du secteur public).
