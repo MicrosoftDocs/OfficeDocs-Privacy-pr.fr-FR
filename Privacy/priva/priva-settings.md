@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248966"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542822"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
@@ -46,7 +46,7 @@ Utilisez cette section pour télécharger des schémas de données qui décriven
 
 ## <a name="data-retention-periods"></a>Périodes de rétention des données
 
-Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet de contrôler votre préférence pour la durée de rétention des données collectées et des rapports que vous avez générés après la fermeture de la demande. Elle peut être définie sur 30 ou 90 jours. Vérifiez que ces périodes de rétention des données sont conformes à vos stratégies et obligations légales. Pour en savoir plus sur les demandes de droits d’objet, voir [En savoir plus sur les demandes de droits de l’objet Priva](subject-rights-requests.md).
+Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet de contrôler votre préférence pour la durée de rétention des données collectées et des rapports générés après la fermeture de la demande. Ce nombre peut être fixé à 30 ou 90 jours et s’applique à toutes les demandes de droits d’objet que vous créez. Nous vous recommandons de vérifier que vos périodes de rétention des données sont conformes aux stratégies et obligations légales de votre organisation. En savoir plus sur [la définition de la rétention des données pour les demandes de droits d’objet](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Balises de révision des données
 

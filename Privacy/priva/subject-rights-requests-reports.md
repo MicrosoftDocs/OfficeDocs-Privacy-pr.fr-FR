@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment gérer les packages de données créés par Microsoft Priva pour les demandes de droits d’objet et comment satisfaire la demande à la personne à l’origine du traitement des données.
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249045"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542832"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Générer des rapports et répondre à une demande de droits d’objet
 
@@ -56,7 +56,13 @@ Pour en savoir plus, [consultez l’API de demande de droits Graph Microsoft](/g
 
 ## <a name="manage-data-retention"></a>Gérer la rétention des données
 
-Les rapports générés par le biais de cet outil et les données associées, telles que les fichiers annotés enregistrés dans Azure, sont stockés pendant une durée spécifiée. Cette durée est définie au niveau global **jusqu’Paramètres** dans la section **Périodes** de rétention des données, qui vous permet de choisir entre 30 et 90 jours. Vérifiez que ces périodes de rétention des données sont conformes à vos stratégies et obligations légales.
+Les rapports générés par le biais de cet outil et les données associées, telles que les fichiers annotés enregistrés dans Azure, sont stockés pendant une durée spécifiée. La période de rétention des données est définie dans Priva **Paramètres** et s’applique à toutes les demandes de droits de l’objet. Pour afficher ou modifier vos périodes de rétention des données, suivez les étapes ci-dessous :
+
+1. À partir de n’importe où dans les demandes des droits de l’objet **Priva**, sélectionnez Paramètres (icône d’engrenage) dans le coin supérieur droit de votre écran.
+2. **Sélectionnez les périodes de rétention des données** dans le navigation de gauche.
+3. Dans le menu déroulant, sélectionnez 30 jours ou 90 jours comme période de rétention.
+
+Assurez-vous que les périodes de rétention de données que vous avez choisies sont conformes aux stratégies et obligations légales de votre organisation.
 
 ## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
 

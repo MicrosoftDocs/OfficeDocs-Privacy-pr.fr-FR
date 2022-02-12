@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données des demandes des droits de l’objet collectées par Microsoft Priva et collaborer sur la réalisation de la demande.
-ms.openlocfilehash: cac4064a1e0dc2860d061748793a91c0b86e0896
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249044"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542842"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -46,12 +46,31 @@ Les demandes de droits de l’objet sont soumises à plusieurs étapes. Certaine
 
 Étant donné que les demandes peuvent avoir besoin d’être travaillées au fil du temps ou par plusieurs collaborateurs, Priva fournit des mises à jour continues sur l’état et des conseils sur les prochaines étapes à suivre. Ces mises à jour peuvent être vues sur la page de présentation de la demande de droits d’objet.
 
-1. **Estimation des données** : après la création d’une demande, Priva identifie les éléments qui incluent des correspondances potentielles avec votre sujet de données et prend note de leurs emplacements dans Microsoft 365. Une fois l’estimation des données effectuée, vous avancerez automatiquement pour récupérer les **données, sauf** s’il existe des erreurs ou si votre demande est définie pour être suspendue ici pour révision par l’administrateur.
-   - Votre demande peut être définie pour exiger une révision de l’administrateur à ce stade. Si votre administrateur détermine que les résultats initiaux de votre requête de recherche semblent satisfaisants, vous pouvez continuer à récupérer des données. Si vous souhaitez apporter des modifications avant de poursuivre, vous pouvez d’abord modifier votre requête de recherche. Pour plus d’informations, voir l’étape 2. Vous ne pourrez pas modifier votre requête de recherche une fois que vous lancerez l’étape de récupération des données.
-   - Si votre requête de recherche renvoie une estimation de données importante, ce qui signifie qu’elle est au-dessus du seuil recommandé de Priva pour la taille ou le nombre de fichiers, vous pouvez essayer de réviser votre recherche pour affiner son étendue. Notez que les fichiers associés à un élément correspondant (par exemple, les pièces jointes d’un e-mail) peuvent être comptabilisés dans votre total. Les estimations de données dépassant le nombre maximal d’estimations de données de grande taille nécessiteront une révision de la recherche pour continuer.
-1. **Récupérer des** données : cette étape indique que Priva est en train de récupérer vos données. Une fois l’analyse terminée, elle avance automatiquement pour passer **en revue les données**.
-1. **Données** de révision : à ce stade, vos collaborateurs doivent passer en revue les résultats sous  l’onglet Données collectées et effectuer toutes les tâches applicables, telles que la rédaction, l’application de balises et l’ajout de notes. Lorsque vous avez terminé l’avis, sélectionnez **Terminer l’avis**.
-1. **Générer des rapports** : vos rapports sont générés à ce stade. Lorsque vous avez terminé, vous pouvez les trouver sous **l’onglet Rapports** . Vos fichiers terminés peuvent être exportés pour révision et remise finales à la personne qui a effectué la demande.
+#### <a name="data-estimate"></a>Estimation des données
+Une fois que vous avez créé une demande, Priva commence immédiatement à chercher des correspondances potentielles avec la sujet de données dans votre Microsoft 365 de données. Une fois que nous avons identifié tous les éléments qui correspondent à vos critères, vous verrez l’estimation dans  la carte récapitulatif d’estimation des données sur la page Vue d’ensemble de **la** demande. La quantité de données dans l’étendue de votre recherche aura une incidence sur le temps qu’il faudra pour effectuer l’estimation.
+
+Votre demande passe automatiquement à l’étape suivante de récupération des données, dans laquelle tous les éléments de contenu sont rassemblés afin que vos parties prenantes peuvent collaborer sur leur révision des données. Toutefois, dans certains cas, nous suspendons l’estimation des données avant de passer à la récupération et vous informons des étapes suivantes à suivre avant de poursuivre.
+
+Vous pouvez également choisir de suspendre automatiquement à l’étape d’estimation des données lorsque vous créez une demande de droits d’objet pour la première fois. Pendant le processus de création, sélectionnez l’option Obtenir une estimation **en premier** lors de **l’étape Paramètres de** recherche. Examinez les détails de [l’étape des paramètres de recherche](subject-rights-requests-create.md#define-search-settings).
+
+#### <a name="pause-in-data-estimate-for-large-search-results"></a>Suspendre l’estimation des données pour les résultats de recherche importants
+
+Priva remarque si votre estimation des données est projetée pour renvoyer une grande quantité d’éléments à réviser (plus de 10 000 éléments). L’estimation sera suspendue afin que vous pouvez afficher un aperçu des résultats et [](subject-rights-requests-create.md#refine-your-search) décider s’il faut modifier votre requête de recherche pour cibler des emplacements ou des conditions plus spécifiques, ou continuer à récupérer les éléments identifiés.  Nous vous montrerons à l’écran le nombre d’éléments et le volume de données qui correspondent à votre recherche. Vous avez l’une des options suivantes ou les deux dans une barre de messages en haut de l’écran :
+
+- Un **bouton Modifier la** requête de recherche vous permet d’entrer directement dans les paramètres de recherche de la demande pour définir des paramètres plus stricts et générer une nouvelle estimation.
+- Tant que votre requête de recherche ne compte pas plus de 300 000 éléments, vous verrez également une option pour récupérer **des données**. Cela vous permet de choisir de ne pas modifier votre recherche et de continuer à collecter les données.
+
+#### <a name="retrieve-data"></a>Récupérer des données
+L’étape de récupération des données se produit lorsque tous les fichiers, messages électroniques, conversations, images et autres éléments de contenu contenant les données personnelles de la sujet de données sont récupérés et rassemblés dans un conteneur de stockage d’objets blob Azure pour révision. La récupération des données peut prendre quelques minutes ou beaucoup plus en fonction du volume de données. Lorsque cette étape est terminée, la demande passe automatiquement à l’étape suivante des données **de révision**.
+
+#### <a name="review-data"></a>Examiner les données
+ À ce stade, vos collaborateurs doivent passer en revue les résultats sous l’onglet Données collectées et effectuer toutes les tâches applicables, telles que la rédaction, l’application de balises et l’ajout de notes. Lorsque vous avez terminé l’avis, sélectionnez **Terminer l’avis**.
+
+#### <a name="generate-reports"></a>Générer des rapports
+Vos rapports sont générés à ce stade. Lorsque vous avez terminé, vous pouvez les trouver sous **l’onglet Rapports** . Vos fichiers terminés peuvent être exportés pour révision et remise finales à la personne qui a effectué la demande.
+
+#### <a name="close-the-request"></a>Fermer la demande
+Une demande fermée indique que tout le travail a été effectué pour répondre à cette demande de droits d’objet. Toutes les données collectées et les rapports seront conservés en fonction de vos [paramètres de rétention des données](priva-settings.md#data-retention-periods).
 
 ## <a name="step-2-optional-view-and-edit-search-queries"></a>Étape 2 (facultative) : afficher et modifier les requêtes de recherche
 
@@ -59,7 +78,7 @@ Pour afficher des informations détaillées sur la recherche de données derriè
 
 Vous avez la possibilité ici d’afficher **un aperçu** des résultats de recherche pour voir le type de contenu qui sera renvoyé pour cette requête. Si vous souhaitez modifier les propriétés de cette recherche et que vous n’avez pas commencé la phase Récupérer les données, vous pouvez utiliser l’option Modifier la requête **de recherche** .
 
-L’Assistant Modifier la requête de recherche offre la possibilité de modifier ou d’ajouter des propriétés pour l’identification de la personne objet de données, vos filtres et conditions de recherche, ainsi que les emplacements dans lesquels rechercher des données (y compris Exchange, SharePoint, OneDrive et/ou Teams). Utilisez ces options pour atteindre le niveau de spécificité souhaité. Vous pouvez passer en revue la version finale de votre nouvelle requête avant d’atteindre **Enregistrer**.
+Le processus guidé de modification de requête de recherche vous permet de modifier ou d’ajouter des propriétés pour l’identification de la sujet de données, vos filtres et conditions de recherche, ainsi que les emplacements dans lesquels rechercher des données (y compris Exchange, SharePoint, OneDrive et/ou Teams). Utilisez ces options pour atteindre le niveau de spécificité souhaité. Vous pouvez passer en revue la version finale de votre nouvelle requête avant d’atteindre **Enregistrer**.
 
 Lorsque vous avez terminé de modifier votre requête de recherche, une nouvelle recherche s’exécute pour remplacer vos résultats de recherche précédents. Cela réinitialise votre état dans la section **Progression** à la première étape, **Estimation des données**. La nouvelle recherche peut prendre jusqu’à 60 minutes. Une fois l’analyse effectuée, vous verrez les résultats mis à jour sur la page de détails de la demande.
 
@@ -86,7 +105,7 @@ Vous pouvez également utiliser **l’option Partager** en haut à droite au sei
 
 ## <a name="step-4-close-the-request"></a>Étape 4 : Fermer la demande
 
-Lorsque vous avez effectué toutes les actions nécessaires pour résoudre votre demande de droits d’objet, sélectionnez **Fermer la demande**. Cela crée le rapport final, qui sera chiffré et mis à disposition dans **l’onglet Rapports**. L’achèvement peut prendre un certain temps en fonction du nombre de fichiers dans la demande.
+Lorsque vous avez effectué toutes les actions nécessaires pour résoudre votre demande de droits d’objet, sélectionnez **Fermer la demande**. Cela crée le rapport final, qui se trouve sous l’onglet **Rapports**. L’achèvement peut prendre un certain temps en fonction du nombre de fichiers dans la demande.
 
 ## <a name="next-steps"></a>Prochaines étapes
 Pour en savoir plus sur l’emploi de rapports et la réalisation de demandes de droits d’objet, voir [Générer des rapports et répondre à une demande de droits d’objet](subject-rights-requests-reports.md).
