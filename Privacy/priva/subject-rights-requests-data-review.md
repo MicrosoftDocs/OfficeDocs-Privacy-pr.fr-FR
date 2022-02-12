@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données des demandes des droits de l’objet collectées par Microsoft Priva et collaborer sur la réalisation de la demande.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542842"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768428"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -49,7 +49,7 @@ Les demandes de droits de l’objet sont soumises à plusieurs étapes. Certaine
 #### <a name="data-estimate"></a>Estimation des données
 Une fois que vous avez créé une demande, Priva commence immédiatement à chercher des correspondances potentielles avec la sujet de données dans votre Microsoft 365 de données. Une fois que nous avons identifié tous les éléments qui correspondent à vos critères, vous verrez l’estimation dans  la carte récapitulatif d’estimation des données sur la page Vue d’ensemble de **la** demande. La quantité de données dans l’étendue de votre recherche aura une incidence sur le temps qu’il faudra pour effectuer l’estimation.
 
-Votre demande passe automatiquement à l’étape suivante de récupération des données, dans laquelle tous les éléments de contenu sont rassemblés afin que vos parties prenantes peuvent collaborer sur leur révision des données. Toutefois, dans certains cas, nous suspendons l’estimation des données avant de passer à la récupération et vous informons des étapes suivantes à suivre avant de poursuivre.
+Votre demande passe automatiquement à l’étape suivante de récupération des données, où tous les éléments de contenu sont rassemblés afin que les parties prenantes peuvent collaborer sur la révision des données. Dans certains cas, nous suspendons l’estimation des données avant de passer à la récupération et vous informons des étapes suivantes à suivre avant de continuer.
 
 Vous pouvez également choisir de suspendre automatiquement à l’étape d’estimation des données lorsque vous créez une demande de droits d’objet pour la première fois. Pendant le processus de création, sélectionnez l’option Obtenir une estimation **en premier** lors de **l’étape Paramètres de** recherche. Examinez les détails de [l’étape des paramètres de recherche](subject-rights-requests-create.md#define-search-settings).
 

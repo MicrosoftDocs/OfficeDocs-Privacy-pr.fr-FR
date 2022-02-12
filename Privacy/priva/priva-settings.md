@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: a621102db2a421cbda0c8d7298c30cede102f13e
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542822"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768438"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
