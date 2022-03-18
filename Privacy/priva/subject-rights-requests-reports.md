@@ -16,16 +16,30 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment gérer les packages de données créés par Microsoft Priva pour les demandes de droits d’objet et comment satisfaire la demande à la personne à l’origine du traitement des données.
-ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 8a6a41188de78508401b0dfffb3d7cdefb2320a5
+ms.sourcegitcommit: 4965df24fdc907f7a6e397f2c78019aaf72c7580
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542832"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63564444"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>Générer des rapports et répondre à une demande de droits d’objet
 
-Une fois que vous avez terminé votre révision des données pour une demande de droits d’objet dans Microsoft Priva, vous pouvez passer à la demande d’exécution. Priva crée des rapports et collecte les fichiers marqués pour **Inclure** pendant le processus de révision des données. Les fichiers sélectionnés à partir de ces packages de données peuvent être envoyés à votre objet de données pour terminer leur demande. Priva prend également en charge l’exploitation de l Microsoft 365 API de demandes de droits de sujet pour introduire des fonctionnalités d’automatisation.
+Une fois que vous avez terminé votre révision des données pour une demande de droits d’objet dans Microsoft Priva, vous pouvez passer à la demande d’exécution. Priva crée des rapports et collecte les fichiers marqués pour **Inclure** pendant le processus de révision des données. Les fichiers sélectionnés à partir de ces packages de données peuvent être envoyés à votre objet de données pour terminer leur demande. Priva prend également en charge l’exploitation Microsoft 365 l’API des demandes de droits de sujet pour introduire des fonctionnalités d’automatisation.
+
+## <a name="understanding-reports"></a>Comprendre les rapports
+
+Une fois que **vous avez sélectionné Révision complète à** l’étape **Examiner** les données de la demande de droits de l’objet, les rapports finaux de la demande commenceront à être générés automatiquement. Sous **l’onglet Rapports** de la page détails des demandes de droits  de l’objet, la colonne État  indique quand la génération du rapport est en cours et quand un rapport est prêt **à être téléchargé**. La création des rapports peut prendre jusqu’à 30 minutes.
+
+Les rapports sont divisés en deux sections :
+1. **Rapports pour la sujet de données** : ces rapports contiennent des informations qui peuvent être renvoyées à la sujet des données dans le cadre de l’traitement des demandes. C’est ici que se trouve le **package** de données contenant des fichiers que vous pouvez envoyer à la sujet des données.
+   > [!IMPORTANT]
+   > Un package de données est généré uniquement si vous marquez des éléments **comme Étant inclus** pendant la révision des données.
+
+   > [!IMPORTANT]
+   > Un package de données sera uniquement généré pour les types de demandes **d’exportation** et **d’accès** . Un package de données ne sera pas généré pour une liste marquée **pour une demande de** suivi. Examiner les détails sur les [types de demande de droits d’objet](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+
+2. **Rapports pour une utilisation interne** : ces rapports sont pour les enregistrements internes de votre organisation liés à la demande de droits de l’objet. Elles incluent un journal d’audit et une liste de tous les fichiers à qui vous avez appliqué des balises pendant la révision des données afin de suivre ou de prendre des mesures supplémentaires.
 
 ## <a name="prepare-final-reports-for-the-data-subject"></a>Préparer les rapports finux pour la sujet de données
 
@@ -42,15 +56,15 @@ Ouvrez ce dossier, puis ouvrez **AEDExport.zip** fichier. Les contenus sont les 
 - Le **Extracted_text_files** contient du texte extrait des fichiers natifs (si pris en charge).
 - Le **dossier NativeFiles** contient tous les éléments **inclus** dans leur format de fichier natif.
 - Les fichiers rédigés sont dans le **dossier NativeFiles** et ont le suffixe « _burn.pdf ».
-- Les fichiers exportés sont renommés à l’aide d’identificateurs uniques pour protéger les données personnelles. Vous pouvez faire référence aux noms uniques avec les noms de fichier d’origine à l’aide **Export_load_file.csv**. Étant donné que les noms de fichiers d’origine peuvent inclure des informations sensibles, vous devez suivre vos stratégies qui s’appliquent à ces informations.
+- Les fichiers exportés sont renommés à l’aide d’identificateurs uniques pour protéger les données personnelles. Vous pouvez faire référence aux noms uniques avec les noms de fichier d’origine à l’aide **Export_load_file.csv.** Étant donné que les noms de fichiers d’origine peuvent inclure des informations sensibles, vous devez suivre vos stratégies qui s’appliquent à ces informations.
 
 Après avoir passé en revue le contenu de votre fichier zip, modifiez-le selon vos besoins pour supprimer le contenu que vous ne souhaitez pas inclure dans le package final. Une fois terminé, envoyez-le en toute sécurité à votre sujet de données.
 
 ## <a name="integrate-with-partner-solutions"></a>Intégration avec des solutions partenaires
 
-Vous pouvez intégrer la solution Demandes des droits de l’objet Priva à vos processus et outils d’entreprise existants en tirant parti de l Microsoft 365 API de demande de droits de l’objet. Cela vous offre un moyen simple mais puissant d’introduire l’automatisation dans votre stratégie de droits d’objet.
+Vous pouvez intégrer la solution Demandes des droits de l’objet Priva à vos processus et outils d’entreprise existants à l’aide de l’API Microsoft 365 droits de l’objet. L’utilisation de l’API vous offre un moyen simple mais puissant d’introduire l’automatisation dans votre stratégie de droits d’objet.
 
-Lorsque des personnes responsables des données demandent des informations à votre organisation, vous pouvez tirer parti de nos API pour créer ces demandes dans Microsoft 365 en fonction des critères personnalisés pour cette demande. Vous pouvez créer la demande de droits d’objet dans Microsoft 365, suivre la progression de la demande tout au long de ses étapes et reconnaître que la demande a terminé le traitement et que le contenu est prêt à être récupéré. Nos API sont accessibles à tous pour rendre leurs solutions plus extensibles : qu’il s’agit des isv, des partenaires pour prendre en charge les Microsoft 365 dans leurs solutions ou pour les organisations à utiliser avec leurs applications métier.
+Lorsque des personnes responsables des données demandent des informations à votre organisation, nos API peuvent vous aider à créer ces demandes dans Microsoft 365 en fonction des critères uniques de la demande. Vous pouvez créer la demande de droits d’objet dans Microsoft 365, suivre la progression de la demande tout au long de ses étapes et reconnaître que la demande a terminé le traitement et que le contenu est prêt à être récupéré. Nos API sont accessibles à tous pour rendre leurs solutions plus extensibles : qu’il s’agit des isv, des partenaires pour prendre en charge les Microsoft 365 dans leurs solutions ou pour les organisations à utiliser avec leurs applications métier.
 
 Pour en savoir plus, [consultez l’API de demande de droits Graph Microsoft](/graph/api/resources/subjectrightsrequest-subjectrightsrequestapioverview).
 
