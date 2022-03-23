@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: a621102db2a421cbda0c8d7298c30cede102f13e
-ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
+ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
+ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62768438"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746781"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
@@ -30,15 +30,15 @@ Vous pouvez gérer les paramètres de Microsoft Priva en sélectionnant l’icô
 
 ## <a name="anonymization"></a>Anonymisation
 
-Cette fonctionnalité vous permet d’afficher des versions rendues anonymes des noms d’utilisateur dans les fonctionnalités de gestion des risques de confidentialité pour les utilisateurs de certains rôles. Il remplacera les noms complets identifiables par une étiquette générique afin de masquer les identités de vos utilisateurs lors de l’examen des données sensibles. Cette option ne s’applique pas à la solution Demandes de droits d’objet.
+Vous pouvez afficher des versions rendues anonymes des noms d’utilisateur dans les fonctionnalités de gestion des risques de confidentialité pour les utilisateurs de certains rôles. La fonctionnalité d’anonymisation remplace les noms complets identifiables par une étiquette générique afin de masquer les identités de vos utilisateurs lors de l’examen des données sensibles. Cette option ne s’applique pas à la solution Demandes de droits d’objet.
 
 ## <a name="user-notification-emails"></a>Messages électroniques de notification de l’utilisateur  
 
-Les stratégies de gestion des risques de confidentialité vous permettent de définir des paramètres pour évaluer les risques potentiels en matière de confidentialité dans votre environnement. Lorsque nous détectons une correspondance de stratégie, la Gestion des risques de confidentialité peut envoyer un courrier électronique à vos utilisateurs avec des recommandations sur les actions correctives à prendre et un lien vers la formation à la confidentialité. Dans Paramètres, vous pouvez activer ou désactiver la fonctionnalité de notification par courrier électronique de la gestion des risques de confidentialité dans son ensemble. Si la fonctionnalité de notification est désactivée Paramètres, tous les e-mails sont désactivés. Pour en savoir plus sur les stratégies, voir [Créer des stratégies dans Gestion des risques de confidentialité](risk-management-policies.md).
+Les stratégies de gestion des risques de confidentialité vous permettent de définir des paramètres pour évaluer les risques potentiels en matière de confidentialité dans votre environnement. Lorsqu’une correspondance de stratégie est détectée, la Gestion des risques de confidentialité peut envoyer un courrier électronique à vos utilisateurs avec des recommandations sur les actions correctives à prendre et un lien vers une formation sur la confidentialité. Dans **Paramètres**, vous pouvez activer ou désactiver la fonctionnalité de notification par courrier électronique de la gestion des risques de confidentialité dans son ensemble. Si la fonctionnalité de notification est désactivée Paramètres, tous les e-mails sont désactivés. Pour en savoir plus sur les stratégies, voir [Créer des stratégies dans Gestion des risques de confidentialité](risk-management-policies.md).
 
 ## <a name="teams-collaboration"></a>Collaboration des équipes  
 
-Intégrez Microsoft Teams fonctionnalités de gestion des droits des personnes concernées avec les demandes des droits des personnes concernées afin d’améliorer la collaboration avec les parties prenantes. Chaque fois qu’une demande de droits d’objet est créée, une équipe associée est créée dans Teams. Les utilisateurs peuvent être ajoutés à une équipe à partir de l’onglet Collaborateurs de la demande. Pour en savoir plus sur les demandes de droits d’objet, voir [En savoir plus sur les demandes de droits de l’objet Priva](subject-rights-requests.md).
+Intégrez Microsoft Teams fonctionnalités d’accès aux demandes des droits des personnes concernées pour améliorer la collaboration avec les parties prenantes. Chaque fois qu’une demande de droits d’objet est créée, une équipe associée est créée dans Teams. Les utilisateurs peuvent être ajoutés à une équipe à partir de l’onglet Collaborateurs de la demande. Pour en savoir plus sur les demandes de droits d’objet, voir [En savoir plus sur les demandes de droits de l’objet Priva](subject-rights-requests.md).
 
 ## <a name="data-matching"></a>Correspondance de données  
 
@@ -50,4 +50,21 @@ Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet
 
 ## <a name="data-review-tags"></a>Balises de révision des données
 
-Gérez les balises que vous utiliserez pour marquer les fichiers récupérés dans une demande de droits d’objet. Ces balises peuvent être utilisées pour indiquer le contenu qui devra être davantage attentif, tel que le contenu qui devra peut-être être supprimé manuellement. Dans cette section de paramètres, vous pouvez modifier les noms et les descriptions des balises personnalisées. Vous pouvez également modifier les descriptions des balises intégrées fournies par le système. Les noms des balises système ne peuvent pas être modifiés. Pour en savoir plus sur les demandes de droits d’objet, voir [Examiner les données d’une demande de droits d’objet](subject-rights-requests-data-review.md#step-3-review-data).
+Les balises de révision des données peuvent être utilisées pour marquer les éléments de contenu qui sont récupérés dans une demande de droits d’objet. Cette zone de paramètres vous permet de gérer vos balises. Priva fournit trois balises par défaut : **Suivi**, **Suppression** et **Mise à jour**. Ces noms de balises ne peuvent pas être modifiés, mais vous pouvez fournir une description pour ces balises qui est significative pour votre organisation.
+
+Priva fournit également deux balises personnalisées que vous pouvez nommer et définir pour l’utilisation de votre organisation. Ces balises sont répertoriées en tant que balise personnalisée **1** et balise **personnalisée 2** jusqu’à ce que vous modifiiez les noms.
+
+Suivez les étapes ci-dessous pour modifier les noms et les descriptions des balises :
+
+- Dans la page Priva **Paramètres**, sélectionnez **Balises de révision des données**.
+- Recherchez la balise dans la liste à modifier et sélectionnez l’icône Modifier le crayon en dessous de son nom.
+- Dans le volet volant, modifiez les champs disponibles. Pour les balises système, vous pouvez uniquement modifier la description. Pour les balises personnalisées, vous pouvez modifier le nom et la description.
+- Lorsque vous avez terminé, sélectionnez **Envoyer** pour enregistrer vos modifications.
+
+Les paramètres de balise s’appliquent à toutes les demandes de droits d’objet.
+
+En savoir plus sur [l’application de balises lors de l’examen des données d’une demande de droits d’objet](subject-rights-requests-data-review.md#apply-tags).
+
+**Dans Paramètres**, consultez les **balises de révision des données** pour passer en revue et gérer vos balises.
+ 
+Ces balises peuvent être utilisées pour indiquer le contenu qui devra être davantage attentif, tel que le contenu qui devra peut-être être supprimé manuellement. Dans cette section de paramètres, vous pouvez modifier les noms et les descriptions des balises personnalisées. Vous pouvez également modifier les descriptions des balises intégrées fournies par le système. Les noms des balises système ne peuvent pas être modifiés. Pour en savoir plus sur les demandes de droits d’objet, voir [Examiner les données d’une demande de droits d’objet](subject-rights-requests-data-review.md#step-3-review-data).

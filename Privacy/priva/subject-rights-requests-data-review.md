@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données des demandes des droits de l’objet collectées par Microsoft Priva et collaborer sur la réalisation de la demande.
-ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
-ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
+ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
+ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62768428"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746763"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -42,12 +42,12 @@ Les vignettes de la page de détails de la demande sont les suivantes :
 
 ### <a name="understand-progress-stages"></a>Comprendre les étapes de progression
 
-Les demandes de droits de l’objet sont soumises à plusieurs étapes. Certaines progressent automatiquement au fil de l’évaluation des données par Priva, tandis que d’autres avancent lorsque les administrateurs et les collaborateurs des droits de l’objet effectuent les étapes essentielles telles que la révision, la sélection et la révision de fichiers.
+Les demandes de droits de l’objet sont soumises à plusieurs étapes. Certains états progressent automatiquement et d’autres étapes avancent lorsque les administrateurs et les collaborateurs de demandes de droits d’objet effectuent des étapes essentielles telles que la révision des fichiers.
 
-Étant donné que les demandes peuvent avoir besoin d’être travaillées au fil du temps ou par plusieurs collaborateurs, Priva fournit des mises à jour continues sur l’état et des conseils sur les prochaines étapes à suivre. Ces mises à jour peuvent être vues sur la page de présentation de la demande de droits d’objet.
+Étant donné que les demandes peuvent avoir besoin d’être travaillées au fil du temps ou par plusieurs collaborateurs, Priva fournit des mises à jour continues sur l’état et des conseils sur les prochaines étapes à suivre. Ces mises à jour peuvent être vues sous l’onglet Vue d’ensemble de la page de détails d’une demande de droits d’objet.
 
 #### <a name="data-estimate"></a>Estimation des données
-Une fois que vous avez créé une demande, Priva commence immédiatement à chercher des correspondances potentielles avec la sujet de données dans votre Microsoft 365 de données. Une fois que nous avons identifié tous les éléments qui correspondent à vos critères, vous verrez l’estimation dans  la carte récapitulatif d’estimation des données sur la page Vue d’ensemble de **la** demande. La quantité de données dans l’étendue de votre recherche aura une incidence sur le temps qu’il faudra pour effectuer l’estimation.
+Une fois que vous avez créé une demande, Priva commence immédiatement à chercher des correspondances potentielles avec la sujet de données dans votre environnement Microsoft 365 client. Une fois que nous avons identifié tous les éléments qui correspondent à vos critères, vous verrez l’estimation dans  la carte récapitulatif d’estimation des données sur la page Vue d’ensemble de **la** demande. La quantité de données dans l’étendue de votre recherche aura une incidence sur le temps qu’il faudra pour effectuer l’estimation.
 
 Votre demande passe automatiquement à l’étape suivante de récupération des données, où tous les éléments de contenu sont rassemblés afin que les parties prenantes peuvent collaborer sur la révision des données. Dans certains cas, nous suspendons l’estimation des données avant de passer à la récupération et vous informons des étapes suivantes à suivre avant de continuer.
 
@@ -55,7 +55,7 @@ Vous pouvez également choisir de suspendre automatiquement à l’étape d’es
 
 #### <a name="pause-in-data-estimate-for-large-search-results"></a>Suspendre l’estimation des données pour les résultats de recherche importants
 
-Priva remarque si votre estimation des données est projetée pour renvoyer une grande quantité d’éléments à réviser (plus de 10 000 éléments). L’estimation sera suspendue afin que vous pouvez afficher un aperçu des résultats et [](subject-rights-requests-create.md#refine-your-search) décider s’il faut modifier votre requête de recherche pour cibler des emplacements ou des conditions plus spécifiques, ou continuer à récupérer les éléments identifiés.  Nous vous montrerons à l’écran le nombre d’éléments et le volume de données qui correspondent à votre recherche. Vous avez l’une des options suivantes ou les deux dans une barre de messages en haut de l’écran :
+Priva remarquera si votre estimation des données est projetée pour renvoyer un grand nombre d’éléments à réviser (plus de 10 000 éléments). L’estimation sera suspendue afin que vous pouvez afficher un aperçu des résultats et [](subject-rights-requests-create.md#refine-your-search) décider s’il faut modifier votre requête de recherche pour cibler des emplacements ou des conditions plus spécifiques, ou continuer à récupérer les éléments identifiés.  Nous vous montrerons à l’écran le nombre d’éléments et le volume de données qui correspondent à votre recherche. Vous avez l’une des options suivantes ou les deux dans une barre de messages en haut de l’écran :
 
 - Un **bouton Modifier la** requête de recherche vous permet d’entrer directement dans les paramètres de recherche de la demande pour définir des paramètres plus stricts et générer une nouvelle estimation.
 - Tant que votre requête de recherche ne compte pas plus de 300 000 éléments, vous verrez également une option pour récupérer **des données**. Cela vous permet de choisir de ne pas modifier votre recherche et de continuer à collecter les données.
@@ -84,14 +84,56 @@ Lorsque vous avez terminé de modifier votre requête de recherche, une nouvelle
 
 ## <a name="step-3-review-data"></a>Étape 3 : Examiner les données
 
-À ce stade, vos collaborateurs doivent passer en revue les résultats sous **l’onglet Données collectées** . Les tâches essentielles sont les suivantes :
+À ce stade, vos collaborateurs doivent passer en revue les résultats sous **l’onglet Données collectées**. Un canal Teams sera automatiquement mis en place pour faciliter la révision du contenu par toutes les parties prenantes. Pour [plus d’informations, voir Collaborer sur la révision](#collaborate-on-data-review) des données. Les tâches essentielles pour l’étape de révision des données sont décrites ci-dessous.
 
-1. Examinez la liste des éléments identifiés et choisissez s’il faut inclure chaque fichier dans vos résumés et/ou exporter. Si vous n’avez pas besoin d’inclure une correspondance signalée, sélectionnez l’option « Exclure ». Si le contenu semble être un faux positif, vous pouvez choisir « Ne correspond pas » pour exclure le fichier de vos rapports finux et pointer l’élément comme un élément qui n’aurait pas dû être choisi par la demande. Pour définir l’état d’un élément, utilisez le menu d’action (ellipses verticales) en dehors de son nom et sélectionnez le choix souhaité. Si vous y êtes invité, ajoutez une note de référence interne pour expliquer votre décision. Les remarques sont requises lors de l’exclusion de fichiers.
-1. Utilisez **l’option Appliquer des balises** pour vous aider à identifier les éléments qui doivent être à l’attention. Les balises disponibles incluent les options fournies par le système, par exemple le marquage d’un élément pour le suivi, et peuvent inclure des balises personnalisées telles que définies dans les paramètres globaux.
-1. Utilisez **Annotate pour** créer des marques de texte inline ou pour redessiner des données dans un fichier sélectionné. Par exemple, si vous avez besoin d’inclure un fichier pour une personne qui contient également les informations personnelles d’autres personnes, vous pouvez utiliser l’action de **zone (sous** le bouton Dessin dans la barre de commandes) pour faire noircir toutes les informations qui ne concernent pas la personne qui a effectué la demande. Lorsque vos modifications sont terminées, **sélectionnez Inclure** pour ajouter le fichier rédigé à la demande. L’annotation crée une copie du fichier, de sorte que rien dans le fichier d’origine ne soit modifié et reste à son emplacement d’origine. La copie est stockée dans votre objet blob Azure.
-1. Pour passer en revue les notes d’un élément, sélectionnez-le et sélectionnez **l’onglet Notes de** fichier. Vous pouvez également utiliser l’option **Ajouter une note de fichier** pour créer un commentaire. Pour passer en revue ou ajouter des notes à un niveau de cas global, rendez-vous dans l’onglet **Notes** principal ci-dessus et utilisez **ajouter une note de cas**. Ces notes sont visibles pour les utilisateurs qui travaillent sur la demande, mais ne sont pas incluses dans le rapport final ou partagées avec la sujet des données.
-1. Une fois que tous les éléments ont été révisés et que leurs statuts ont été définies, sélectionnez **Terminer la révision**. Cela permet d’ouvrir un volet de survol dans lequel vous pouvez passer en revue un résumé des données et ajouter des notes pertinentes. Ces notes sont pour la conservation d’enregistrement interne et ne sont pas partagées avec la sujet de données.
-1. Sélectionnez à nouveau Terminer l’avis pour continuer. Les résumés de vos décisions seront fournis ultérieurement sous l’onglet **Rapports** .
+#### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marquer des éléments comme Include ou Exclude et ajouter des notes
+
+Examinez la liste des éléments identifiés pour déterminer si les données personnelles de la personne objet de données se trouve dans chaque élément. Si l’élément contient les informations de la sujet de données et appartient dans le cadre du rapport final à la sujet des données, marquez l’élément comme Include en sélectionnant **Inclure** dans la barre de commandes en haut de la liste des éléments. Vous pouvez également sélectionner le bouton **Bleu Inclure** dans la zone de révision du contenu à droite de la liste des éléments. Lorsque vous **sélectionnez Inclure**, un volet volant s’affiche avec une option pour ajouter des notes. Lorsque vous avez terminé, sélectionnez **Envoyer** pour enregistrer l’état de révision de l’élément sous le nom **Inclure**.
+
+Si vous n’avez pas besoin d’inclure un élément dans la demande, sélectionnez Exclure dans la barre de  commandes ou le bouton Exclure dans la zone de révision du contenu. L’exclusion d’un élément signifie qu’il n’est pas pertinent pour la demande de droits de [l’objet](subject-rights-requests-reports.md) et que l’élément ne sera pas inclus dans les rapports finaux générés pour la personne concernée.
+
+> [!NOTE]
+> Si vous marquez un élément **Exclure**, vous devez ajouter une note pour justifier son non-respect de la demande de droits de l’objet. Les notes sont à des fins internes et ne sont pas incluses dans les rapports finaux.
+
+Si le contenu semble être un faux positif, sélectionnez  Non une correspondance pour exclure le fichier de vos rapports finux et indiquez l’élément comme un élément qui n’aurait pas dû être détecté dans la recherche. Dans le **volet Marquer comme n’étant** pas un volet volant de  correspondance, sélectionnez Confirmer pour nous faire savoir que l’élément ne correspond pas à vos critères de recherche.
+
+#### <a name="apply-tags"></a>Apply tags
+
+Les balises peuvent être utilisées pour vous aider à identifier les éléments qui doivent faire l’objet d’une attention supplémentaire. Priva fournit trois balises par défaut (**suivi, suppression** et mise à  jour) pour lesquelles vous pouvez définir une description.  Priva fournit également deux balises personnalisées que vous pouvez nommer et décrire.
+
+Par exemple, si vous déterminez lors de la révision des données qu’un élément de contenu n’a pas besoin d’être conservé  par votre organisation, vous pouvez appliquer la balise Supprimer, puis exporter une liste de tous les fichiers balisé afin de pouvoir revenir en arrière et supprimer les éléments identifiés lorsque vous avez terminé la demande.
+
+Les cinq balises que vous définissez et gérez [dans Paramètres](priva-settings.md#data-review-tags) s’appliquent à toutes vos demandes de droits d’objet.
+
+**Pour ajouter ou supprimer des balises :**
+
+- Sélectionnez l’élément dans la liste sous **l’onglet Données** collectées de la demande.
+- Dans la zone d’aperçu de l’élément à droite de la liste, sélectionnez le bouton Appliquer des **balises** sur la ligne du bas. Vous pouvez également sélectionner les trois points à droite du nom de l’élément et sélectionner l’option Appliquer **les balises** .
+- Un volet volant s’affiche avec la liste des balises. Cochez la case en regard de l’une des balises que vous souhaitez appliquer à l’élément. La dés-vérification d’une case à cochée supprime la balise.
+- Lorsque vous êtes satisfait de vos sélections, sélectionnez **Enregistrer, qui** enregistre vos sélections de balises et ferme le volet volant.
+
+**Pour ajouter des balises personnalisées ou mettre à jour des descriptions de balises :**
+- Dans la page Demandes de droits d’objet, sélectionnez **Paramètres** dans le coin supérieur droit de votre écran pour obtenir vos paramètres Priva.
+- Go to the **Data review tags** page, and select the tag to input a description and, for the custom tags, a name. En savoir plus sur [les paramètres de balise](priva-settings.md#data-review-tags).
+
+**Pour exporter une liste d’éléments marqués :**
+- Go to the **Data collected** page in a subject rights request.
+- Au-dessus de la liste des éléments, sélectionnez l’icône de flèche vers le bas qui indique **Exporter** lorsque vous pointez sur celui-ci.
+- Un Excel téléchargeable. Ouvrez le fichier une fois le téléchargement terminé.
+
+Le fichier Excel affiche les propriétés de tous les éléments collectés par la recherche de la demande. Recherchez la **colonne Balises** pour identifier et trier les éléments par balise.
+
+#### <a name="use-the-annotate-command-to-redact-text"></a>Utiliser la commande Annotate pour redessier du texte
+Utilisez **Annotate pour** créer des marques de texte inline ou pour redessiner des données dans un fichier sélectionné. Par exemple, si vous avez besoin d’inclure un fichier pour une personne qui contient également les informations personnelles d’autres personnes, vous pouvez utiliser l’action de **zone (sous** le bouton Dessin dans la barre de commandes) pour faire noircir toutes les informations qui ne concernent pas la personne qui a effectué la demande. Lorsque vos modifications sont terminées, **sélectionnez Inclure** pour ajouter le fichier rédigé à la demande. L’annotation crée une copie du fichier, de sorte que rien dans le fichier d’origine ne soit modifié et reste à son emplacement d’origine. La copie est stockée dans votre objet blob Azure.
+
+#### <a name="enter-notes-about-a-file"></a>Entrer des notes sur un fichier
+Pour ajouter ou réviser des notes sur un élément, sélectionnez l’élément à partir de sa ligne et sélectionnez l’onglet **Notes** de fichier dans la zone de révision de contenu à droite. Vous pouvez également utiliser l’option **Ajouter une note de fichier** pour créer un commentaire. Pour passer en revue ou ajouter des notes à un niveau de cas global, rendez-vous dans l’onglet **Notes** principal ci-dessus et utilisez **ajouter une note de cas**. Ces notes sont visibles pour les utilisateurs qui travaillent sur la demande, mais ne sont pas incluses dans le rapport final ou partagées avec la sujet des données.
+
+#### <a name="complete-the-review"></a>Terminer la révision
+
+Lorsque tous les éléments ont été révisés et que vous avez définie leur statut comme **Inclure,** Exclure ou Ne pas correspondre **,** il est temps de fermer l’étape de révision en sélectionnant le bouton Terminer la révision dans le coin supérieur droit de la demande. Un volet volant affiche un résumé des données et ajoute les notes associées. Ces notes sont pour la conservation d’enregistrement interne et ne sont pas partagées avec la sujet de données.
+
+**Sélectionnez Révision complète** dans le volet volant pour terminer l’étape de révision. Les résumés de vos décisions seront fournis ultérieurement sous l’onglet **Rapports** .
 
 ### <a name="collaborate-on-data-review"></a>Collaborer à la révision des données
 
@@ -101,7 +143,7 @@ Pour consulter la liste des collaborateurs actifs qui peuvent afficher et contri
 
 Pour modifier le comportement par défaut de la génération de sites Teams lors de la création d’une demande de droits d’objet, sélectionnez **Paramètres** dans le mode de navigation supérieur et sélectionnez **Teams collaboration** pour modifier le paramètre.
 
-Vous pouvez également utiliser **l’option Partager** en haut à droite au sein d’une demande d’objet droit pour mettre en boucle des personnes par Teams ou par courrier électronique, ou pour copier le lien vers la page dans Priva. Le partage via Teams vous permet de sélectionner un site et un canal Teams existants disponibles pour votre compte, où il publiera un lien vers ce cas, ainsi que tout message que vous fournissez.
+Vous pouvez également utiliser **l’option Partager** en haut à droite au sein d’une demande d’objet droit pour mettre en boucle des personnes par Teams ou par courrier électronique, ou pour copier le lien vers la page dans Priva. Le partage via Teams vous permet de sélectionner un site et un canal Teams existants disponibles pour votre compte, où il publiera un lien vers ce cas avec n’importe quel message que vous fournissez.
 
 ## <a name="step-4-close-the-request"></a>Étape 4 : Fermer la demande
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La solution Demandes de droits d’objet dans Microsoft Priva vous permet de rechercher des données personnelles et de collaborer sur la révision de contenu et la création de rapports.
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249073"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758443"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>En savoir plus sur les demandes de droits de l’objet Priva
 
@@ -31,9 +31,7 @@ Microsoft Priva peut vous aider à gérer ces demandes par le biais de la soluti
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Comment Priva prend en charge le respect des demandes des droits de l’objet
 
-Le cycle de demande des droits de l’objet commence par la demande d’un individu à votre organisation. Une fois reçu, vous pouvez utiliser les fonctionnalités de Priva pour collecter ces données, collaborer, réviser et créer des rapports. Vous pouvez ensuite informer la personne objet des données de vos résultats et prendre toute autre action nécessaire en dehors de Priva pour répondre à la demande, telles que la suppression de données. Pour faciliter la gestion et l’automatisation de vos flux de travail en cours de route, vous pouvez également utiliser les modèles d’Power Automate Priva.
-
-![Flux de travail pour les demandes de droits d’objet.](../media/priva-srr-cycle.png)
+Le cycle de demande des droits de l’objet commence par la demande d’un individu à votre organisation. Une fois reçu, vous pouvez utiliser les fonctionnalités de Priva pour collecter ces données, collaborer, réviser et créer des rapports. Vous pouvez ensuite informer la personne objet des données de vos résultats et prendre toute autre action nécessaire en dehors de Priva pour répondre à la demande, telles que la suppression de données. Pour vous aider à gérer et automatiser vos flux de travail en cours de route, vous pouvez également utiliser des modèles Power Automate intégrés.
 
 ### <a name="create-requests-and-collect-data"></a>Créer des demandes et collecter des données
 
