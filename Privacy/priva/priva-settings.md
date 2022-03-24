@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746781"
+ms.locfileid: "63758423"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
@@ -64,7 +64,3 @@ Suivez les étapes ci-dessous pour modifier les noms et les descriptions des bal
 Les paramètres de balise s’appliquent à toutes les demandes de droits d’objet.
 
 En savoir plus sur [l’application de balises lors de l’examen des données d’une demande de droits d’objet](subject-rights-requests-data-review.md#apply-tags).
-
-**Dans Paramètres**, consultez les **balises de révision des données** pour passer en revue et gérer vos balises.
- 
-Ces balises peuvent être utilisées pour indiquer le contenu qui devra être davantage attentif, tel que le contenu qui devra peut-être être supprimé manuellement. Dans cette section de paramètres, vous pouvez modifier les noms et les descriptions des balises personnalisées. Vous pouvez également modifier les descriptions des balises intégrées fournies par le système. Les noms des balises système ne peuvent pas être modifiés. Pour en savoir plus sur les demandes de droits d’objet, voir [Examiner les données d’une demande de droits d’objet](subject-rights-requests-data-review.md#step-3-review-data).

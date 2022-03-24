@@ -1,5 +1,5 @@
 ---
-title: 'Livre d’essai : Microsoft Priva'
+title: "Playbook d'essai : Microsoft Priva"
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la version d’évaluation de Microsoft Priva, consultez les actions recommandées à prendre pendant votre période d’évaluation et consultez les liens vers une documentation importante.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248973"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765507"
 ---
-# <a name="trial-playbook-microsoft-priva"></a>Livre d’essai : Microsoft Priva
+# <a name="trial-playbook-microsoft-priva"></a>Playbook d'essai : Microsoft Priva
 
 Bienvenue dans le manuel d’essai de Microsoft Priva.
 
@@ -38,7 +38,7 @@ Ce manuel vous aidera à mettre à jour votre version d’essai gratuite de 90 j
 
 Démarrez votre version d’essai en mettant en place les conditions préalables. Notez que Priva se compose de deux solutions clés, Priva Privacy Risk Management et Priva Subject Rights Requests, qui peuvent être essayées et achetées séparément. Les détails sur les licences et les achats sont [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
 
-### <a name="privacy-risk-management"></a>Gestion des risques de confidentialité
+### <a name="privacy-risk-management"></a>Gestion des risques liés à la confidentialité
 
 Avec la solution **de gestion des** risques de confidentialité, vous pouvez découvrir comment protéger les données personnelles de votre organisation et créer un espace de travail à résilience de la confidentialité.
 
@@ -47,7 +47,7 @@ Avec la solution **de gestion des** risques de confidentialité, vous pouvez dé
 - Permettre aux travailleurs de l’information de prendre des décisions intelligentes sur la gestion de ces données
 - Permettre aux utilisateurs de gérer efficacement les données et de prendre des mesures pour se conformer à l’évolution des réglementations en matière de confidentialité
 
-### <a name="subject-rights-requests"></a>Demandes de droits de l’objet
+### <a name="subject-rights-requests"></a>Demandes de droits de personnes concernées
 
 Avec la solution **Demandes de droits d’objet** , vous pouvez apprendre à gérer les demandes de la demande initiale à la production de rapports.
 
@@ -122,7 +122,7 @@ La gestion des risques de confidentialité peut informer directement les propri�
 1. [Corriger les problèmes des notifications par courrier électronique](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [Envoyer des notifications dans Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>En savoir plus sur les demandes de droits d’objet
+## <a name="learn-about-subject-rights-requests"></a>En savoir plus sur les demandes de droits de personnes concernées
 
 Conformément à certaines réglementations en matière de confidentialité dans le monde entier, les individus (ou les personnes ayant des données) peuvent soumettre des demandes de révision ou de gestion des données personnelles qu’elles ont collectées par les entreprises. Ces demandes sont parfois également appelées demandes d’objet de données (DSR), demandes d’accès de la personne aux données (DSAR) ou demandes de droits du consommateur. Les demandes des droits de l’objet priva peuvent vous aider à gérer ces demandes.
 
@@ -163,9 +163,9 @@ Après avoir créé une demande de droits d’objet, Priva utilisera vos entrée
 
 Une fois que vous avez terminé votre révision des données pour une demande de droits d’objet, vous pouvez passer à la demande d’exécution.
 
-1. [Préparer les rapports finux pour la sujet de données](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [Préparer les rapports finux pour la sujet de données](subject-rights-requests-reports.md)
 1. [Intégration avec des solutions partenaires](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [Gérer la rétention des données](subject-rights-requests-reports.md#manage-data-retention)
+1. [Gérer la rétention des données](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Automatiser les tâches de demandes de droits d’objet
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données des demandes des droits de l’objet collectées par Microsoft Priva et collaborer sur la réalisation de la demande.
-ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 7e9222a67d2f7b7e81141d1ec9a65688800f436e
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746763"
+ms.locfileid: "63758433"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -88,14 +88,14 @@ Lorsque vous avez terminé de modifier votre requête de recherche, une nouvelle
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marquer des éléments comme Include ou Exclude et ajouter des notes
 
-Examinez la liste des éléments identifiés pour déterminer si les données personnelles de la personne objet de données se trouve dans chaque élément. Si l’élément contient les informations de la sujet de données et appartient dans le cadre du rapport final à la sujet des données, marquez l’élément comme Include en sélectionnant **Inclure** dans la barre de commandes en haut de la liste des éléments. Vous pouvez également sélectionner le bouton **Bleu Inclure** dans la zone de révision du contenu à droite de la liste des éléments. Lorsque vous **sélectionnez Inclure**, un volet volant s’affiche avec une option pour ajouter des notes. Lorsque vous avez terminé, sélectionnez **Envoyer** pour enregistrer l’état de révision de l’élément sous le nom **Inclure**.
+Examinez la liste des éléments identifiés renvoyés par votre recherche. Si vous décidez que l’élément doit être inclus dans le rapport final à la sujet des données, sélectionnez Inclure dans la barre de commandes en haut de la liste des éléments. Vous pouvez également sélectionner le bouton **Bleu Inclure** dans la zone de révision du contenu à droite de la liste des éléments. Lorsque vous **sélectionnez Inclure**, un volet volant s’affiche avec une option pour ajouter des notes. Lorsque vous avez terminé, sélectionnez **Envoyer** pour enregistrer l’état de révision de l’élément sous le nom **Inclure**.
 
-Si vous n’avez pas besoin d’inclure un élément dans la demande, sélectionnez Exclure dans la barre de  commandes ou le bouton Exclure dans la zone de révision du contenu. L’exclusion d’un élément signifie qu’il n’est pas pertinent pour la demande de droits de [l’objet](subject-rights-requests-reports.md) et que l’élément ne sera pas inclus dans les rapports finaux générés pour la personne concernée.
+Si l’élément n’appartient pas à la demande, sélectionnez Exclure dans la barre de  commandes ou le bouton Exclure dans la zone de révision du contenu. L’exclusion d’un élément signifie qu’il ne sera pas inclus dans les rapports [finux générés pour la sujet de données](subject-rights-requests-reports.md).
 
 > [!NOTE]
-> Si vous marquez un élément **Exclure**, vous devez ajouter une note pour justifier son non-respect de la demande de droits de l’objet. Les notes sont à des fins internes et ne sont pas incluses dans les rapports finaux.
+> Si vous marquez un élément comme **Étant** exclu, vous devez ajouter une note pour justifier son non-respect de la demande de droits de l’objet. Les notes sont à des fins internes et ne sont pas incluses dans les rapports finaux.
 
-Si le contenu semble être un faux positif, sélectionnez  Non une correspondance pour exclure le fichier de vos rapports finux et indiquez l’élément comme un élément qui n’aurait pas dû être détecté dans la recherche. Dans le **volet Marquer comme n’étant** pas un volet volant de  correspondance, sélectionnez Confirmer pour nous faire savoir que l’élément ne correspond pas à vos critères de recherche.
+Si le contenu semble être un faux positif, sélectionnez  Ne pas correspondre et, dans le volet volant, sélectionnez **Confirmer**. Cette action exclut le fichier de vos rapports finux et signale l’élément comme un élément qui n’aurait pas dû être détecté dans la recherche.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -103,14 +103,14 @@ Les balises peuvent être utilisées pour vous aider à identifier les élément
 
 Par exemple, si vous déterminez lors de la révision des données qu’un élément de contenu n’a pas besoin d’être conservé  par votre organisation, vous pouvez appliquer la balise Supprimer, puis exporter une liste de tous les fichiers balisé afin de pouvoir revenir en arrière et supprimer les éléments identifiés lorsque vous avez terminé la demande.
 
-Les cinq balises que vous définissez et gérez [dans Paramètres](priva-settings.md#data-review-tags) s’appliquent à toutes vos demandes de droits d’objet.
+Les cinq balises que vous gérez **dans Paramètres** s’appliquent à toutes vos demandes de droits d’objet.
 
 **Pour ajouter ou supprimer des balises :**
 
 - Sélectionnez l’élément dans la liste sous **l’onglet Données** collectées de la demande.
 - Dans la zone d’aperçu de l’élément à droite de la liste, sélectionnez le bouton Appliquer des **balises** sur la ligne du bas. Vous pouvez également sélectionner les trois points à droite du nom de l’élément et sélectionner l’option Appliquer **les balises** .
 - Un volet volant s’affiche avec la liste des balises. Cochez la case en regard de l’une des balises que vous souhaitez appliquer à l’élément. La dés-vérification d’une case à cochée supprime la balise.
-- Lorsque vous êtes satisfait de vos sélections, sélectionnez **Enregistrer, qui** enregistre vos sélections de balises et ferme le volet volant.
+- Lorsque vous avez terminé, **sélectionnez Enregistrer**, qui enregistre vos sélections de balises et ferme le volet volant.
 
 **Pour ajouter des balises personnalisées ou mettre à jour des descriptions de balises :**
 - Dans la page Demandes de droits d’objet, sélectionnez **Paramètres** dans le coin supérieur droit de votre écran pour obtenir vos paramètres Priva.
@@ -119,12 +119,10 @@ Les cinq balises que vous définissez et gérez [dans Paramètres](priva-setting
 **Pour exporter une liste d’éléments marqués :**
 - Go to the **Data collected** page in a subject rights request.
 - Au-dessus de la liste des éléments, sélectionnez l’icône de flèche vers le bas qui indique **Exporter** lorsque vous pointez sur celui-ci.
-- Un Excel téléchargeable. Ouvrez le fichier une fois le téléchargement terminé.
-
-Le fichier Excel affiche les propriétés de tous les éléments collectés par la recherche de la demande. Recherchez la **colonne Balises** pour identifier et trier les éléments par balise.
+- Un Excel télécharge qui affiche les propriétés de tous les éléments collectés par la recherche de la demande. Recherchez la **colonne Balises** pour identifier et trier les éléments par balise.
 
 #### <a name="use-the-annotate-command-to-redact-text"></a>Utiliser la commande Annotate pour redessier du texte
-Utilisez **Annotate pour** créer des marques de texte inline ou pour redessiner des données dans un fichier sélectionné. Par exemple, si vous avez besoin d’inclure un fichier pour une personne qui contient également les informations personnelles d’autres personnes, vous pouvez utiliser l’action de **zone (sous** le bouton Dessin dans la barre de commandes) pour faire noircir toutes les informations qui ne concernent pas la personne qui a effectué la demande. Lorsque vos modifications sont terminées, **sélectionnez Inclure** pour ajouter le fichier rédigé à la demande. L’annotation crée une copie du fichier, de sorte que rien dans le fichier d’origine ne soit modifié et reste à son emplacement d’origine. La copie est stockée dans votre objet blob Azure.
+La **commande Annoter** dans la zone de révision de contenu vous permet de créer des marques de révision inline et de redessiner des données dans un élément de contenu. Par exemple, si vous devez inclure un fichier pour une personne qui contient également les informations personnelles d’une autre personne, vous pouvez utiliser  la action de zone sous le bouton Dessin dans la barre de commandes pour faire noircir toutes les informations qui ne concernent pas la personne qui a effectué la demande. Lorsque vos modifications sont terminées, **sélectionnez Inclure** pour ajouter le fichier rédigé à la demande. L’annotation crée une copie du fichier, qui est stockée dans votre objet blob Azure. Le fichier d’origine reste inchangé et stocké à son emplacement d’origine.
 
 #### <a name="enter-notes-about-a-file"></a>Entrer des notes sur un fichier
 Pour ajouter ou réviser des notes sur un élément, sélectionnez l’élément à partir de sa ligne et sélectionnez l’onglet **Notes** de fichier dans la zone de révision de contenu à droite. Vous pouvez également utiliser l’option **Ajouter une note de fichier** pour créer un commentaire. Pour passer en revue ou ajouter des notes à un niveau de cas global, rendez-vous dans l’onglet **Notes** principal ci-dessus et utilisez **ajouter une note de cas**. Ces notes sont visibles pour les utilisateurs qui travaillent sur la demande, mais ne sont pas incluses dans le rapport final ou partagées avec la sujet des données.
@@ -149,7 +147,7 @@ Vous pouvez également utiliser **l’option Partager** en haut à droite au sei
 
 Lorsque vous avez effectué toutes les actions nécessaires pour résoudre votre demande de droits d’objet, sélectionnez **Fermer la demande**. Cela crée le rapport final, qui se trouve sous l’onglet **Rapports**. L’achèvement peut prendre un certain temps en fonction du nombre de fichiers dans la demande.
 
-## <a name="next-steps"></a>Prochaines étapes
+## <a name="next-steps"></a>Étapes suivantes
 Pour en savoir plus sur l’emploi de rapports et la réalisation de demandes de droits d’objet, voir [Générer des rapports et répondre à une demande de droits d’objet](subject-rights-requests-reports.md).
 
 ## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
