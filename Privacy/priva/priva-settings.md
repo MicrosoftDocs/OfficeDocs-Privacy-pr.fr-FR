@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758423"
+ms.locfileid: "63765487"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
@@ -46,7 +46,7 @@ Utilisez cette section pour télécharger des schémas de données qui décriven
 
 ## <a name="data-retention-periods"></a>Périodes de rétention des données
 
-Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet de contrôler votre préférence pour la durée de rétention des données collectées et des rapports générés après la fermeture de la demande. Ce nombre peut être fixé à 30 ou 90 jours et s’applique à toutes les demandes de droits d’objet que vous créez. Nous vous recommandons de vérifier que vos périodes de rétention des données sont conformes aux stratégies et obligations légales de votre organisation. En savoir plus sur [la définition de la rétention des données pour les demandes de droits d’objet](subject-rights-requests-reports.md#manage-data-retention).
+Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet de contrôler votre préférence pour la durée de rétention des données collectées et des rapports générés après la fermeture de la demande. Ce nombre peut être fixé à 30 ou 90 jours et s’applique à toutes les demandes de droits d’objet que vous créez. Nous vous recommandons de vérifier que vos périodes de rétention des données sont conformes aux stratégies et obligations légales de votre organisation. En savoir plus sur [la rétention des données pour les demandes de droits d’objet](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Balises de révision des données
 
