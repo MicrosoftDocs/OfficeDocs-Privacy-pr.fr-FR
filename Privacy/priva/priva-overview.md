@@ -1,5 +1,5 @@
 ---
-title: En savoir plus sur Microsoft Priva
+title: En savoir plus sur Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva aide les organisations à évaluer les données personnelles stockées dans Microsoft 365, les aide à identifier et à corriger les risques de confidentialité et les aide à gérer les demandes de droits de l’objet à grande échelle.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248978"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586457"
 ---
-# <a name="learn-about-microsoft-priva"></a>En savoir plus sur Microsoft Priva
+# <a name="learn-about-microsoft-priva"></a>En savoir plus sur Microsoft Priva
 
 La confidentialité est une priorité pour les organisations et les consommateurs d’aujourd’hui, et les préoccupations concernant la façon dont les données privées sont gérées augmentent continuellement. Les réglementations et les lois telles que le Règlement général sur la protection des données (R GDPR) de l’Union européenne et le CCPA (California Consumer Privacy Act) ont un impact sur les personnes dans le monde entier, en fixant des règles pour la façon dont les organisations stockent des données personnelles et en accordant aux personnes des droits pour gérer les données personnelles collectées par une organisation.
 
@@ -55,7 +55,7 @@ Les fonctionnalités de Priva sont disponibles par le biais de deux solutions : 
 
 ### <a name="find-and-visualize-personal-data"></a>Rechercher et visualiser des données personnelles
 
-Comprendre votre posture de confidentialité commence par avoir une connaissance approfondie du contenu stocké par votre organisation dans des Microsoft 365 qui contient des données personnelles, l’endroit où elles se trouve dans les services que vous utilisez et les conditions dans lesquelles elle est gérée. Priva permet aux organisations de découvrir automatiquement les données personnelles et de fournir des analyses et des informations clés aux administrateurs pour les aider à comprendre les problèmes de confidentialité et les risques associés dans leur organisation. La solution évalue l’endroit où les données personnelles de votre organisation sont stockées, la façon dont ces données circulent et les tendances des données personnelles au fil du temps.
+Comprendre votre posture de confidentialité commence par avoir une connaissance approfondie du contenu que votre organisation stocke dans des Microsoft 365 qui contient des données personnelles, de l’endroit où elles se trouve dans les services que vous utilisez et des conditions dans lesquelles elle est gérée. Priva permet aux organisations de découvrir automatiquement les données personnelles et de fournir des analyses et des informations clés aux administrateurs pour les aider à comprendre les problèmes de confidentialité et les risques associés dans leur organisation. La solution évalue l’endroit où les données personnelles de votre organisation sont stockées, la façon dont ces données circulent et les tendances des données personnelles au fil du temps.
 
 Ces informations sont présentées dans votre tableau  de bord Vue d’ensemble, qui fournit des mises à jour automatiques sur vos données avec des tendances importantes et le profil de **données, ce** qui vous permet d’explorer les analyses en cours. Ces informations vous aident à comprendre les problèmes de confidentialité dans votre organisation et à identifier les actions à prendre pour les corriger.
 
@@ -95,24 +95,53 @@ Priva utilise les fonctionnalités de base de Microsoft 365 pour vous aider à i
 
 Priva évalue les données de votre organisation stockées dans les services de Microsoft 365 suivants au sein de Microsoft 365 client :
 
-- Exchange Online
+- Exchange Online
 - SharePoint Online
 - OneDrive Entreprise
 - Microsoft Teams
 
 Priva évalue uniquement les données au sein de l’environnement Microsoft 365 de votre organisation. Il n’accède pas aux données personnelles qui ne font pas partie de l’environnement de Microsoft 365 de l’organisation. Par exemple, il n’accède pas au compte personnel d’Microsoft 365 utilisateur.
 
+## <a name="priva-availability"></a>Disponibilité privée
+
+Microsoft Priva s’est déployé dans le monde entier. Selon l’endroit où une organisation a mis en service son client, Il se peut que Priva ne soit pas entièrement disponible. La liste ci-dessous décrit la disponibilité de Priva en fonction de l’endroit où une organisation a mis en service son client. Si Priva n’est pas disponible, la gestion des risques de confidentialité **et** les demandes de droits de l’objet **Priva** n’apparaissent pas dans le navigation gauche du Centre de conformité Microsoft 365. Nous continuerons à mettre à jour cette liste à mesure que Priva sera accessible sur tous les emplacements géographiques.
+
+Visitez [Microsoft 365 Multi-Géo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) pour en savoir plus sur la mise en service des données dans les régions géographiques et les pays.
+
+**Disponible**
+
+- Australie
+- Brésil
+- Canada
+- France
+- Allemagne
+- Inde
+- Japon
+- Royaume-Uni
+- États-Unis (Remarque : non disponible pour les clients modérés, Cloud de la communauté du secteur public élevés ou du département de la Défense (DoD) du gouvernement américain Community (Cloud de la communauté du secteur public).
+
+**N’est pas encore disponible.**
+
+- Norvège
+- Pologne
+- Qatar
+- Singapour
+- Afrique du Sud
+- Corée du Sud
+- Espagne
+- Suède
+- Suisse
+- Émirats arabes unis
+
 ## <a name="more-resources"></a>Plus de ressources
 
-Pour voir un aperçu vidéo de Priva, affichez la gestion de la confidentialité basée sur [l’IA Microsoft 365](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics sur YouTube.
+Regardez une vidéo de 13 minutes expliquant les [fonctionnalités de Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics sur YouTube.
 
-Pour plus d’informations sur la façon dont Microsoft aborde la confidentialité et protège vos données, visitez :
-
-- [Microsoft Privacy](/privacy)
+Pour plus d’informations sur la façon dont Microsoft aborde la confidentialité et protège vos données, visitez [Confidentialité Microsoft](/privacy).
 
 ## <a name="next-steps"></a>Prochaines étapes
 
-Pour commencer à utiliser Priva, [consultez La mise en place de Priva](priva-setup.md).
+Pour commencer à utiliser Priva, [voir Démarrage avec Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
 

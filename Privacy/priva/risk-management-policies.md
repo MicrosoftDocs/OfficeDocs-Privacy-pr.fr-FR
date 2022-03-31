@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment créer et personnaliser des stratégies de confidentialité pour la gestion des données personnelles de votre organisation dans Microsoft 365.
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249032"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586447"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Créer des stratégies dans la gestion des risques de confidentialité
 
@@ -90,13 +90,13 @@ Notez que la fonctionnalité globale de gestion des risques de confidentialité 
 
 Les stratégies de réduction des données se concentrent sur l’âge de votre contenu et la durée depuis sa dernière modification. La surveillance des données personnelles qui sont toujours conservées dans du contenu ancien et inutilisé peut vous aider à mieux gérer vos données stockées et à réduire les risques. Ce paramètre est géré dans **l’écran Conditions** .
 
-Par défaut, les stratégies de réduction des données recherchent le contenu contenant des données personnelles qui ont été créées ou modifiées pour la dernière fois il y a au moins 60 jours. Lors de la modification ou de la création d’une stratégie personnalisée, vous pouvez choisir parmi d’autres périodes prédéfinis.
+Par défaut, les stratégies de réduction des données recherchent le contenu contenant des données personnelles qui ont été créées ou modifiées pour la dernière fois il y a au moins 30 jours. Lors de la modification ou de la création d’une stratégie personnalisée, vous pouvez choisir parmi d’autres périodes prédéfinis.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>En savoir plus sur les paramètres des stratégies de transfert de données
 
 Les stratégies de transfert de données vous permettent de surveiller les données transférées entre certaines régions du monde ou entre les différents services de votre organisation. Dans **l’écran Conditions** , vous pouvez choisir les types de transferts que la Gestion des risques de confidentialité doit rechercher.
 
-Par défaut, les stratégies de transfert de données recherchent les transferts entre l’Amérique du Nord et d’autres régions. Lors de la modification ou de la création d’une stratégie personnalisée, vous pouvez choisir le type de transfert, puis effectuer des sélections pour les régions ou départements de l’expéditeur et du destinataire.
+Par défaut, les stratégies de transfert de données recherchent les transferts entre Amérique du Nord et d’autres régions. Lors de la modification ou de la création d’une stratégie personnalisée, vous pouvez choisir le type de transfert, puis effectuer des sélections pour les régions ou départements de l’expéditeur et du destinataire.
 
 Les stratégies de transfert de données offrent également des conseils et des recommandations de stratégie à vos utilisateurs dans Teams, afin qu’ils restent informés des meilleures pratiques de gestion des données. Vous pouvez le faire sur **l’écran Résultats** .
 
