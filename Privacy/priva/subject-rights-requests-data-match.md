@@ -1,5 +1,5 @@
 ---
-title: Correspondance des données pour les demandes de droits de l’objet
+title: Correspondance des données pour les demandes de droits d’objet
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,38 +15,38 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Découvrez comment télécharger des informations supplémentaires sur vos sujets de données à Microsoft Priva.
-ms.openlocfilehash: 1339962a1c4dba18a1d0b21d8a2cebb17ad0f91a
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Découvrez comment charger des informations supplémentaires sur vos sujets de données dans Microsoft Priva.
+ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249039"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930579"
 ---
-# <a name="data-matching-for-subject-rights-requests"></a>Correspondance des données pour les demandes de droits de l’objet
+# <a name="data-matching-for-subject-rights-requests"></a>Correspondance des données pour les demandes de droits d’objet
 
-Grâce à la correspondance des données, les organisations peuvent permettre à Microsoft Priva d’identifier les personnes liées aux données en fonction des valeurs de données fournies exactes. Cela peut vous aider à améliorer la précision de la localisation du contenu de la sujet de données qui correspond à ces valeurs de données à la fois pour votre personnel interne et pour les utilisateurs externes avec qui vous interagissez. Il simplifie également la nécessité de fournir des champs manuellement lors de la création des demandes de droits d’objet, et fournit du contexte dans les demandes de droits de l’objet et pour la vignette Vue d’ensemble qui présente vos éléments avec le plus de contenu de sujet de données. Pour en savoir plus sur cette vue, voir [Rechercher et visualiser des données personnelles dans Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
+Avec la correspondance des données, les organisations peuvent permettre à Microsoft Priva d’identifier les personnes concernées en fonction des valeurs de données exactes fournies. Cela peut aider à augmenter la précision de la localisation du contenu de la personne concernée qui correspond à ces valeurs de données à la fois pour votre personnel interne et pour les utilisateurs externes avec lesquels vous interagissez. Il simplifie également la nécessité de fournir manuellement des champs lors de la création de la demande de droits d’objet, et fournit le contexte dans les demandes de droits d’objet et pour la vignette Vue d’ensemble qui présente vos éléments avec le contenu de la personne concernée la plus élevée. Pour en savoir plus sur cette vue, consultez [Rechercher et visualiser des données personnelles dans Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Pour utiliser la fonctionnalité de correspondance de données, vous devez être membre du groupe de rôles Gestion de la confidentialité. À partir de Priva dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), sélectionnez Paramètres  dans le navigation supérieure, puis correspondance **de données**. À partir de là, vous devrez définir le schéma de données personnelles et fournir un téléchargement de données personnelles, comme illustré ci-dessous. Notez que vous pouvez ajouter des éléments et supprimer des éléments que vous ajoutez via l’interface utilisateur. Toutefois, vous ne pouvez pas modifier un élément en place à partir de l’interface utilisateur pour le moment.
+Pour utiliser la fonctionnalité de correspondance des données, vous devez être membre du groupe de rôles Gestion de la confidentialité. À partir de Priva dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Paramètres** dans le volet de navigation supérieur, puis **correspondance des données**. À partir de là, vous devez définir le schéma de données personnelles et fournir un chargement de données personnelles comme indiqué ci-dessous. Notez que vous pouvez ajouter des éléments et supprimer des éléments que vous ajoutez via l’interface utilisateur. Toutefois, vous ne pouvez pas modifier un élément en place à partir de l’interface utilisateur pour l’instant.
 
 ## <a name="prepare-for-data-import"></a>Préparer l’importation de données
 
-Avant de définir le schéma ou de télécharger des données, vous devez identifier la source de vos informations de sujet de données. Le format de fichier requis est .csv, qui peut être lu par une application telle que Microsoft Excel. Structurez cette exportation de sorte que vos en-têtes de colonne apparaissent sur la première ligne. Ces en-têtes doivent inclure les noms des attributs de votre schéma de données personnelles. Vérifiez le format des données dans chaque champ. Si l’une des données contient des virgules, entourez ces valeurs de guillemets doubles pour vous assurer qu’elles ne seront pas séparées.
+Avant de définir le schéma ou de charger des données, vous devez identifier la source des informations de votre sujet de données. Le format de fichier requis est .csv, qui peut être lu par une application telle que Microsoft Excel. Structurez cette exportation pour que vos en-têtes de colonne apparaissent dans la première ligne. Ces en-têtes doivent inclure les noms des attributs de votre schéma de données personnelles. Vérifiez le format des données dans chaque champ. Si l’une des données contient des virgules, entourez ces valeurs de guillemets doubles pour vous assurer qu’elles ne seront pas analysées dans des champs distincts.
 
 ## <a name="define-the-personal-data-schema"></a>Définir le schéma de données personnelles
 
-Le schéma de données personnelles décrit les attributs de vos sujets de données. Télécharger ce schéma sur le premier onglet de la zone des paramètres de correspondance de données. Les fichiers requis incluent un **fichier** XML de schéma de données personnelles et un fichier XML **de package** de règles.
+Le schéma de données personnelles décrit les attributs de vos sujets de données. Télécharger ce schéma sous le premier onglet de la zone des paramètres de correspondance des données. Les fichiers requis incluent un fichier XML **de schéma de données personnelles** et un fichier XML de **package de règles** .
 
 ### <a name="personal-data-schema-xml"></a>XML de schéma de données personnelles
 
-Le fichier de schéma de données personnelles est un fichier XML qui définit les noms de colonne attendus.
+Le fichier de schéma de données personnelles est un fichier XML qui définit les noms de colonnes attendus.
 
-- Nommez ce fichier de *schémapdm.xml*.
-- Définissez chaque nom de colonne à l’aide de la balise Nom du champ, comme dans l’exemple ci-dessous.
-- Utilisez searchable = « true » pour les champs que vous souhaitez rechercher, jusqu’à un maximum de cinq champs. Au moins l’un de vos noms de champ doit pouvoir faire l’être. Exemple de syntaxe : `\<Field name="" searchable=""/>`.
-- Le schéma de données personnelles possède une section de balise DataStore. Quatre champs obligatoires doivent être mappés à vos noms de champs : primaryKeyField, upnField, firstNameField, lastNameField.
+- Nommez ce fichier de schéma *pdm.xml*.
+- Définissez chaque nom de colonne à l’aide de la balise Nom du champ, comme indiqué dans l’exemple ci-dessous.
+- Utilisez searchable = « true » pour les champs que vous souhaitez rechercher, jusqu’à un maximum de cinq champs. Au moins un de vos noms de champs doit être consultable. Exemple de syntaxe : `\<Field name="" searchable=""/>`.
+- Le schéma de données personnelles comporte une section d’étiquette DataStore. Quatre champs obligatoires doivent être mappés à vos noms de champs : primaryKeyField, upnField, firstNameField, lastNameField.
 
-Par exemple, le fichier XML suivant définit un exemple de schéma, avec cinq champs spécifiés comme utilisables dans une recherche : PatientID, MRN, SSN, Téléphone et DOB. Le champ primaryKeyField est mappé sur PatientID, upnField est mappé sur MRN, firstNameField est mappé sur FirstName et lastNameField est mappé sur LastName.
+Par exemple, le fichier XML suivant définit un exemple de schéma, avec cinq champs spécifiés comme pouvant faire l’objet d’une recherche : PatientID, MRN, SSN, Téléphone et DOB. PrimaryKeyField est mappé à PatientID, upnField est mappé à MRN, firstNameField est mappé à FirstName et lastNameField est mappé à LastName.
 
 Vous pouvez copier, modifier et utiliser notre exemple.
 
@@ -66,28 +66,28 @@ Vous pouvez copier, modifier et utiliser notre exemple.
 </PdmSchema>
  ```
 
-### <a name="rule-package-xml"></a>XML de package de règles
+### <a name="rule-package-xml"></a>Code XML du package de règles
 
-Lorsque vous définissez votre package de règles, veillez à référencer correctement votre fichier de schéma de données personnelles créé ci-dessus : pdm.xml. Dans l’exemple de package de règles XML suivant, les champs suivants doivent être personnalisés pour créer votre type sensible de correspondance de données :
+Lorsque vous configurez votre package de règles, veillez à référencer correctement votre fichier de schéma de données personnelles créé ci-dessus : pdm.xml. Dans l’exemple de package de règles XML suivant, les champs suivants doivent être personnalisés pour créer votre type sensible de correspondance de données :
 
-- **RulePack id** &  **ID PrivacyMatch** : utiliser New-GUID pour générer un GUID.
-- **Datastore : ce** champ spécifie le magasin de données de recherche de correspondance de données personnelles à utiliser. Indiquez le nom datastore défini d’un schéma de données personnelles configuré.
-- **idMatch** : ce champ pointe vers l’élément principal de la correspondance de données personnelles.
-  - **Correspondances** : spécifie le champ à utiliser dans la recherche exacte. Fournissez un nom de champ utilisable dans une recherche à partir du schéma de données personnelles.
-  - **Classification** : ce champ spécifie la correspondance de type sensible qui déclenche la recherche de correspondance de données personnelles. Vous pouvez fournir le nom ou le GUID d’un type d’informations sensibles intégré ou personnalisé. Afin d’éviter les problèmes de performances, si vous utilisez un type d’informations sensibles personnalisé en tant qu’élément classification dans la correspondance de données personnelles, n’utilisez pas un type d’informations sensibles personnalisé qui correspondra à un grand pourcentage de contenu (par exemple, « n’importe quel nombre » ou « tout mot de cinq lettres »). Nous vous recommandons d’ajouter des mots clés de prise en charge ou d’inclure la mise en forme dans la définition du type d’informations sensibles de classification personnalisée.
+- **ID** &  RulePack **ID PrivacyMatch** : utilisez new-GUID pour générer un GUID.
+- **Magasin de** données : ce champ spécifie le magasin de données de recherche de correspondance de données personnelles à utiliser. Indiquez le nom de magasin de données défini d’un schéma de données personnelles configuré.
+- **idMatch** : ce champ pointe vers l’élément principal pour la correspondance des données personnelles.
+  - **Correspondances** : spécifie le champ à utiliser dans la recherche exacte. Fournissez un nom de champ pouvant faire l’objet d’une recherche à partir du schéma de données personnelles.
+  - **Classification** : ce champ spécifie la correspondance de type sensible qui déclenche la recherche de correspondance de données personnelles. Vous pouvez fournir le nom ou le GUID d’un type d’informations sensibles intégré ou personnalisé. Pour éviter de provoquer des problèmes de performances, si vous utilisez un type d’informations sensibles personnalisé comme élément Classification dans la correspondance des données personnelles, n’utilisez pas un type d’informations sensibles personnalisé qui correspond à un grand pourcentage de contenu (par exemple, « n’importe quel nombre » ou « mot de cinq lettres »). Nous vous recommandons d’ajouter des mots clés de prise en charge ou d’inclure la mise en forme dans la définition du type d’informations sensibles de classification personnalisée.
 - **Correspondance** : ce champ pointe vers des preuves supplémentaires trouvées à proximité d’idMatch.
-  - **Correspondances** : indiquez un nom de champ quelconque dans le schéma de données personnelles de DataStore.
+  - **Correspondances** : indiquez n’importe quel nom de champ dans le schéma de données personnelles pour DataStore.
 - **Ressource** : cette section spécifie le nom et la description du type sensible dans plusieurs paramètres régionaux.
-  - **idRef** : fournir un GUID pour l’ID ExactMatch.
-  - **Name & descriptions**: customize as required.
+  - **idRef** : fournissez le GUID pour l’ID ExactMatch.
+  - **Nom & descriptions** : personnalisez en fonction des besoins.
 
-Dans notre exemple de fichier XML de package de règles ci-dessous, nous faisons référence à l’exemple de fichier pdm.xml de l’étape précédente qui crée le fichier XML de schéma de données personnelles :
+Dans notre exemple XML de package de règles ci-dessous, nous référençant le fichier pdm.xml exemple de fichier de l’étape précédente qui crée le XML de schéma de données personnelles :
 
-- **Datastore** : le nom de dataStore fait référence au fichier de schéma que nous avons créé précédemment : dataStore = « PatientRecords ».
-- **idMatch** : la valeur idMatch fait référence à un champ utilisable dans une recherche répertorié dans le fichier pdm.xml que nous avons créé précédemment : idMatch correspond à = « SSN ».
-  - **Classification** : la valeur de classification fait référence à un type d’informations sensibles existant ou personnalisé : classification = « Numéro de sécurité sociale (SSN) des États-Unis ». (en l’occurrence, nous utilisons le type d’informations sensibles existant pour le numéro de sécurité sociale aux États-Unis).
+- **Magasin de** données : le nom du magasin de données fait référence au fichier de schéma que nous avons créé précédemment : dataStore = « PatientRecords ».
+- **idMatch** : la valeur idMatch fait référence à un champ pouvant faire l’objet d’une recherche répertorié dans le fichier pdm.xml que nous avons créé précédemment : idMatch correspond à « SSN ».
+  - **Classification** : la valeur de classification fait référence à un type d’informations sensibles existant ou personnalisé : classification = « U.S. Social Security Number (SSN) ». (en l’occurrence, nous utilisons le type d’informations sensibles existant pour le numéro de sécurité sociale aux États-Unis).
 
-Créez un package de règles au format XML (avec codage Unicode), comme dans l’exemple de code suivant. Vous pouvez copier, modifier et utiliser cet exemple.
+Créez un package de règles au format XML (avec encodage Unicode), comme dans l’exemple de code suivant. Vous pouvez copier, modifier et utiliser cet exemple.
 
  ```xml
 <RulePackage xmlns="http://schemas.microsoft.com/office/2020/pdm">
@@ -130,11 +130,11 @@ Créez un package de règles au format XML (avec codage Unicode), comme dans l�
  ```
 
 ## <a name="upload-personal-data"></a>Télécharger données personnelles
-Après avoir défini le schéma de données personnelles, vous pouvez effectuer  le chargement des données personnelles sous le deuxième onglet de la page des paramètres de correspondance de données. Lorsque vous **sélectionnez Ajouter**, choisissez le schéma personnel que vous avez défini à la première étape, puis téléchargez le fichier contenant les données personnelles.
+Après avoir défini le schéma de données personnelles, vous pouvez effectuer le **chargement des données personnelles** sous le deuxième onglet de la page des paramètres de correspondance des données. Lorsque vous sélectionnez **Ajouter**, choisissez le schéma personnel que vous avez défini à la première étape, puis chargez le fichier contenant les données personnelles.
 
 Vous pouvez charger ces données personnelles en choisissant un fichier local ou en fournissant une URL SAS à un emplacement Stockage Microsoft Azure existant contenant votre fichier de données personnelles.
-Si vous avez préparé un fichier en tant que première étape de ce processus qui est conforme au schéma créé, vous pouvez utiliser ce fichier pour le chargement.
+Si vous avez préparé un fichier comme première étape de ce processus conforme au schéma créé, vous pouvez utiliser ce fichier pour le chargement.
 
-## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
+## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Clause d’exclusion de responsabilité légale Microsoft Priva](priva-disclaimer.md)
+[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)

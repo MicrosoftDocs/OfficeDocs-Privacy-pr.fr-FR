@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment créer et personnaliser des stratégies de confidentialité pour gérer les données personnelles de votre organisation dans Microsoft 365.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865773"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930505"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Créer des stratégies dans la gestion des risques liés à la confidentialité
 
@@ -33,7 +33,7 @@ Lors de la création ou de la modification de stratégies, vous pouvez configure
 
 Suivez ces étapes pour créer une stratégie à l’aide de l’un des modèles par défaut.
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), accédez à la section Priva Privacy Risk Management et sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), accédez à la section Priva Privacy Risk Management et sélectionnez **Stratégies**.
 1. Sélectionnez **Créer une stratégie**.
 1. Choisissez le type de modèle souhaité. Un volet volant contenant des informations sur le modèle s’ouvre.
 1. Pour passer en revue les paramètres par défaut du modèle, notamment les types de données, les emplacements de données et les conditions qui déclenchent les correspondances de stratégie, sélectionnez **Paramètres d’affichage**.
@@ -48,7 +48,7 @@ Pour prendre un contrôle précis des paramètres d’une stratégie, vous pouve
 
 Tous les types de stratégies suivent ce flux de base. Certains paramètres et options changeront en fonction de la stratégie choisie.
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), accédez à la section Priva Privacy Risk Management et sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), accédez à la section Priva Privacy Risk Management et sélectionnez **Stratégies**.
 1. Sélectionnez **Créer une stratégie**.
 1. Choisissez l’option **Personnalisée** pour commencer à utiliser l’Assistant.
 1. Choisissez votre type de modèle de base : **surexposition des données,** **transferts de données** ou **réduction des données**. Chacune d’elles vous donnera certaines options lors de la création de la stratégie.
@@ -110,7 +110,7 @@ Votre organisation peut stocker du contenu à différents niveaux d’accès, y 
 
 Par défaut, les stratégies de surexposition des données évaluent les trois niveaux d’accès. Lors de la modification ou de la création d’une stratégie personnalisée, vous pouvez choisir l’ensemble ou l’un de ces niveaux.
 
-## <a name="next-steps"></a>Prochaines étapes
+## <a name="next-steps"></a>Étapes suivantes
 
 Pour plus d’informations sur la façon de gérer vos stratégies et d’apporter des modifications après leur création, consultez [Gérer les stratégies](risk-management-policies-manage.md).
 
