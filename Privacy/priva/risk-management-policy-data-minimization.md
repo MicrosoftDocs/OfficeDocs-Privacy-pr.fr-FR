@@ -1,0 +1,122 @@
+---
+title: Stratégies de réduction des données dans la gestion des risques liés à la confidentialité
+f1.keywords:
+- CSH
+ms.author: chvukosw
+author: chvukosw
+manager: laurawi
+audience: Admin
+ms.topic: article
+ms.service: O365-seccomp
+ms.localizationpriority: medium
+ms.collection:
+- M365-security-compliance
+- M365-priva-privacy-risk-management
+search.appverid:
+- MOE150
+- MET150
+description: Découvrez comment créer une stratégie de réduction des données dans Microsoft Priva Privacy Risk Management pour réduire la quantité de données personnelles inutilisées dans votre organisation.
+ms.openlocfilehash: c5a883de696923e4453ed28739e9bf68b618f8d1
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014475"
+---
+# <a name="data-minimization-policies-in-privacy-risk-management"></a>Stratégies de réduction des données dans la gestion des risques liés à la confidentialité
+
+Les stratégies de réduction des données se concentrent sur l’âge de votre contenu et sur la durée de sa dernière modification. La surveillance des données personnelles qui sont toujours conservées dans du contenu plus ancien et inutilisé peut vous aider à mieux gérer vos données stockées et à réduire les risques.
+
+La gestion des risques liés à la confidentialité vous permet de créer des stratégies pour surveiller les données qui n’ont pas été modifiées dans un délai que vous sélectionnez. Lorsqu’une correspondance de stratégie est détectée, vous pouvez envoyer des notifications par e-mail aux utilisateurs avec des options de correction, notamment le marquage d’éléments en vue de leur suppression, la notification aux propriétaires de contenu ou l’étiquetage des éléments en vue d’une révision ultérieure.
+
+Notre processus de configuration de stratégie facilite la définition des conditions de stratégie. Vous disposez d’un contrôle total sur le minutage des alertes et la fréquence des e-mails qui portent l’attention des utilisateurs sur les pratiques de gestion des données sécurisées.
+
+Il existe deux façons de créer une stratégie : à partir d’un **modèle**, qui est notre option rapide « out-of-box » à l’aide des paramètres par défaut ; ou l’option **personnalisée** , qui est un processus guidé pour définir les conditions, les alertes et les notifications.
+
+## <a name="quick-setup-use-a-template-with-default-settings"></a>Configuration rapide : utiliser un modèle avec les paramètres par défaut
+
+La stratégie de réduction des données par défaut détecte le contenu contenant des données personnelles qui ont été créées ou modifiées il y a au moins 30 jours.
+
+Procédez comme suit pour créer une stratégie de transfert de données par défaut :
+
+1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation de gauche et sélectionnez **Stratégies**.
+
+2. Sélectionnez **Créer une stratégie** dans le coin supérieur droit de l’écran, qui affiche un volet volant répertoriant toutes les options de création de stratégie.
+
+3. Dans la zone **De minimisation des données** , sélectionnez **Créer**.
+
+4. Un volet volant contient les détails de la stratégie. La sélection des **paramètres d’affichage** affiche les paramètres par défaut. Vous pouvez modifier les paramètres à partir d’ici, ce qui vous permet d’accéder au processus guidé décrit ci-dessous. Pour continuer à créer votre stratégie à l’aide des paramètres par défaut, entrez simplement un nom descriptif, puis **sélectionnez Créer une stratégie**.
+
+Votre stratégie sera créée et vous la trouverez dans votre page **Polices** . Il commence en [mode test](risk-management-policies.md#testing-a-policy) pour vous permettre de surveiller ses performances avant de l’activer.
+
+#### <a name="default-data-minimization-policy-settings"></a>Paramètres de stratégie de réduction des données par défaut
+
+Une stratégie de réduction des données créée à partir du modèle détecte :
+- Éléments de contenu contenant des données personnelles qui n’ont pas été modifiés au moins au cours des 30 derniers jours.
+- Données stockées à l’un de ces emplacements au sein de votre organisation : Exchange, OneDrive, SharePoint, Teams.
+- Types de données basés sur les [groupes de classification suivants](risk-management-policies.md#classification-groups) :
+    - Règlement général de l’UE sur la protection des données (RGPD)
+    - Informations d’identification personnelle des États-Unis
+    - US Patriot Act
+    - Loi sur la notification de violation de l’État des États-Unis
+    - Us Gramm-Leach-Bliley Act (GLBA)
+    - Us Health Insurance Portability and Accountability Act (HIPAA)
+    - Australia Health Records Act (HRIP)
+    - Australia Privacy Act
+    - Informations d’identification personnelle au Japon
+    - Japan Protection of Personal Information
+
+## <a name="custom-setup-guided-policy-creation-process"></a>Configuration personnalisée : processus de création de stratégie guidée
+
+L’option de stratégie personnalisée est un processus guidé permettant de créer une stratégie en définissant des conditions, en désignant la gravité et la fréquence des alertes et en activant les notifications par e-mail de l’utilisateur.
+
+Effectuez les étapes ci-dessous pour créer une stratégie de transfert de données :
+
+1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation de gauche et sélectionnez **Stratégies**.
+
+2. Sélectionnez le bouton **Créer une stratégie** en haut à droite de votre écran, qui affiche un volet volant répertoriant toutes les options de création de stratégie.
+
+3. Dans la zone **Personnalisée** , sélectionnez **Créer**.
+
+4. Dans la page **Nom et type** , sélectionnez le modèle de **stratégie de réduction des données** . Entrez un nom de stratégie qui vous aidera à l’identifier facilement à partir de votre liste sur la page **Stratégies** , puis entrez une description facultative, puis sélectionnez **Suivant**.
+
+5. Dans la page **Données à surveiller** , choisissez le type de données personnelles que votre stratégie doit surveiller. Il existe deux options :
+    - **Groupes de classification** : regroupements de types d’informations sensibles utilisés pour détecter du contenu lié à des données personnelles ou à des réglementations spécifiques. Si vous sélectionnez cette option, vous devez sélectionner **+Ajouter des groupes de classification** pour choisir un ou plusieurs groupes dans la liste fournie.
+    - **Types d’informations sensibles individuels** : sélectionnez cette option pour choisir parmi une liste de [types d’informations sensibles individuels](/microsoft-365/compliance/sensitive-information-type-entity-definitions).
+
+    En savoir plus sur [le choix des données à surveiller](risk-management-policies.md#choose-data-to-monitor). Lorsque vous avez terminé de sélectionner les données à surveiller, sélectionnez **Suivant**.
+
+6. Dans la page **Utilisateurs et groupes** , choisissez les utilisateurs de votre organisation auxquels la stratégie s’appliquera. Vous pouvez sélectionner tous les utilisateurs individuels et tous les groupes de distribution Office 365, ou vous pouvez sélectionner des utilisateurs et des groupes spécifiques. En savoir plus sur [le choix des utilisateurs et des groupes](risk-management-policies.md#choose-users-and-groups). Lorsque vous avez terminé, sélectionnez **Suivant**.
+
+7. Dans la page **Emplacements**, sélectionnez tous les emplacements de données dans Microsoft 365 que vous souhaitez que la stratégie couvre. Choisissez parmi Exchange comptes de messagerie, comptes OneDrive, Teams messages de conversation et de canal, ainsi que des sites SharePoint.
+
+    Dans SharePoint vous pouvez désigner tous les sites ou sites spécifiques. Si vous sélectionnez **Des sites spécifiques SharePoint**, vous pouvez entrer l’URL du site dans le champ URL. Vous pouvez également sélectionner **+Choisir des sites**, puis, dans le volet volant, cochez la case à gauche du nom du site que vous souhaitez sélectionner.
+
+    En savoir plus sur [le choix des emplacements](risk-management-policies.md#choose-locations). Lorsque vous avez terminé de sélectionner des emplacements, sélectionnez **Suivant**.
+
+8. Dans la page **Conditions** , utilisez le menu déroulant pour choisir le nombre de jours écoulés depuis la dernière modification d’un élément que la stratégie détecte :
+    - 30 jours
+    - 60 jours
+    - 90 jours
+    - 120 jours
+    
+     Lorsque vous avez terminé, sélectionnez **Suivant**.
+
+9. Dans la page Résultats, décidez s’il faut informer les utilisateurs lorsqu’ils correspondent aux conditions **définies** par la stratégie. Si vous cochez la case des notifications par e-mail, les utilisateurs reçoivent une notification par e-mail lorsque leurs actions correspondent aux conditions de stratégie. Les e-mails contiennent des instructions pour prendre des mesures de correction directement à partir de l’e-mail, ainsi qu’un lien vers la formation à la confidentialité. Vous allez désigner la fréquence des e-mails et l’URL de votre formation de confidentialité préférée.
+     
+    En savoir plus sur la configuration [des notifications utilisateur](risk-management-notifications.md). Lorsque vous avez terminé de sélectionner les résultats, sélectionnez **Suivant**.
+
+10. Dans la page **Alertes** , utilisez le bouton bascule pour activer les alertes qu’un administrateur verra sur la page **Alertes** dans la section **Stratégies** de la gestion des risques de confidentialité. Vous allez indiquer la fréquence à laquelle les alertes sont générées, les seuils de correspondance avant la génération des alertes et la gravité des alertes. En savoir plus sur [la définition d’alertes pour les correspondances de stratégie](risk-management-policies.md#set-alerts). Lorsque vous avez terminé, sélectionnez **Suivant**.
+
+11. Dans la page **Mode** , déterminez si vous souhaitez ou non exécuter votre stratégie en mode test lorsque vous la créez pour la première fois, ce qui signifie qu’aucune alerte ou notification n’est envoyée. Pour conserver votre stratégie en mode test, ce que nous vous recommandons, sélectionnez le commutateur bascule vers la position **Activé** . En savoir plus sur le [test d’une stratégie](risk-management-policies.md#testing-a-policy).
+
+> [!NOTE]
+> Si vous **basculez l’option Exécuter en mode test** vers la position **Désactivée** , *votre stratégie s’active* lorsque vous avez terminé de la créer. Cela signifie que toutes les alertes ou notifications utilisateur que vous avez configurées commencent à générer une fois qu’une correspondance est détectée.
+
+12. Dans la page **Terminer** , passez en revue vos choix. Sélectionnez **Modifier** sous l’une des sections pour ajuster les paramètres. Lorsque vous êtes satisfait des paramètres de votre stratégie, sélectionnez **Envoyer** pour créer la stratégie.
+
+Après quelques secondes, vous verrez une confirmation que la stratégie a été créée. Sélectionnez **Terminé** dans la page de confirmation, qui vous amène à la page **Stratégies** où vous verrez la nouvelle stratégie en haut du tableau.
+
+## <a name="next-steps"></a>Prochaines étapes
+
+Pour plus d’informations sur la modification et la gestion des stratégies, consultez [les stratégies de gestion des risques de confidentialité](risk-management-policies.md) .

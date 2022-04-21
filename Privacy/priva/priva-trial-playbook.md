@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la version d’évaluation de Microsoft Priva, consultez les actions recommandées à effectuer pendant votre période d’essai et consultez les liens vers une documentation importante.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930525"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014394"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook d'essai : Microsoft Priva
 
@@ -87,21 +87,21 @@ La gestion des risques liés à la confidentialité vous permet de configurer de
 
 ## <a name="create-and-customize-policies"></a>Créer et personnaliser des stratégies
 
-Créez de nouvelles stratégies dans La gestion des risques liés à la confidentialité pour traiter les scénarios de risque de confidentialité importants pour votre organisation. Pour un démarrage rapide, utilisez les modèles par défaut pour créer de nouvelles stratégies pour la surexposition des données, les transferts de données, la minimisation des données et les scénarios.
+Créez de nouvelles stratégies dans La gestion des risques liés à la confidentialité pour traiter les scénarios de risque de confidentialité importants pour votre organisation. Pour un démarrage rapide, utilisez les paramètres par défaut du modèle pour créer de nouvelles stratégies pour la surexposition des données, les transferts de données, la réduction des données et les scénarios.
 
-1. [Créer une stratégie à partir d’un modèle](risk-management-policies.md#create-a-policy-from-a-template)
-1. [Créer une stratégie personnalisée](risk-management-policies.md#create-a-custom-policy)
-1. [En savoir plus sur les paramètres clés pour toutes les stratégies](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [En savoir plus sur les paramètres des stratégies de minimisation des données](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [En savoir plus sur les paramètres des stratégies de transfert de données](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [En savoir plus sur les paramètres des stratégies de surexposition des données](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [Créer une stratégie à l’aide d’un modèle avec les paramètres par défaut](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [Créer une stratégie en personnalisant les paramètres du modèle](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [En savoir plus sur les paramètres clés pour toutes les stratégies](risk-management-policies.md)
+1. [En savoir plus sur les paramètres des stratégies de minimisation des données](risk-management-policy-data-minimization.md)
+1. [En savoir plus sur les paramètres des stratégies de transfert de données](risk-management-policy-data-transfer.md)
+1. [En savoir plus sur les paramètres des stratégies de surexposition des données](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>Gérer les stratégies 
 
 Une fois que vous avez créé des stratégies dans Privacy Risk Management pour gérer les scénarios de minimisation des données, de transfert de données ou de surexposition des données, vous souhaiterez peut-être examiner ou mettre à jour vos paramètres de stratégie. Vous souhaiterez peut-être également tester une nouvelle stratégie avant de la déployer entièrement pour une utilisation continue.
 
-1. [Afficher les détails de la stratégie](risk-management-policies-manage.md#view-policy-details)
-1. [Tester votre stratégie](risk-management-policies-manage.md#test-your-policy)
+1. [Afficher les détails de la stratégie](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [Tester votre stratégie](risk-management-policies-manage.md#testing-a-policy)
 1. [Suppression d’une stratégie](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>Comprendre les alertes et les problèmes de stratégie
@@ -117,9 +117,9 @@ L’examen des alertes vous permet d’identifier les cas qui nécessitent un su
 
 La gestion des risques liés à la confidentialité peut informer directement les propriétaires de contenu des correspondances pour votre surexposition des données, la réduction des données et les stratégies de transfert de données. Avec les notifications par e-mail, vos utilisateurs peuvent facilement en savoir plus sur le contenu qu’ils doivent examiner.
 
-1. [Préparer le contenu de la formation pour les notifications de stratégie](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [Configurer des notifications par e-mail pour les stratégies](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [Corriger les problèmes liés aux notifications par e-mail](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [Préparer le contenu de la formation pour les notifications de stratégie](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [Configurer des notifications par e-mail pour les stratégies](risk-management-notifications.md#set-user-email-notifications)
+1. [Afficher un aperçu et personnaliser les notifications par e-mail](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Envoyer des notifications dans Teams](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>En savoir plus sur les demandes de droits de personnes concernées

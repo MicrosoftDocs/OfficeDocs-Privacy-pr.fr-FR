@@ -1,5 +1,5 @@
 ---
-title: Examiner et corriger les alertes dans la gestion des risques de confidentialité
+title: Examiner et corriger les alertes dans gestion des risques liés à la confidentialité
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,81 +15,76 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Découvrez comment gérer les alertes et les problèmes élevés par les correspondances de stratégie dans la gestion des risques de confidentialité.
-ms.openlocfilehash: 26b30082d4f7122e113d38e8357af26b3850fda2
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Découvrez comment gérer les alertes et les problèmes déclenchés par les correspondances de stratégie dans Microsoft Priva Privacy Risk Management.
+ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248961"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014384"
 ---
-# <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Examiner et corriger les alertes dans la gestion des risques de confidentialité
+# <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Examiner et corriger les alertes dans gestion des risques liés à la confidentialité
 
-Microsoft Priva peut fournir une visibilité sur les découvertes importantes de vos stratégies de surexposation, de réduction des données ou de transfert de données. Dans la solution de gestion des risques de confidentialité, les administrateurs peuvent examiner les **alertes** concernant le contenu qui correspond à vos conditions de stratégie. La révision des alertes vous permet d’identifier les cas qui doivent être suivis. Vous pouvez le faire en créant **des problèmes**. Les problèmes donnent à vos utilisateurs un moyen structuré de consulter du contenu, d’affecter la gravité du problème et de collaborer pour résoudre les problèmes.
+Microsoft Priva peut vous aider à fournir une visibilité sur les découvertes importantes de vos stratégies de surexposition, de réduction des données ou de transfert de données. Dans la solution Gestion des risques liés à la confidentialité, les administrateurs peuvent passer en revue **les alertes** concernant le contenu qui correspond à vos conditions de stratégie. L’examen des alertes vous permet d’identifier les cas qui nécessitent un suivi. Pour ce faire, vous pouvez créer **des problèmes**. Les problèmes offrent à vos utilisateurs un moyen structuré de passer en revue le contenu, d’attribuer la gravité du problème et de travailler en collaboration pour résoudre les problèmes.
 
-Si votre stratégie a été définie pour envoyer des notifications à vos utilisateurs, les propriétaires de contenu peuvent également prendre certaines mesures correctives directement à partir de ces e-mails ou de Teams. Pour plus d’informations, voir [Envoyer des notifications aux utilisateurs dans la gestion des risques de confidentialité](risk-management-notifications.md).
+Si votre stratégie a été configurée pour envoyer des notifications à vos utilisateurs, les propriétaires de contenu peuvent également prendre certaines mesures correctives directement à partir de ces e-mails ou de Teams. Pour en savoir plus, consultez [Envoyer des notifications utilisateur dans Gestion des risques liés à la confidentialité](risk-management-notifications.md).
 
-## <a name="view-current-alerts-and-issues"></a>Afficher les alertes et problèmes actuels
+## <a name="view-current-alerts-and-issues"></a>Afficher les alertes et les problèmes actuels
 
-La **page Vue** d’ensemble de Priva fournit une vue d’ensemble des résultats récents avec des mises à jour sur les principaux domaines de préoccupation, tels que les stratégies ayant le plus de correspondances et vos alertes de stratégie actuellement actives. Pour en savoir plus sur les informations que cet affichage fournit, voir [Rechercher et visualiser des données personnelles dans Priva](priva-data-profile.md).
+La page **Vue d’ensemble** de Priva fournit une vue d’ensemble des résultats récents avec des mises à jour sur les principaux domaines d’intérêt, tels que les stratégies avec le plus de correspondances et vos alertes de stratégie actuellement actives. Pour en savoir plus sur les informations fournies par cette vue, consultez [Rechercher et visualiser des données personnelles dans Priva](priva-data-profile.md).
 
-Vous pouvez également accéder aux visualisations et aux détails de vos alertes et problèmes via la page **principale stratégies** . **Sélectionnez Afficher les alertes** et **Afficher les problèmes** pour afficher les détails.
+Vous pouvez également accéder aux visualisations et aux détails sur vos alertes et problèmes via la page **Stratégies** principale. Sélectionnez **Afficher les alertes** et **afficher les problèmes** pour afficher les détails.
 
 ## <a name="manage-alerts"></a>Gérer des alertes
 
-Pour évaluer vos alertes actives et spécifier les alertes qui nécessitent un suivi, accédez **à votre page Alertes** . Il fournit une liste filtrable des alertes générées par vos stratégies. Vous pouvez les examiner individuellement pour déterminer les circonstances dans lesquelles elles ont été déclenchées.
+Pour évaluer vos alertes actives et spécifier celles qui nécessitent un suivi, accédez à votre page **Alertes** . Il fournit une liste filtrable des alertes générées par vos stratégies. Vous pouvez les examiner individuellement pour déterminer les circonstances dans lesquelles elles ont été déclenchées.
 
-La sélection d’une alerte ouvre un volet deover avec des détails supplémentaires, tels que le nombre d’éléments correspondants et la gravité selon les paramètres de votre stratégie. Sous **l’onglet** Contenu, vous pouvez passer en revue les fichiers impliqués dans cette alerte. Ces informations peuvent fournir des informations supplémentaires sur l’événement spécifique qui a déclenché l’alerte, l’endroit où se trouvent les fichiers et les types de données personnelles impliqués. Les déclencheurs des alertes sont déterminés par les conditions spécifiques de chaque stratégie. Par exemple, une alerte peut être déclenchée sur une stratégie de transfert de données si Priva détecte un transfert entre les départements ou régions spécifiés de la stratégie.
+La sélection d’une alerte ouvre un volet de basculement avec des détails supplémentaires, tels que le nombre d’éléments correspondants et la gravité, selon les paramètres de votre stratégie. Sous l’onglet **Contenu** , vous pouvez examiner les fichiers impliqués dans cette alerte. Ces informations peuvent fournir des informations supplémentaires sur l’événement spécifique qui a déclenché l’alerte, l’endroit où résident les fichiers et les types de données personnelles impliqués. Les déclencheurs d’alertes sont déterminés par les conditions spécifiques de chaque stratégie. Par exemple, une alerte peut être déclenchée sur une stratégie de transfert de données si Priva détecte un transfert entre les départements ou régions spécifiés de la stratégie.
 
-Après avoir évalué une alerte dans la liste, vous pouvez sélectionner Créer un **problème** pour inciter vos utilisateurs à poursuivre l’examen et à prendre des mesures. Vous serez invité à nommer le problème et à ajouter les commentaires pertinents pour le contexte. Vous pouvez également ignorer les alertes ici si elles ne nécessitent pas de suivi.
+Après avoir évalué n’importe quelle alerte dans la liste, vous pouvez sélectionner **Créer un problème** pour demander à vos utilisateurs d’approfondir l’examen et l’action. Vous serez invité à nommer le problème et à ajouter des commentaires pertinents pour le contexte. Vous pouvez également ignorer les alertes ici si elles ne nécessitent pas de suivi.
 
 ## <a name="manage-issues"></a>Gérer les problèmes
 
-Les problèmes sont créés par les administrateurs lors de l’évaluation des alertes sur les correspondances de stratégie. Pour suivre et résoudre les problèmes indiqués, les utilisateurs peuvent visiter la page **Problèmes** . À partir de là, vous pouvez examiner les problèmes individuels, examiner les conditions d’analyse, examiner les données et prendre les mesures nécessaires pour fermer le cas.
+Les problèmes sont créés par les administrateurs lors de l’évaluation des alertes sur les correspondances de stratégie. Pour suivre et résoudre les problèmes indiqués, les utilisateurs peuvent visiter la page **Problèmes** . À partir de là, vous pouvez examiner des problèmes individuels, examiner les conditions d’incitation, examiner les données et prendre les mesures nécessaires pour fermer l’affaire.
 
-Cette page fournit la liste de tous les problèmes ouverts. Ils sont répertoriés par nom et triés par gravité pour vous aider à hiérarchiser les cas, y compris les catégories élevée, moyenne et faible, ainsi que les catégories non classées. Sélectionnez un problème dans la liste pour examiner son contenu et prendre des mesures pour le résoudre. Vous pouvez évaluer la gravité des problèmes non signés au cours de l’examen.
+Cette page fournit la liste de tous les problèmes ouverts. Ils sont répertoriés par nom et triés par gravité pour vous aider à hiérarchiser les cas, y compris les catégories élevée, moyenne et basse, ainsi que les cas non attribués. Sélectionnez un problème dans la liste pour passer en revue son contenu et prendre des mesures pour le résoudre. Vous pouvez attribuer une évaluation de gravité aux problèmes non attribués lors de l’examen.
 
 ### <a name="review-issue-details"></a>Examiner les détails du problème
 
-Les pages de détails des problèmes vous guident tout au long du processus de gestion des risques de confidentialité identifiés et de gestion des fichiers indiqués.
+Les pages de détails du problème vous guident tout au long du processus de résolution des risques de confidentialité identifiés et de gestion des fichiers indiqués.
 
-Les onglets des pages de détails des problèmes fournissent des informations sur les alertes et le contenu associés, notamment :
+Les onglets des pages de détails du problème fournissent des informations sur les alertes et le contenu associés, notamment :
 
-- **Vue d’ensemble** : présente les informations essentielles sur le problème. Consultez l’état actuel du problème et les actions recommandées suivantes à prendre. Vous pouvez également voir une vue d’ensemble du contenu, de la stratégie associée, des détails sur l’alerte et de la chronologie. La chronologie indique où vous vous trouvez pour récupérer du contenu. Le contenu téléchargé sera temporairement conservé pour révision.
+- **Vue d’ensemble** : affiche des informations essentielles sur le problème. Consultez l’état actuel du problème et les prochaines actions recommandées à entreprendre. Vous pouvez également voir une vue d’ensemble du contenu, de la stratégie associée, des détails sur l’alerte et la chronologie. La chronologie indique où vous êtes dans la récupération de contenu. Le contenu téléchargé sera conservé temporairement pour révision.
 - **Alertes** : liste détaillée des alertes associées au problème.
-- **Contenu** : liste filtrable des éléments de contenu associés. Sélectionnez n’importe quel élément pour afficher des détails à son sujet, y compris les activités qui se sont produites et son historique de correction, si quelqu’un a déjà pris des mesures en Priva pour gérer les données. Vous pouvez également choisir de prendre de nouvelles mesures correctives.
-- **Remarques** : choisissez d’ajouter ou d’afficher des notes concernant le problème pour votre équipe.
-- **Collaborateurs :** affichez et gérez la liste des collaborateurs qui peuvent contribuer à la résolution de ce problème.
+- **Contenu** : liste filtrable des éléments de contenu associés. Sélectionnez un élément pour afficher des détails à son sujet, y compris les activités qui se sont produites et son historique de correction, si quelqu’un a déjà pris des mesures dans Priva pour gérer les données. Vous pouvez également choisir d’effectuer de nouvelles actions de correction.
+- **Remarques** : sélectionnez cette option pour ajouter ou afficher des notes pour votre équipe sur le problème.
+- **Collaborateurs** : affichez et gérez la liste des collaborateurs qui peuvent contribuer à résoudre ce problème.
 
 ### <a name="share-the-issue"></a>Partager le problème
 
-L’ajout de personnes en tant que collaborateurs vous permet de partager le problème avec d’autres membres de votre entreprise via un canal Microsoft Teams sécurisé, un courrier électronique de l’entreprise ou en partageant un lien directement vers la page du problème dans Priva. Ces options sont disponibles sous le **bouton** Partager. Lors du partage via Teams, vous serez invité à sélectionner les équipes disponibles dans votre organisation, à sélectionner le canal spécifique et à laisser un message sur le problème, qui sera partagé avec le canal spécifié.
+L’ajout de personnes en tant que collaborateurs vous permet de partager le problème avec d’autres membres de votre entreprise via un canal Microsoft Teams sécurisé, un e-mail d’entreprise ou en partageant un lien directement vers la page du problème dans Priva. Ces options sont disponibles sous le bouton **Partager** . Lors du partage via Teams, vous êtes invité à sélectionner parmi les équipes disponibles dans votre organisation, à sélectionner le canal spécifique et à laisser un message sur le problème, qui sera partagé avec le canal spécifié.
 
-## <a name="review-content-and-remediate-issues"></a>Examiner le contenu et résoudre les problèmes
+## <a name="review-content-and-remediate-issues"></a>Examiner le contenu et corriger les problèmes
 
-Pour examiner le contenu associé à un problème, choisissez **l’action Examiner** le contenu si vous y êtes invité ou ouvrez **l’onglet** Contenu. Sélectionnez n’importe quel fichier de la liste pour l’afficher dans son intégralité. Vous pouvez y voir des détails sur le fichier, les activités sur l’enregistrement et son historique de correction, si des étapes précédentes ont été prises pour gérer ce fichier.
+Pour passer en revue le contenu associé à un problème, choisissez l’action **Vérifier le contenu** si vous y êtes invité ou ouvrez l’onglet **Contenu** . Sélectionnez n’importe quel fichier de la liste pour l’afficher dans son intégralité. Vous pouvez voir ici des détails sur le fichier, toutes les activités enregistrées et son historique de correction, si des étapes précédentes ont été prises pour gérer ce fichier. Sélectionnez **Corriger** pour effectuer une ou plusieurs des actions répertoriées ci-dessous.
 
-Utilisez le **bouton De correction** pour prendre vos propres décisions de gestion des données pour ce contenu dans Priva. La sélection du bouton vous permet de choisir parmi une ou plusieurs actions de correction. Les options suivantes sont disponibles : 
+- **Notifier le propriétaire** : informez le propriétaire du contenu du problème détecté.
 
-**Toutes les stratégies**
+- **Appliquer une étiquette de rétention** : ajoutez une étiquette sur la conservation des données pour cet élément. [En savoir plus sur les étiquettes de rétention](/microsoft-365/compliance/create-apply-retention-labels).
 
-- **Notifier le propriétaire** : informer le propriétaire du contenu du problème détecté.
-- **Appliquer une étiquette de rétention** : ajoutez une étiquette sur la rétention des données pour cet élément. [En savoir plus sur les étiquettes de rétention](/microsoft-365/compliance/create-apply-retention-labels).
-- **Appliquer une étiquette de niveau de sensibilité** : ajoutez une étiquette sur la sensibilité des données de cet élément. [En savoir plus sur les étiquettes de sensibilité](/microsoft-365/compliance/sensitivity-labels).
-- **Marquer comme n’étant pas une correspondance** : identifiez un résultat de recherche comme faux positif pour supprimer l’élément de contenu de la considération.
+- **Appliquer une étiquette de confidentialité** : ajoutez une étiquette sur la sensibilité des données de cet élément. [En savoir plus sur les étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels).
 
-**Réduction des données**
+- **Marquer comme non une correspondance** : identifiez un résultat de recherche comme faux positif pour supprimer l’élément de contenu de la considération.
 
-- **Supprimer** : utilisez cette option pour une suppression possible des données. Le contenu est déplacé dans le dossier des éléments supprimés ou dans la bac de recyclage (Exchange, SharePoint, OneDrive) ou supprimé avec une option de récupération (Teams messages). La suppression peut être annulée dans un laps de temps donné, en fonction des paramètres du service.
+- **Supprimer** (pour les stratégies de réduction des données uniquement) : utilisez cette option pour une suppression réversible des données. L’élément est déplacé dans le dossier ou la corbeille d’éléments supprimés (Exchange, SharePoint, OneDrive) ou supprimé avec une option de récupération (Teams messages). La suppression peut être inversée dans un laps de temps défini, en fonction des paramètres du service.
 
-**Surexposation de données et transfert de données**
+- **Rendre privé** (pour la surexposition des données et les stratégies de transfert de données uniquement) : supprimez l’accès ouvert pour cet élément de contenu.
 
-- **Rendre privé :** supprimez l’accès ouvert pour cet élément de contenu.
+Chaque option vous invite à laisser des commentaires et toute autre information de support nécessaire pour le propriétaire du contenu avant de confirmer votre choix.
 
-Chaque option vous invite à laisser des commentaires et toute autre information de prise en charge nécessaire pour le propriétaire du contenu avant de confirmer votre choix.
+Une fois que toutes les étapes de correction ont été effectuées (y compris toutes les actions que vous jugez recommandées en plus des options disponibles dans Priva) et que le problème est prêt à se fermer, utilisez le bouton **Résoudre** et ajoutez vos commentaires finaux avant de l’envoyer.
 
-Une fois que toutes les mesures correctives ont été prises (y compris les actions que vous jugez conseillées en plus des options disponibles dans Priva) et que le problème est prêt à  se fermer, utilisez le bouton Résoudre et ajoutez vos commentaires finaux avant de l’envoyer.
+## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
-
-[Clause d’exclusion de responsabilité légale Microsoft Priva](priva-disclaimer.md)
+[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
