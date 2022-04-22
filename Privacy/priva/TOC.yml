@@ -14,10 +14,14 @@
   items:
     - name: En savoir plus sur la gestion des risques liés à la confidentialité
       href: risk-management.md
-    - name: Créer des stratégies
+    - name: Découvrez comment créer et gérer des stratégies
       href: risk-management-policies.md
-    - name: 'Gérer les stratégies '
-      href: risk-management-policies-manage.md
+    - name: Créer une stratégie de surexposition des données
+      href: risk-management-policy-data-overexposure.md
+    - name: Créer une stratégie de transfert de données
+      href: risk-management-policy-data-transfer.md
+    - name: Créer une stratégie de minimisation des données
+      href: risk-management-policy-data-minimization.md
     - name: Examiner et corriger les alertes
       href: risk-management-alerts.md
     - name: Envoyer des notifications à l’utilisateur
