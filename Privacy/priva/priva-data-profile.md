@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la vue d’ensemble et le profil de données dans Priva et comment obtenir des insights sur les données personnelles dans l’environnement Microsoft 365 de votre organisation.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930595"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059748"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Rechercher et visualiser des données personnelles dans Microsoft Priva
 
@@ -75,7 +75,7 @@ Cet insight traite également des correspondances des stratégies en mode « Tes
 
 #### <a name="items-with-the-most-data-subject-content"></a>Éléments avec le plus de contenu de sujet de données
 
-Cet insight fait référence aux informations de la fonctionnalité de correspondance de données dans les demandes de droits d’objet et expose les éléments de contenu découverts dans Microsoft 365 qui contiennent le plus de sujets de données. Pour en savoir plus sur ce paramètre, consultez [En savoir plus sur les demandes de droits](subject-rights-requests.md) d’objet.
+Cet aperçu expose les éléments de contenu contenant les données personnelles de la plupart des sujets de données. Pour recevoir ces informations, votre organisation doit configurer la [correspondance des données pour les demandes de droits des personnes concernées](subject-rights-requests-data-match.md).
 
 Ces éléments peuvent vous aider à confirmer votre configuration de correspondance des données et à atténuer les risques de confidentialité liés à ces éléments. Sélectionnez **Afficher le résumé** d’un affichage récapitulatif. Sélectionnez **Explorer** pour obtenir une vue détaillée d’un maximum de 100 de ces éléments. Ici, vous pouvez afficher un aperçu de ces éléments, déterminer la pertinence et exporter la liste au format .csv.
 
