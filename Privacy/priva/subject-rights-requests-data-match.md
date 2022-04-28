@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment charger des informations supplémentaires sur vos sujets de données dans Microsoft Priva.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930579"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059738"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Correspondance des données pour les demandes de droits d’objet
 
 Avec la correspondance des données, les organisations peuvent permettre à Microsoft Priva d’identifier les personnes concernées en fonction des valeurs de données exactes fournies. Cela peut aider à augmenter la précision de la localisation du contenu de la personne concernée qui correspond à ces valeurs de données à la fois pour votre personnel interne et pour les utilisateurs externes avec lesquels vous interagissez. Il simplifie également la nécessité de fournir manuellement des champs lors de la création de la demande de droits d’objet, et fournit le contexte dans les demandes de droits d’objet et pour la vignette Vue d’ensemble qui présente vos éléments avec le contenu de la personne concernée la plus élevée. Pour en savoir plus sur cette vue, consultez [Rechercher et visualiser des données personnelles dans Priva](priva-data-profile.md#items-with-the-most-data-subject-content).
 
-Pour utiliser la fonctionnalité de correspondance des données, vous devez être membre du groupe de rôles Gestion de la confidentialité. À partir de Priva dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Paramètres** dans le volet de navigation supérieur, puis **correspondance des données**. À partir de là, vous devez définir le schéma de données personnelles et fournir un chargement de données personnelles comme indiqué ci-dessous. Notez que vous pouvez ajouter des éléments et supprimer des éléments que vous ajoutez via l’interface utilisateur. Toutefois, vous ne pouvez pas modifier un élément en place à partir de l’interface utilisateur pour l’instant.
+Pour utiliser la fonctionnalité de correspondance des données, vous devez être membre du groupe de rôles Gestion de la confidentialité. À partir de Priva dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Paramètres** dans le volet de navigation supérieur, puis **correspondance des données**. À partir de là, vous devez définir le schéma de données personnelles et fournir un chargement de données personnelles comme indiqué ci-dessous. Notez que vous pouvez ajouter des éléments et supprimer des éléments que vous ajoutez, mais que vous ne pouvez pas modifier un élément.
 
 ## <a name="prepare-for-data-import"></a>Préparer l’importation de données
 
@@ -35,7 +35,7 @@ Avant de définir le schéma ou de charger des données, vous devez identifier l
 
 ## <a name="define-the-personal-data-schema"></a>Définir le schéma de données personnelles
 
-Le schéma de données personnelles décrit les attributs de vos sujets de données. Télécharger ce schéma sous le premier onglet de la zone des paramètres de correspondance des données. Les fichiers requis incluent un fichier XML **de schéma de données personnelles** et un fichier XML de **package de règles** .
+La première étape de la configuration de la correspondance des données consiste à définir le schéma de données personnelles, qui décrit les attributs de vos sujets de données. Vous allez charger ce schéma dans le premier onglet de la zone des paramètres correspondant aux données. Les fichiers requis incluent un fichier XML **de schéma de données personnelles** et un fichier XML de **package de règles** .
 
 ### <a name="personal-data-schema-xml"></a>XML de schéma de données personnelles
 
@@ -129,8 +129,13 @@ Créez un package de règles au format XML (avec encodage Unicode), comme dans l
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>Types d’informations sensibles
+
+La deuxième étape de la configuration de la correspondance des données consiste à créer des types d’informations sensibles uniques pour la correspondance de données personnelles (PDM). [Les types d’informations sensibles (SIT) sont des](/microsoft-365/compliance/sensitive-information-type-learn-about) classifieurs basés sur des modèles qui détectent des informations sensibles telles que la Sécurité sociale ou les numéros de carte de crédit. La configuration d’un type d’informations sensibles PDM vous permet d’utiliser des valeurs de données exactes plutôt que des valeurs génériques pour détecter les correspondances. Pour commencer cette étape, sélectionnez **Créer un type d’informations sensibles PDM** pour démarrer l’Assistant Création.
+
 ## <a name="upload-personal-data"></a>Télécharger données personnelles
-Après avoir défini le schéma de données personnelles, vous pouvez effectuer le **chargement des données personnelles** sous le deuxième onglet de la page des paramètres de correspondance des données. Lorsque vous sélectionnez **Ajouter**, choisissez le schéma personnel que vous avez défini à la première étape, puis chargez le fichier contenant les données personnelles.
+
+Après avoir défini le schéma de données personnelles et les types d’informations sensibles, la troisième étape consiste à charger des données personnelles. Accédez à l’onglet **Chargement de données personnelles** , **sélectionnez Ajouter**, puis choisissez le schéma personnel que vous avez défini à la première étape, puis chargez le fichier contenant les données personnelles.
 
 Vous pouvez charger ces données personnelles en choisissant un fichier local ou en fournissant une URL SAS à un emplacement Stockage Microsoft Azure existant contenant votre fichier de données personnelles.
 Si vous avez préparé un fichier comme première étape de ce processus conforme au schéma créé, vous pouvez utiliser ce fichier pour le chargement.
