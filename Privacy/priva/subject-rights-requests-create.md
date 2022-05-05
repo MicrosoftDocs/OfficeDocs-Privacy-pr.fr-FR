@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment créer une demande de droits d’objet dans Microsoft Priva.
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930605"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059728"
 ---
 # <a name="create-a-subject-rights-request"></a>Créer une demande de droits d’objet
 
@@ -38,6 +38,21 @@ Priva Subject Rights Requests prend en charge trois types de demandes différent
 2. **Exportation** : fournit un résumé et un fichier exporté d’éléments de contenu qui contiennent les informations personnelles de la personne concernée. Il s’agit des éléments examinés et marqués comme **inclus** lors de votre examen des données collectées par vos paramètres de recherche.
 
 3. **Liste balisé pour le suivi** : génère un résumé de tous les fichiers qui ont été marqués lors de l’examen des données qui peuvent nécessiter une action supplémentaire en dehors de Priva. Par exemple, vous devrez peut-être faciliter la suppression des informations personnelles de la personne concernée en fonction de sa demande. Vous pouvez afficher les balises incluses et configurer des balises personnalisées pour votre organisation dans [les paramètres Priva](priva-settings.md).
+
+## <a name="getting-started-with-your-first-request"></a>Bien démarrer avec votre première demande
+
+Lorsque vous démarrez une version d’évaluation ou un abonnement de demandes de droits d’objet, nous proposons une configuration simple et prêt à l’emploi pour votre première demande qui utilise les paramètres par défaut. Cette configuration peut vous aider à explorer le flux de travail des demandes de droits d’objet et à vous familiariser avec ses fonctionnalités.
+
+La première fois que vous accédez à la page Demandes de droits des personnes concernées, une bannière apparaît en haut avec un bouton **Démarrage**. Lorsqu’un utilisateur sélectionne ce bouton, un volet volant s’affiche avec les informations de cet utilisateur préremplies dans les champs de nom et d’e-mail, et affiche tous les paramètres par défaut.
+
+**Exploration des fonctionnalités de demande avec vos informations** : l’essai d’une demande de droits d’objet basée sur vos propres informations peut vous aider à vous familiariser et à vous familiariser avec le passage à chaque étape du processus. Vous verrez ce qu’est une recherche par défaut et pouvez vous entraîner à affiner les résultats en ajustant les paramètres de recherche. Sous l’onglet **Données collectées** , vous pouvez passer en revue les éléments de la zone d’aperçu à droite et appliquer du texte, appliquer des balises, entrer des notes et marquer des éléments à inclure ou exclure pour le rapport final (pour plus d’informations sur les données de révision [d’une demande de droits d’objet](subject-rights-requests-data-review.md)).
+
+- Vous n’avez pas besoin d’utiliser vos informations pour créer votre première demande. Si vous êtes prêt à démarrer une demande pour un sujet de données, remplacez simplement votre nom et votre adresse e-mail par les informations de la personne concernée.
+
+Pour accepter tous les paramètres et créer la demande, sélectionnez **Créer**. Le volet se ferme et vous voyez votre nouvelle demande répertoriée dans votre page **Demandes de droits** d’objet. Pour modifier l’un des paramètres par défaut avant de créer la demande, sélectionnez **Modifier les détails** de la demande, ce qui vous place dans l’Assistant [de création de la demande de droits d’objet](#use-the-subject-rights-request-creation-wizard).
+
+> [!NOTE]
+> Toutes les demandes que vous créez sont comptabilisées dans votre allocation d’abonnement payant ou d’évaluation, quelles que soient les informations de la personne concernée utilisées pour la demande. La période de conservation des données standard de 30 jours s’applique après la fermeture de la demande. Découvrez comment modifier [les périodes de rétention pour les demandes de droits d’objet](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>Utiliser l’Assistant de création de demande de droits d’objet
 
@@ -94,7 +109,7 @@ Entrez des valeurs dans les champs de texte pour les noms, surnoms, adresses e-m
 
 Sélectionnez le bouton **Ajouter une condition** pour choisir parmi une plage de conditions pour cibler davantage votre recherche, notamment le nom de l’élément, les noms d’expéditeur et de destinataire, le type de données personnelles, et si l’élément a été partagé en externe à l’extérieur de votre organisation. Les champs de texte prennent en charge plusieurs entrées séparées par un point-virgule. Lorsque vous avez terminé, sélectionnez **Suivant** pour enregistrer vos paramètres de recherche et la progression vers le paramètre de type de requête.
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 Une fois que vous avez créé votre demande, elle apparaît dans la page de votre demande de droits d’objet. Pour en savoir plus sur la procédure de révision, consultez [Vérifier les données et collaborer sur les demandes](subject-rights-requests-data-review.md).
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données de demande de droits d’objet collectées par Microsoft Priva et collaborer à la réalisation de la demande.
-ms.openlocfilehash: f417ebe6129f877c273fc2613a44e6b4a21f0be0
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3a1211d391ee196ad431fe19ab9134386c9803a4
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930635"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059758"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -33,12 +33,35 @@ Pour afficher les résultats initiaux de votre recherche, accédez à la zone Pr
 
 Sélectionnez votre demande dans la liste pour afficher les détails de la demande. Ici, vous pouvez en savoir plus sur les propriétés de la demande, les résultats de la recherche et l’état de la demande. Cette page deviendra votre hub pour travailler et collaborer sur la gestion des fichiers trouvés, la création de rapports et d’exportations et la réalisation de la demande.
 
-Les vignettes de la page détails de la demande sont les suivantes :
+L’onglet **Vue d’ensemble** de la page détails de votre demande fournit des détails sur la demande, un indicateur de progression montrant votre étape actuelle et des informations clés sur les données trouvées. Les vignettes de cette page sont les suivantes :
 
-- **Détails** : détails essentiels sur la demande, y compris sa date d’échéance et de demande, sa description et le règlement relatif à la confidentialité.
-- **Progression** : chronologie indiquant les étapes terminées et toutes les tâches qui restent à terminer.
-- Statistiques sur votre phase de progression actuelle. Cette vignette peut afficher des informations telles qu’un résumé de l’estimation des données, le nombre d’éléments trouvés dans votre recherche et leurs emplacements dans Microsoft 365, ou l’état de vos exportations.
-- **Éléments prioritaires à examiner** : cette vignette affiche des informations sur les éléments importants que Priva a détectés pour vous. Par exemple, cela peut inclure des informations confidentielles portant déjà une étiquette de confidentialité Microsoft, ou des éléments contenant des données sur plusieurs personnes qui peuvent nécessiter une réaction. Cela permet aux administrateurs de savoir par où commencer leur révision. Les éléments de priorité se trouvent sous Données collectées en filtrant par la colonne « Types de priorité ».
+##### <a name="details"></a>Détails
+
+La carte **Détails affiche des** informations de base pour vous orienter vers la demande, telles que l’échéance, la date de création, la description et la réglementation en matière de confidentialité liées à la demande.
+
+##### <a name="progress"></a>Progression
+
+La carte **progression** répertorie chaque étape du processus : Estimation des données, Récupération des données, Examiner les données, Générer des rapports et Fermer la demande. Un cercle bleu rempli en regard de l’étape indique l’étape sur laquelle vous êtes actuellement. Une coche dans le cercle bleu signifie que l’étape est terminée, et le cercle non rempli signifie que l’étape n’a pas encore démarré.
+
+##### <a name="total-number-of-items-found"></a>Nombre total d’éléments trouvés
+
+Statistiques sur votre phase de progression actuelle. Cette vignette peut afficher des informations telles qu’un résumé de l’estimation des données, le nombre d’éléments trouvés dans votre recherche et leurs emplacements dans Microsoft 365, ou l’état de vos exportations.
+
+##### <a name="priority-items-to-review"></a>Éléments de priorité à examiner
+
+La vignette **Éléments de priorité à examiner** affiche les éléments que vous souhaiterez peut-être hiérarchiser au démarrage de votre révision. La vignette affiche un nombre d’éléments appartenant aux catégories suivantes :
+- **Confidentiel** : il s’agit d’éléments auxquels une [étiquette de confidentialité Microsoft](/microsoft-365/compliance/sensitivity-labels) est appliquée. Par exemple, un document Word avec une étiquette « Hautement confidentiel ». 
+- **Données multi-personnes** : ces éléments contiennent les données personnelles de plusieurs personnes. Si vous souhaitez inclure ces éléments dans le package de données final, vous devez rétablir les données non pertinentes dans les fichiers. Consultez [l’étape 3 : Passez en revue les données](#step-3-review-data) ci-dessous pour plus d’informations. Notez que pour que Priva identifie les éléments contenant des données multi-personnes, votre organisation doit configurer la [correspondance des données pour les demandes de droits d’objet](subject-rights-requests-data-match.md).
+
+**Comment localiser vos éléments prioritaires :**
+
+Tout d’abord, vérifiez que vous avez activé votre vue de ces éléments dans votre table d’éléments **collectées** par les données en suivant les étapes ci-dessous :
+
+- Sous l’onglet **Données collectées** , sélectionnez **Personnaliser les colonnes** en haut de la liste des éléments.
+- Dans le volet volant **Modifier les colonnes** , placez une vérification en regard des **types De priorité**.
+- Sélectionnez **Appliquer**. Votre liste d’éléments aura désormais une colonne **de types De priorité** .
+
+Vous pouvez maintenant identifier les éléments de priorité et les trouver en triant la colonne **de type Priority** pour regrouper des types similaires.
 
 ### <a name="understand-progress-stages"></a>Comprendre les étapes de progression
 
@@ -147,7 +170,7 @@ Vous pouvez également utiliser l’option **Partager** en haut à droite d’un
 
 Une fois que vous avez effectué toutes les actions nécessaires pour résoudre votre demande de droits d’objet, sélectionnez **Fermer la demande**. Cela crée le rapport final, qui se trouve sous **l’onglet Rapports**. La saisie semi-automatique peut prendre un certain temps en fonction du nombre de fichiers dans la demande.
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 Pour en savoir plus sur l’utilisation des rapports et l’exécution des demandes de droits des personnes concernées, consultez [Générer des rapports et répondre à une demande de droits de sujet](subject-rights-requests-reports.md).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale

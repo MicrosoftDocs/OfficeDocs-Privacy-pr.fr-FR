@@ -17,24 +17,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Essayez les solutions Microsoft Priva Privacy Risk Management et Subject Rights Requests avec un essai gratuit.
-ms.openlocfilehash: 1557c95bb347454c69434df9519fafd172c9e7a9
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3eea29e994bf48abce470ee1694414c32b7be57f
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930535"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65214217"
 ---
 # <a name="learn-about-the-free-priva-trial"></a>En savoir plus sur l’évaluation gratuite de Priva
 
-Pour commencer à utiliser [Microsoft Priva](priva-overview.md) et découvrir comment il peut aider votre organisation à améliorer votre posture de confidentialité, vous pouvez essayer la version d’évaluation gratuite de Priva.
+Pour commencer à utiliser [Microsoft Priva](priva-overview.md) et découvrir comment il peut aider votre organisation à améliorer votre posture de confidentialité, profitez de la version d’évaluation gratuite de Priva.
 
-Priva propose deux solutions: une qui permet à votre organisation [d’identifier et de gérer les risques potentiels en matière de confidentialité](risk-management.md) dans les données personnelles que vous stockez dans Microsoft 365, et une qui vous aide à gérer [les demandes de droits d’objet](subject-rights-requests.md) à grande échelle. L’essai priva est le moyen le plus simple de tester les fonctionnalités des deux solutions. La configuration ne prend que quelques clics, et une fois l’installation terminée, vous aurez pleinement recours à toutes les fonctionnalités de Priva pendant 90 jours.
+Priva propose deux solutions. [La gestion des risques](risk-management.md) liés à la confidentialité permet à votre organisation d’identifier et de gérer les risques de confidentialité potentiels dans les données personnelles que vous stockez dans Microsoft 365. [Les demandes de droits d’objet](subject-rights-requests.md) fournissent une automatisation et vous aident à gérer les demandes à grande échelle. L’essai priva est le moyen le plus simple de tester les fonctionnalités des deux solutions. Le programme d’installation est simple et une fois terminé, vous aurez pleinement recours à toutes les fonctionnalités de Priva pendant 90 jours.
 
 Pour obtenir un guide de démarrage rapide pour tirer le meilleur parti de votre version d’évaluation de 90 jours, consultez le [Playbook d’essai Microsoft Priva](priva-trial-playbook.md).
 
 ## <a name="terms-and-conditions"></a>Conditions générales
 
-Consultez les [conditions générales](/microsoft-365/compliance/terms-conditions) des essais Microsoft 365.
+Consultez les [conditions générales](/legal/microsoft-365/microsoft-365-trial) pour les versions d’évaluation de Microsoft 365.
 
 ## <a name="set-up-a-trial"></a>Configurer une version d’évaluation
 
@@ -43,23 +43,30 @@ Vous pouvez vous inscrire à une version d’évaluation dans le [portail de con
 > [!NOTE]
 > Vérifiez vos paramètres Centre d'administration Microsoft 365 pour faciliter l’inscription à la version d’essai. Dans le centre d'administration de Microsoft 365, accédez à la page **Paramètres > Paramètres de l'organisation > Services**, puis sélectionnez **Apps et services appartenant à l'utilisateur**. Cochez ensuite la case pour que les utilisateurs démarrent des essais au nom de votre organisation. Une fois l’installation de Priva terminée, ce qui prend environ deux minutes, vous pouvez revenir en arrière et décocher la case pour désactiver ce paramètre. Vous pouvez également démarrer la version d’évaluation sans ajuster les paramètres de votre organisation en accédant à la page **Facturation > Acheter des services** et en recherchant Priva.
 
-## <a name="licensing"></a>Licences
+## <a name="eligibility-and-licensing"></a>Éligibilité et licence
 
 Les organisations disposant de licences E3 et E5 dans les licences Microsoft 365 et E1, E3 et E5 dans Office 365 sont éligibles pour démarrer la version d’évaluation priva.
 
-Votre licence d’évaluation dure 90 jours, pendant lesquels vous avez un accès illimité aux fonctionnalités de gestion des risques et jusqu’à 50 demandes de droits d’objet. Si vous avez déjà acheté un abonnement à un module, vous pouvez démarrer une version d’évaluation de l’autre module.
+Vos licences d’évaluation sont automatiquement appliquées à votre organisation et durent 90 jours. Pendant ce temps, vous aurez un accès illimité aux fonctionnalités de gestion des risques et à jusqu’à 50 demandes de droits d’objet. Si vous avez déjà acheté un abonnement pour un produit, vous pouvez commencer une version d’évaluation de l’autre.
 
-## <a name="permissions"></a>Autorisations
+## <a name="required-roles-for-starting-the-trial"></a>Rôles requis pour démarrer la version d’évaluation
 
-Pour démarrer ou mettre fin à la version d’évaluation, vous devez être membre du rôle Administrateur général dans Azure Active Directory, administrateur de gestion de la confidentialité ou administrateur de demande de droits d’auteur dans Priva. Pour plus d’informations, consultez [À propos des rôles d’administrateur](/microsoft-365/admin/add-users/about-admin-roles) et [définir des autorisations utilisateur et attribuer des rôles dans Priva](priva-permissions.md).
+Les utilisateurs doivent détenir l’un des rôles suivants pour s’inscrire ou mettre fin à une version d’évaluation :
+
+- Administrateur de facturation
+- Administrateur général
+- Administrateur de la gestion de la confidentialité
+- Administrateur de la demande de droits d’objet
+
+Obtenez des détails sur les rôles dans [À propos des rôles d’administrateur](/microsoft-365/admin/add-users/about-admin-roles). En savoir plus sur les rôles Priva dans [Définir les autorisations utilisateur et attribuer des rôles dans Priva](priva-permissions.md).
 
 ## <a name="buy-a-priva-subscription"></a>Acheter un abonnement Priva
 
 Pendant ou après votre essai, vous avez la possibilité d’acheter les solutions Gestion des risques de confidentialité et Demandes de droits des personnes concernées, individuellement ou ensemble. Pour plus d’informations, voir [Démarrage avec Priva](priva-setup.md). Vos données de la période d’essai seront conservées pendant 30 jours.
 
-## <a name="learn-more-about-compliance-trials"></a>En savoir plus sur les essais de conformité
+## <a name="use-a-trial-to-explore-microsoft-purview-solutions"></a>Utiliser une version d’évaluation pour explorer les solutions Microsoft Purview
 
-Pour en savoir plus sur les essais gratuits pour d’autres solutions de conformité pour Microsoft 365, consultez [À propos de l’essai gratuit pour la conformité Microsoft 365](/microsoft-365/compliance/compliance-easy-trials).
+Microsoft Purview est un ensemble complet de solutions pour vous aider à comprendre, régir et protéger l’ensemble de votre patrimoine de données. Explorez toutes les fonctionnalités avancées de chaque solution en démarrant un [essai gratuit des solutions Purview](/microsoft-365/compliance/compliance-easy-trials).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
