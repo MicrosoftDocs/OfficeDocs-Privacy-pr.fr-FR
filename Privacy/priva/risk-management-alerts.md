@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment gérer les alertes et les problèmes déclenchés par les correspondances de stratégie dans Microsoft Priva Privacy Risk Management.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014384"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268327"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Examiner et corriger les alertes dans gestion des risques liés à la confidentialité
 
@@ -71,9 +71,9 @@ Pour passer en revue le contenu associé à un problème, choisissez l’action 
 
 - **Notifier le propriétaire** : informez le propriétaire du contenu du problème détecté.
 
-- **Appliquer une étiquette de rétention** : ajoutez une étiquette sur la conservation des données pour cet élément. [En savoir plus sur les étiquettes de rétention](/microsoft-365/compliance/create-apply-retention-labels).
+- **Appliquer une étiquette de rétention** : ajoutez une étiquette pour cet élément qui peut la conserver, la supprimer ou la conserver, puis la supprimer après une heure spécifiée. [En savoir plus sur les étiquettes de rétention](/microsoft-365/compliance/retention).
 
-- **Appliquer une étiquette de confidentialité** : ajoutez une étiquette sur la sensibilité des données de cet élément. [En savoir plus sur les étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels).
+- **Appliquer une étiquette de confidentialité** : ajoutez une étiquette pour cet élément qui identifie sa sensibilité et, éventuellement, ajoutez une protection qui inclut les marquages visuels et le chiffrement. [En savoir plus sur les étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels).
 
 - **Marquer comme non une correspondance** : identifiez un résultat de recherche comme faux positif pour supprimer l’élément de contenu de la considération.
 
