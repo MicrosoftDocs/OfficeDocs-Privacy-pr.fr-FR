@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft Priva aide les organisations à évaluer les données personnelles stockées dans Microsoft 365, à identifier et à corriger les risques de confidentialité, et à gérer les demandes de droits des personnes concernées à grande échelle.
-ms.openlocfilehash: 3de6c7ca4c5420dc0287f7f5e4d235798144f3fe
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+description: Microsoft Priva aide les organisations à évaluer les données personnelles stockées dans Microsoft 365, à identifier et à corriger les risques de confidentialité et à gérer les demandes de droits des personnes concernées à grande échelle.
+ms.openlocfilehash: 35861b36b7d72e3ef0d866aa0e8799d3fa5393ec
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930578"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678231"
 ---
 # <a name="learn-about-microsoft-priva"></a>En savoir plus sur Microsoft Priva
 
@@ -35,9 +35,9 @@ Pour répondre aux exigences réglementaires et renforcer la confiance des clien
 - Comprendre les risques potentiels dans la quantité et le type de données personnelles qu’ils stockent et partagent
 - Traitement efficace et à temps des demandes de personnes concernées ou des demandes de droits d’objet
 
-Microsoft Priva vous aide à relever ces défis afin de pouvoir atteindre vos objectifs de confidentialité. Regardez la vidéo ci-dessous pour découvrir comment Priva aide les organisations à protéger les données personnelles et à créer un espace de travail résilient à la confidentialité :
+Microsoft Priva vous aide à relever ces défis afin d’atteindre vos objectifs en matière de confidentialité. Regardez la vidéo ci-dessous pour découvrir comment Priva aide les organisations à protéger les données personnelles et à créer un espace de travail résilient à la confidentialité :
 
-**Introduction de Priva**
+**présentation Priva**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNgjz]
 
@@ -51,7 +51,7 @@ Priva fournit des fonctionnalités qui vous aident :
 - Permettre aux utilisateurs de gérer efficacement les données et de prendre des mesures pour se conformer à l’évolution des réglementations en matière de confidentialité
 - Gérer les demandes de droits d’objet à grande échelle
 
-Les fonctionnalités de Priva sont disponibles via deux solutions : **Priva Privacy Risk Management**, qui offre une visibilité sur les données et les modèles de stratégie de votre organisation pour réduire les risques; et **Priva Subject Rights Requests**, qui fournit des outils d’automatisation et de flux de travail pour répondre aux demandes de données. Vous pouvez choisir d’acheter un ou les deux modules en fonction des besoins de votre organisation. En savoir plus sur [les solutions Priva](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).  
+les fonctionnalités de Priva sont disponibles via deux solutions : **Gestion des risques de confidentialité Priva**, qui offre une visibilité sur les données et les modèles de stratégie de votre organisation pour réduire les risques; et **Demandes de droits des personnes concernées Priva**, qui fournit des outils d’automatisation et de flux de travail pour répondre aux demandes de données. Vous pouvez choisir d’acheter un ou les deux modules en fonction des besoins de votre organisation. En savoir plus sur [Priva solutions](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).  
 
 ### <a name="find-and-visualize-personal-data"></a>Rechercher et visualiser des données personnelles
 
@@ -63,9 +63,9 @@ Pour en savoir plus, consultez [Rechercher et visualiser des données personnell
 
 ### <a name="manage-privacy-risks-at-scale"></a>Gérer les risques de confidentialité à grande échelle
 
-Les environnements de données complexes peuvent présenter des scénarios potentiellement risqués pour les données personnelles. Priva Privacy Risk Management fournit des outils pour détecter ces risques, établir des stratégies et des processus de correction, et informer directement vos utilisateurs des problèmes et des actions recommandées à prendre. De cette façon, vous pouvez informer et éduquer vos utilisateurs, ainsi que leur permettre de gérer l’atténuation des risques dans les outils qu’ils utilisent chaque jour. Cela peut apporter un changement durable et positif dans les comportements de confidentialité de votre organisation.
+Les environnements de données complexes peuvent présenter des scénarios potentiellement risqués pour les données personnelles. Gestion des risques de confidentialité Priva fournit des outils pour détecter ces risques, établir des stratégies et des processus de correction, et informer directement vos utilisateurs des problèmes et des actions recommandées à entreprendre. De cette façon, vous pouvez informer et éduquer vos utilisateurs, ainsi que leur permettre de gérer l’atténuation des risques dans les outils qu’ils utilisent chaque jour. Cela peut apporter un changement durable et positif dans les comportements de confidentialité de votre organisation.
 
-Priva fournit des modèles intégrés et personnalisables pour établir des stratégies continues adaptées à ces scénarios :
+Priva fournit des modèles intégrés et personnalisables pour établir des stratégies continues adaptées aux scénarios suivants :
 
 - **Données personnelles surexposées** : découvrez les données personnelles ouvertes et sur-privilégiées dans votre organisation et hiérarchisez les efforts de correction pour sécuriser les données. Gérez facilement les droits d’accès à ces données pour protéger la confidentialité et empêcher toute utilisation inappropriée.
 - **Transferts de données** : détectez et gérez le transfert de données personnelles entre les services de votre organisation ou au-delà des frontières nationales ou régionales. Cela peut aider à réduire le risque d’exposition aux données ou de sortir de l’accord avec les réglementations et les lois en matière de confidentialité.
@@ -79,70 +79,39 @@ Pour en savoir plus, consultez [Créer des stratégies dans Gestion des risques 
 
 Certaines réglementations sur la confidentialité dans le monde permettent aux particuliers, également *appelés personnes concernées par les données, d’effectuer des demandes* d’examen ou de gestion des données personnelles sur elles-mêmes collectées par les entreprises. Pour les entreprises qui stockent de grandes quantités d’informations non structurées, la recherche des données pertinentes peut être une tâche formidable.
 
-Priva Subject Rights Requests vous offre la possibilité d’automatiser le traitement des droits des personnes concernées avec un accès facile aux données pertinentes et aux flux de travail personnalisables qui s’intègrent aux processus métier existants. Lorsque vous recherchez des données relatives à une personne, notre solution de demande de droits d’objet collecte automatiquement des données dans l’ensemble de votre environnement Microsoft 365 et vous aide à passer en revue les résultats et à produire des rapports. Vous pouvez collaborer en toute sécurité avec plusieurs personnes de votre organisation pour effectuer les demandes. Vous pouvez également personnaliser vos flux de travail en fonction de vos processus métier avec des modèles intégrés.
+Demandes de droits des personnes concernées Priva vous offre la possibilité d’automatiser le traitement des droits des personnes concernées avec un accès facile aux données pertinentes et aux workflows personnalisables qui s’intègrent aux processus métier existants. Lorsque vous recherchez des données relatives à une personne, notre solution de demande de droits d’objet collecte automatiquement des données dans l’ensemble de votre environnement Microsoft 365 et vous aide à passer en revue les résultats et à produire des rapports. Vous pouvez collaborer en toute sécurité avec plusieurs personnes de votre organisation pour effectuer les demandes. Vous pouvez également personnaliser vos flux de travail en fonction de vos processus métier avec des modèles intégrés.
 
-Pour plus d’informations, consultez [En savoir plus sur les demandes de droits des personnes concernées](subject-rights-requests.md).
+Pour en savoir plus, consultez [En savoir plus sur Demandes de droits des personnes concernées Priva](subject-rights-requests.md).
 
 ### <a name="integrate-with-compliance-manager"></a>Intégrer au Gestionnaire de conformité
 
-Priva peut travailler main dans la main avec [le Gestionnaire de conformité Microsoft Purview](/microsoft-365/compliance/compliance-manager). Le Gestionnaire de conformité offre des modèles de protection des données et d’évaluation de la confidentialité qui correspondent aux réglementations de conformité et aux normes du secteur dans le monde entier. En fonction des évaluations que vous générez avec ces modèles, le Gestionnaire de conformité peut vous aider à comprendre les étapes à suivre pour répondre aux exigences réglementaires de votre organisation. Prendre des mesures dans Priva pour protéger les données personnelles que vous stockez peut contribuer à vos évaluations de la confidentialité dans le Gestionnaire de conformité et contribuer à améliorer votre score de conformité.
+Priva pouvez travailler main dans la main avec [Microsoft Purview Gestionnaire de conformité](/microsoft-365/compliance/compliance-manager). Le Gestionnaire de conformité offre des modèles de protection des données et d’évaluation de la confidentialité qui correspondent aux réglementations de conformité et aux normes du secteur dans le monde entier. En fonction des évaluations que vous générez avec ces modèles, le Gestionnaire de conformité peut vous aider à comprendre les étapes à suivre pour répondre aux exigences réglementaires de votre organisation. La prise de mesures dans Priva pour protéger les données personnelles que vous stockez peut contribuer à vos évaluations de la confidentialité dans le Gestionnaire de conformité et peut aider à améliorer votre score de conformité.
 
 ## <a name="how-and-where-priva-identifies-items-with-personal-data"></a>Comment et où Priva identifie les éléments avec des données personnelles
 
 Les données personnelles sont généralement des informations personnelles liées à une personne vivante qui peuvent être utilisées pour identifier cette personne. Il peut s’agir d’un type de données qui peut identifier directement la personne, par exemple un nom, un numéro de passeport, un numéro de sécurité sociale, etc., ou des combinaisons de différents types de données qui peuvent être utilisées pour identifier la personne. La définition des données personnelles ou des informations personnelles peut varier en vertu de la loi applicable. Veillez donc à bien comprendre les types de données pour lesquels vous avez des obligations légales.
 
-Priva utilise les fonctionnalités fondamentales de Microsoft 365 pour vous aider à identifier ces types de données personnelles en fonction de vos paramètres, via l’utilisation de [types d’informations sensibles (SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Pour passer en revue la liste de tous les types d’informations sensibles définis, consultez [définitions d’entité de type Informations sensibles](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Les organisations capables de créer des types d’informations sensibles personnalisés peuvent également tirer parti de celles avec Priva.
+Priva utilise les fonctionnalités fondamentales de Microsoft 365 pour vous aider à identifier ces types de données personnelles en fonction de vos paramètres, via l’utilisation de [types d’informations sensibles (SIT).](/microsoft-365/compliance/sensitive-information-type-learn-about) Pour passer en revue la liste de tous les types d’informations sensibles définis, consultez [définitions d’entité de type Informations sensibles](/microsoft-365/compliance/sensitive-information-type-entity-definitions). Les organisations capables de créer des types d’informations sensibles personnalisés peuvent également tirer parti de celles qui ont Priva.
 
 Priva évalue les données de votre organisation stockées dans les services Microsoft 365 suivants au sein de votre locataire Microsoft 365 :
 
-- Exchange Online
+- Exchange Online
 - SharePoint Online
 - OneDrive Entreprise
 - Microsoft Teams
 
 Priva évalue uniquement les données dans l’environnement Microsoft 365 de votre organisation. Il n’accède pas aux données personnelles qui ne font pas partie de l’environnement Microsoft 365 de l’organisation. Par exemple, il n’accède pas au compte Microsoft 365 personnel d’un utilisateur.
 
-## <a name="priva-availability"></a>Disponibilité priva
-
-Microsoft Priva s’est déployé dans le monde entier. Selon l’endroit où une organisation a approvisionné son locataire, Priva peut ne pas être entièrement disponible. La liste ci-dessous décrit la disponibilité Priva en fonction de l’emplacement où une organisation a approvisionné son locataire. Si Priva n’est pas disponible pour vous, Priva **Privacy Risk Management** et **Priva Subject Rights Requests** n’apparaîtront pas dans le volet de navigation gauche du Centre de conformité Microsoft 365. Nous continuerons à mettre à jour cette liste à mesure que Priva sera accessible à tous les emplacements géographiques.
-
-Visitez [Microsoft 365 multigéographique](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) pour en savoir plus sur l’approvisionnement de données dans des régions géographiques et des pays.
-
-**Disponible**
-
-- Australie
-- Brésil
-- Canada
-- France
-- Allemagne
-- Inde
-- Japon
-- Royaume-Uni
-- États-Unis (Remarque : non disponible pour les clients Community du gouvernement des États-Unis (Cloud de la communauté du secteur public) modérés, Cloud de la communauté du secteur public élevés ou du ministère de la Défense (DoD).)
-
-**N’est pas encore disponible.**
-
-- Norvège
-- Pologne
-- Qatar
-- Singapour
-- Afrique du Sud
-- Corée du Sud
-- Espagne
-- Suède
-- Suisse
-- Émirats arabes unis
-
 ## <a name="more-resources"></a>Plus de ressources
 
-Regardez une vidéo de 13 minutes [expliquant les fonctionnalités de Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics sur YouTube.
+Regardez une vidéo de 13 minutes [expliquant Microsoft Priva fonctionnalités](https://www.youtube.com/watch?v=6OLky1biPIQ) de Microsoft Mechanics sur YouTube.
 
 Pour plus d’informations sur la façon dont Microsoft aborde la confidentialité et protège vos données, visitez [Microsoft Privacy](/privacy).
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 Pour commencer à utiliser Priva, consultez [Démarrage avec Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva exclusion de responsabilité légale](priva-disclaimer.md)
