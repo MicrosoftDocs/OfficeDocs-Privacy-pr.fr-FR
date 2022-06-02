@@ -1,5 +1,5 @@
 ---
-title: En savoir plus sur les demandes de droits des personnes concernées
+title: En savoir plus sur Demandes de droits des personnes concernées Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,48 +15,48 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: La solution Demandes de droits d’objet de Microsoft Priva vous aide à trouver des données personnelles et à collaborer sur la révision du contenu et la création de rapports.
-ms.openlocfilehash: 37ee3fc795559d216a7a8cd620cff2c3ca689c2b
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+description: La solution Demandes de droits des personnes concernées dans Microsoft Priva vous aide à trouver des données personnelles et à collaborer sur la révision du contenu et la création de rapports.
+ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930625"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851679"
 ---
-# <a name="learn-about-priva-subject-rights-requests"></a>En savoir plus sur les demandes de droits des personnes concernées
+# <a name="learn-about-priva-subject-rights-requests"></a>En savoir plus sur Demandes de droits des personnes concernées Priva
 
-Conformément à certaines réglementations en matière de confidentialité dans le monde entier, les personnes (ou *les personnes concernées*) peuvent faire des demandes pour examiner ou gérer les données personnelles sur elles-mêmes collectées par les entreprises. Ces demandes sont parfois également appelées demandes d’objet de données (DSR), demandes d’accès de la personne aux données (DSAR) ou demandes de droits du consommateur. Pour les entreprises qui stockent de grandes quantités d’informations, trouver les données pertinentes peut être une tâche formidable.
+Plusieurs réglementations sur la confidentialité dans le monde accordent aux particuliers ou aux *personnes concernées* le droit d’effectuer des demandes d’examen ou de gestion des données personnelles collectées par les entreprises à leur sujet. Ces demandes de droits d’objet sont également appelées demandes de personnes concernées (DSR), demandes d’accès aux personnes concernées (DSAR) ou demandes de droits des consommateurs. Pour les entreprises qui stockent de grandes quantités d’informations, trouver les données pertinentes peut être une tâche formidable. Le traitement des demandes, pour la plupart des organisations, est un processus très manuel et fastidieux.
 
-Microsoft Priva peut vous aider à gérer ces demandes par le biais de la solution Demandes de droits d’objet. Il fournit des fonctionnalités de flux de travail, d’automatisation et de collaboration pour vous aider à rechercher des données de sujet, à examiner vos résultats, à collecter les fichiers appropriés et à produire des rapports.
+La solution Demandes de droits des personnes concernées Microsoft Priva est conçue pour réduire la complexité et la durée de réponse aux demandes des personnes concernées. Nous fournissons des automatisations, des insights et des flux de travail pour aider les organisations à répondre aux demandes de manière plus fiable et efficace.
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Comment Priva prend en charge le traitement des demandes de droits d’objet
 
-Le cycle de demande de droits d’objet commence par la demande d’un individu à votre organisation. Une fois reçus, vous pouvez utiliser les fonctionnalités de Priva pour collecter ces données, collaborer, examiner et créer des rapports. Vous pouvez ensuite informer la personne concernée de vos conclusions et prendre toutes les autres actions nécessaires en dehors de Priva pour répondre à la demande, comme la suppression de données. Pour faciliter la gestion et l’automatisation de vos flux de travail en cours de route, vous pouvez également utiliser des modèles de Power Automate intégrés.
+L’automatisation et les outils de flux de travail robustes sont tissés dans l’ensemble de la solution Demandes de droits de l’objet. Une fois que vous avez créé une demande dans le système, nous effectuons le travail d’identification et de collecte de données et fournissons des outils pour faciliter l’analyse collaborative.
 
-### <a name="create-requests-and-collect-data"></a>Créer des demandes et collecter des données
+### <a name="immediate-kickoff-of-data-evaluation"></a>Lancement immédiat de l’évaluation des données
 
-Priva fournit des options de recherche puissantes pour rechercher des données relatives à votre sujet de données dans le contenu que votre organisation stocke dans Microsoft 365. Il vous aide également à hiérarchiser les éléments à examiner dans les données que vous collectez pour ces demandes. Priva est au courant des étiquettes de confidentialité de Microsoft Purview Information Protection, qui indiquent du contenu potentiellement confidentiel et qui peut nécessiter une révision spéciale, et il signale les éléments avec ces étiquettes. En outre, Priva peut détecter et marquer des éléments qui peuvent contenir les données de plusieurs personnes, où vous devrez peut-être répéter le contenu avant de le fournir à la personne concernée.
+Priva utilise les fonctionnalités fondamentales de Microsoft 365 pour identifier les types de données personnelles dans les données de votre organisation. Dès que vous créez une demande, la solution fonctionne immédiatement en identifiant les fichiers, e-mails, sites et conversations qui contiennent les données personnelles de la personne concernée. Nous allons récupérer les éléments de contenu dans quelques heures, en fonction de la quantité de données. Si nous prévoyons de trouver un volume élevé, nous vous donnerons la possibilité d’affiner vos paramètres de recherche avant de collecter les données.
 
-Pour plus d’informations, consultez [Créer une demande de droits d’objet](subject-rights-requests-create.md).
+### <a name="help-in-prioritizing-content-to-review"></a>Aide sur la hiérarchisation du contenu à examiner
 
-### <a name="data-matching"></a>Correspondance des données
+Vous devrez peut-être examiner une grande quantité de données collectées pour la demande de la personne concernée. Nous fournissons des insights sur l’écran des détails de chaque demande et suggérons les éléments à hiérarchiser pour la révision. Les éléments prioritaires incluent les fichiers qui peuvent être confidentiels ou les éléments contenant plusieurs données personnelles d’une personne. Ces éléments mettent en surbrillance le contenu qui peut nécessiter une réaction ou d’autres considérations de gestion spéciales.
 
-Avec la correspondance des données, vous pouvez permettre à Priva d’identifier les sujets de données en fonction des valeurs de données exactes fournies. Le chargement d’informations de ce type peut aider à augmenter la précision de localisation du contenu, et simplifie la nécessité de fournir des champs manuellement lors de la création de la demande de droits d’objet. Il fournit également le contexte dans les demandes de droits d’objet et pour la vignette Vue d’ensemble qui présente vos éléments avec le plus de contenu de sujet de données. Pour plus d’informations, consultez [La correspondance des données pour les demandes de droits des personnes concernées](subject-rights-requests-data-match.md).
+### <a name="built-in-teams-collaboration-and-editing-tools-to-facilitate-data-review"></a>Outils intégrés de collaboration et de modification Teams pour faciliter la révision des données
 
-### <a name="review-data-and-collaborate-on-requests"></a>Examiner les données et collaborer sur les demandes
+Dès que vous créez la demande, un canal Teams dédié est automatiquement configuré pour cette demande. L’ajout de parties prenantes pertinentes en tant que collaborateurs de demande les invite à participer à la conversation pour vous aider à analyser et à prendre des décisions sur les éléments récupérés. À l’aide d’outils de rédaction intégrés dans la requête, les collaborateurs peuvent marquer des fichiers dans un écran de révision en regard de la liste d’éléments. Si certains contenus nécessitent une action de suivi supplémentaire, vous pouvez appliquer des balises définies par votre organisation pour vous aider à identifier les éléments et à effectuer l’action ultérieurement.
 
-Une fois les données collectées, vous pouvez évaluer les résultats, sélectionner les éléments les plus pertinents à inclure dans vos rapports et exportations, et effectuer les actions nécessaires. Cela peut être effectué en collaboration entre les membres de votre équipe au sein du pipeline Demandes de droits d’objet.
+### <a name="automatically-generated-reports"></a>Rapports générés automatiquement
 
-Pour plus d’informations, consultez [Vérifier les données d’une demande de droits d’objet](subject-rights-requests-data-review.md).
+Une fois que vous avez terminé d’examiner les données et de décider ce qu’il faut inclure pour la demande, nous générons des rapports pour vous. Les rapports incluent tous les packages de données pertinents que vous allez envoyer à la personne concernée, les journaux d’audit et un résumé des fichiers étiquetés afin de pouvoir effectuer les actions de suivi nécessaires.
 
-### <a name="fulfill-requests"></a>Répondre aux demandes
+### <a name="solutions-that-extend-and-integrate-with-your-subject-request-strategy"></a>Solutions qui s’étendent et s’intègrent à votre stratégie de demande d’objet
 
-Priva vous fournit des outils pour créer des rapports et collecter des fichiers à renvoyer à vos sujets de données. Pour en savoir plus, consultez [Générer des rapports et répondre à une demande de droits d’objet](subject-rights-requests-reports.md).
+Étendez les fonctionnalités d’automatisation à l’aide de l’un des modèles de Power Automate intégrés pour configurer des flux pour des tâches courantes, telles que la définition de rappels de calendrier ou la création d’enregistrements de vos demandes dans ServiceNow. Vous pouvez également utiliser l’API Microsoft 365 Demande de droits d’objet pour introduire l’automatisation dans votre stratégie de droits de sujet existante.
 
-### <a name="automate-tasks"></a>Automatiser les tâches
+## <a name="getting-started"></a>Prise en main
 
-Vous pouvez créer et automatiser des processus de flux de travail dans Priva avec des modèles de Power Automate intégrés. Ces modèles prennent en charge des tâches telles que le classement des tickets dans ServiceNow ou la configuration d’invitations au calendrier. Pour plus d’informations, consultez [Automatiser les tâches dans les demandes de droits d’objet](subject-rights-requests-automate.md).
+Visitez [Créer une demande de droits d’objet](subject-rights-requests-create.md) pour savoir comment être indiqué avec votre première demande.
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva exclusion de responsabilité légale](priva-disclaimer.md)

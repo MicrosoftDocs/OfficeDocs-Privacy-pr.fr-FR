@@ -1,5 +1,5 @@
 ---
-title: Envoyer des notifications utilisateur dans Gestion des risques liés à la confidentialité
+title: Notifications utilisateur dans Gestion des risques liés à la confidentialité
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Découvrez comment informer les propriétaires de contenu des correspondances de stratégie trouvées par Microsoft Priva Privacy Risk Management et comment ils peuvent utiliser ces notifications par e-mail pour résoudre les problèmes.
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Découvrez comment informer les propriétaires de contenu des correspondances de stratégie trouvées par Gestion des risques de confidentialité Microsoft Priva et comment ils peuvent utiliser ces notifications par e-mail pour corriger les problèmes.
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014374"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851649"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>Notifications utilisateur dans Gestion des risques liés à la confidentialité
 
@@ -77,4 +77,4 @@ Vos paramètres de notification sont désormais en vigueur pour cette stratégie
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva exclusion de responsabilité légale](priva-disclaimer.md)
