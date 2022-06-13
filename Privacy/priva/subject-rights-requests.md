@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: La solution Demandes de droits des personnes concernées dans Microsoft Priva vous aide à trouver des données personnelles et à collaborer sur la révision du contenu et la création de rapports.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851679"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046708"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>En savoir plus sur Demandes de droits des personnes concernées Priva
 
@@ -53,9 +53,9 @@ Une fois que vous avez terminé d’examiner les données et de décider ce qu�
 
 Étendez les fonctionnalités d’automatisation à l’aide de l’un des modèles de Power Automate intégrés pour configurer des flux pour des tâches courantes, telles que la définition de rappels de calendrier ou la création d’enregistrements de vos demandes dans ServiceNow. Vous pouvez également utiliser l’API Microsoft 365 Demande de droits d’objet pour introduire l’automatisation dans votre stratégie de droits de sujet existante.
 
-## <a name="getting-started"></a>Prise en main
+## <a name="next-steps"></a>Étapes suivantes
 
-Visitez [Créer une demande de droits d’objet](subject-rights-requests-create.md) pour savoir comment être indiqué avec votre première demande.
+[Visitez la page Comprendre le flux de travail et les détails de la demande](subject-rights-requests-workflow.md) pour en savoir plus sur les étapes de création et de traitement d’une demande de droits d’objet. Pour commencer à utiliser votre première demande, consultez [Créer une demande de droits d’objet](subject-rights-requests-create.md).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 

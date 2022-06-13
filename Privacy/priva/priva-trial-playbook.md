@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la Microsoft Priva version d’évaluation, consultez les actions recommandées à prendre pendant votre période d’essai et consultez les liens vers une documentation importante.
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851689"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046588"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook d'essai : Microsoft Priva
 
@@ -138,9 +138,9 @@ Conformément à certaines réglementations en matière de confidentialité dans
 
 Les administrateurs de gestion des droits de l’objet peuvent ouvrir de nouvelles demandes de droits d’objet via la page principale demandes de droits d’objet. Un Assistant vous guide tout au long du processus de recherche de données personnelles sur un sujet de données et de démarrage du processus de traitement de leur demande.
 
-1. [Utiliser l’Assistant Demande de droits d’objet](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) : créer une demande
-1. [Définir les paramètres de recherche](subject-rights-requests-create.md#define-search-settings)
-1. [Affiner les paramètres de recherche](subject-rights-requests-create.md#refine-your-search)
+1. [Utiliser l’Assistant Demande de droits d’objet](subject-rights-requests-create.md#create-a-request) : créer une demande
+1. [Définir les paramètres de recherche](subject-rights-requests-create.md#defining-search-settings)
+1. [Affiner les paramètres de recherche](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Gérer la correspondance des données pour les demandes de droits d’objet
 
@@ -154,10 +154,10 @@ Avec la correspondance des données, les organisations peuvent permettre à Priv
 
 Après avoir créé une demande de droits d’objet, Priva utiliserez vos entrées sur votre sujet pour rechercher des correspondances dans l’environnement Microsoft 365 de votre organisation. Une fois que ces données ont été compilées, vous pouvez examiner les résultats, faire des choix sur ce qu’il faut inclure et répéter des informations si nécessaire.
 
-1. [Examiner les détails de la demande et surveiller la progression](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [Afficher et modifier des requêtes de recherche](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (facultatif)
-1. [Passer en revue les données](subject-rights-requests-data-review.md#step-3-review-data)
-1. [Fermer la demande](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [Examiner les détails de la demande et surveiller la progression](subject-rights-requests-workflow.md)
+1. [Afficher et modifier des requêtes de recherche](subject-rights-requests-create.md#defining-search-settings)  (facultatif)
+1. [Passer en revue les données](subject-rights-requests-data-review.md)
+1. [Fermer la demande](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>Gérer les rapports des demandes de droits d’objet et traiter les demandes
 

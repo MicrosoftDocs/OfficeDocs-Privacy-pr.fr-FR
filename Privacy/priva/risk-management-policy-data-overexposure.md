@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Découvrez comment créer une stratégie de surexposition des données dans Microsoft Priva Privacy Risk Management pour identifier et sécuriser les données personnelles qui peuvent être trop accessibles.
-ms.openlocfilehash: a0c87a84a78206862d9a79e1c16d17a90de5f040
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Découvrez comment créer une stratégie de surexposition des données dans Gestion des risques de confidentialité Microsoft Priva identifier et sécuriser les données personnelles qui peuvent être trop accessibles.
+ms.openlocfilehash: 6efb92ed5d1b79b0fc69beebd5788062b5687269
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014504"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046678"
 ---
 # <a name="data-overexposure-policies-in-privacy-risk-management"></a>Stratégies de surexposition des données dans la gestion des risques liés à la confidentialité
 
@@ -39,7 +39,7 @@ La stratégie de surexposition des données par défaut évalue les données per
 
 Procédez comme suit pour créer une stratégie de transfert de données par défaut :
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation de gauche et sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Gestion des risques de confidentialité Priva dans le volet de navigation de gauche et sélectionnez **Stratégies**.
 
 2. Sélectionnez **Créer une stratégie** dans le coin supérieur droit de l’écran, qui affiche un volet volant répertoriant toutes les options de création de stratégie.
 
@@ -75,7 +75,7 @@ L’option de stratégie personnalisée est un processus guidé permettant de cr
 
 Effectuez les étapes ci-dessous pour créer une stratégie de surexposition des données :
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation de gauche et sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Gestion des risques de confidentialité Priva dans le volet de navigation de gauche et sélectionnez **Stratégies**.
 
 2. Sélectionnez le bouton **Créer une stratégie** en haut à droite de votre écran, qui affiche un volet volant répertoriant toutes les options de création de stratégie.
 
@@ -121,6 +121,6 @@ Effectuez les étapes ci-dessous pour créer une stratégie de surexposition des
 
 Après quelques secondes, vous verrez une confirmation que la stratégie a été créée. Sélectionnez **Terminé** dans la page de confirmation, qui vous amène à la page **Stratégies** où vous verrez la nouvelle stratégie en haut du tableau.
 
-## <a name="next-steps"></a>Prochaines étapes
+## <a name="next-steps"></a>Étapes suivantes
 
 Pour plus d’informations sur la modification et la gestion des stratégies, consultez [les stratégies de gestion des risques de confidentialité](risk-management-policies.md) .

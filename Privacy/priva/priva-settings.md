@@ -17,50 +17,52 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez les options de paramètres globaux pour Microsoft Priva.
-ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
-ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
+ms.openlocfilehash: a6f2fe55600d6cc3018c9d15f05a6d9e459a1486
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63765487"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046598"
 ---
 # <a name="configure-priva-settings"></a>Configurer les paramètres Priva
 
-Vous pouvez gérer les paramètres de Microsoft Priva en sélectionnant l’icône d’engrenage dans le coin supérieur droit de l’écran. Les options ci-après vous permettent de définir des préférences de haut niveau et de personnaliser les propriétés clés. Cette page fournit une vue d’ensemble des principales Paramètres catégories.
+Vous pouvez gérer les paramètres de Microsoft Priva en sélectionnant l’icône d’engrenage dans le coin supérieur droit de l’écran. Les options disponibles ici vous permettent de définir des préférences générales et de personnaliser les propriétés de clé. Cette page fournit une vue d’ensemble des principales catégories de Paramètres.
 
 ## <a name="anonymization"></a>Anonymisation
 
-Vous pouvez afficher des versions rendues anonymes des noms d’utilisateur dans les fonctionnalités de gestion des risques de confidentialité pour les utilisateurs de certains rôles. La fonctionnalité d’anonymisation remplace les noms complets identifiables par une étiquette générique afin de masquer les identités de vos utilisateurs lors de l’examen des données sensibles. Cette option ne s’applique pas à la solution Demandes de droits d’objet.
+Vous pouvez afficher des versions anonymes des noms d’utilisateur dans les fonctionnalités de gestion des risques de confidentialité pour les utilisateurs de certains rôles. La fonctionnalité d’anonymisation remplace les noms d’affichage identifiables par une étiquette générique afin de masquer les identités de vos utilisateurs tout en examinant les données sensibles. Cette option ne s’applique pas à la solution Demandes de droits d’objet.
 
-## <a name="user-notification-emails"></a>Messages électroniques de notification de l’utilisateur  
+## <a name="user-notification-emails"></a>E-mails de notification utilisateur  
 
-Les stratégies de gestion des risques de confidentialité vous permettent de définir des paramètres pour évaluer les risques potentiels en matière de confidentialité dans votre environnement. Lorsqu’une correspondance de stratégie est détectée, la Gestion des risques de confidentialité peut envoyer un courrier électronique à vos utilisateurs avec des recommandations sur les actions correctives à prendre et un lien vers une formation sur la confidentialité. Dans **Paramètres**, vous pouvez activer ou désactiver la fonctionnalité de notification par courrier électronique de la gestion des risques de confidentialité dans son ensemble. Si la fonctionnalité de notification est désactivée Paramètres, tous les e-mails sont désactivés. Pour en savoir plus sur les stratégies, voir [Créer des stratégies dans Gestion des risques de confidentialité](risk-management-policies.md).
+Les stratégies de gestion des risques liés à la confidentialité vous permettent de définir des paramètres pour évaluer les risques potentiels en matière de confidentialité dans votre environnement. Lorsqu’une correspondance de stratégie est détectée, la gestion des risques liés à la confidentialité peut envoyer un e-mail à vos utilisateurs avec des recommandations sur les mesures correctives à prendre et un lien vers la formation à la confidentialité. Dans **Paramètres**, vous pouvez activer ou désactiver la fonctionnalité de notification par e-mail de la gestion des risques de confidentialité dans son ensemble. Si la fonctionnalité de notification est désactivée dans Paramètres, tous les e-mails sont désactivés. Pour en savoir plus sur les stratégies, consultez [Créer des stratégies dans Gestion des risques liés à la confidentialité](risk-management-policies.md).
 
 ## <a name="teams-collaboration"></a>Collaboration des équipes  
 
-Intégrez Microsoft Teams fonctionnalités d’accès aux demandes des droits des personnes concernées pour améliorer la collaboration avec les parties prenantes. Chaque fois qu’une demande de droits d’objet est créée, une équipe associée est créée dans Teams. Les utilisateurs peuvent être ajoutés à une équipe à partir de l’onglet Collaborateurs de la demande. Pour en savoir plus sur les demandes de droits d’objet, voir [En savoir plus sur les demandes de droits de l’objet Priva](subject-rights-requests.md).
+Intégrez Microsoft Teams fonctionnalités à Demandes de droits des personnes concernées Priva pour améliorer la collaboration avec les parties prenantes. Si vous cochez la case pour **activer Microsoft Teams fonctionnalités pour les demandes de droits d’objet**, vous créez automatiquement un canal Teams associé pour chaque requête. Les utilisateurs peuvent être ajoutés au canal Teams à partir de l’onglet **Collaborateurs** de la demande.
 
-## <a name="data-matching"></a>Correspondance de données  
+L’activation de cette fonctionnalité appliquera Teams fonctionnalités à toutes les demandes. Si vous décochez la case, ces fonctionnalités seront désactivées pour toutes les demandes. En savoir plus sur [la collaboration pendant le processus d’examen des données](subject-rights-requests-data-review.md#collaboration-for-data-review).
 
-Utilisez cette section pour télécharger des schémas de données qui décrivent les attributs de vos sujets de données, ce qui permet d’identifier la sujet de données correcte lors de la recherche de données personnelles dans votre environnement Microsoft 365 données. Les schémas et les packages de règles sont créés et chargés au format XML. Sous **téléchargement de données personnelles**, vous pouvez également envoyer des données personnelles qui correspond à un schéma fourni. Vous pouvez créer et télécharger votre propre fichier ou choisir de télécharger des données personnelles à partir d’Azure. Pour en savoir plus sur les demandes de droits d’objet, voir [En savoir plus sur les demandes de droits de l’objet Priva](subject-rights-requests.md).
+## <a name="data-matching"></a>Correspondance des données  
+
+Utilisez cette section pour charger des schémas de données qui décrivent les attributs de vos sujets de données, ce qui vous aidera à identifier la personne concernée lors de la recherche de données personnelles dans votre environnement Microsoft 365. Les schémas et les packages de règles sont créés et chargés au format XML. Sous **Chargement de données personnelles**, vous pouvez également envoyer des données personnelles qui correspondent à un schéma fourni. Vous pouvez créer et charger votre propre fichier ou choisir de charger des données personnelles à partir d’Azure. En savoir plus sur la [correspondance des données pour les demandes de droits d’objet](subject-rights-requests-data-match.md).
 
 ## <a name="data-retention-periods"></a>Périodes de rétention des données
 
-Ce paramètre est lié aux demandes de droits de l’objet Priva. Il vous permet de contrôler votre préférence pour la durée de rétention des données collectées et des rapports générés après la fermeture de la demande. Ce nombre peut être fixé à 30 ou 90 jours et s’applique à toutes les demandes de droits d’objet que vous créez. Nous vous recommandons de vérifier que vos périodes de rétention des données sont conformes aux stratégies et obligations légales de votre organisation. En savoir plus sur [la rétention des données pour les demandes de droits d’objet](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
+Ce paramètre est lié à Demandes de droits des personnes concernées Priva. Il vous permet de contrôler votre préférence pour la durée pendant laquelle vous souhaitez conserver les données collectées et les rapports générés après la fermeture de la demande. Il peut être défini sur 30 ou 90 jours et s’applique à toutes les demandes de droits d’objet que vous créez. Nous vous recommandons de vérifier que vos périodes de conservation des données sont conformes aux stratégies et obligations légales de votre organisation. En savoir plus sur [la conservation des données pour les demandes de droits d’objet](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Balises de révision des données
 
-Les balises de révision des données peuvent être utilisées pour marquer les éléments de contenu qui sont récupérés dans une demande de droits d’objet. Cette zone de paramètres vous permet de gérer vos balises. Priva fournit trois balises par défaut : **Suivi**, **Suppression** et **Mise à jour**. Ces noms de balises ne peuvent pas être modifiés, mais vous pouvez fournir une description pour ces balises qui est significative pour votre organisation.
+Les balises de révision des données peuvent être utilisées pour marquer les éléments de contenu récupérés dans une demande de droits d’objet. Cette zone de paramètres vous permet de gérer vos balises. Priva fournit trois balises par défaut : **Suivi**, **Suppression** et **Mise à jour**. Ces noms de balises ne peuvent pas être modifiés, mais vous pouvez fournir une description de ces balises significative pour votre organisation.
 
-Priva fournit également deux balises personnalisées que vous pouvez nommer et définir pour l’utilisation de votre organisation. Ces balises sont répertoriées en tant que balise personnalisée **1** et balise **personnalisée 2** jusqu’à ce que vous modifiiez les noms.
+Priva fournit également deux balises personnalisées que vous pouvez nommer et définir pour l’utilisation de votre organisation. Vous verrez ces balises répertoriées en tant que **Balise personnalisée 1** et **Balise personnalisée 2** jusqu’à ce que vous modifiiez les noms.
 
-Suivez les étapes ci-dessous pour modifier les noms et les descriptions des balises :
+Suivez les étapes ci-dessous pour modifier les noms et descriptions des balises :
 
 - Dans la page Priva **Paramètres**, sélectionnez **Balises de révision des données**.
-- Recherchez la balise dans la liste à modifier et sélectionnez l’icône Modifier le crayon en dessous de son nom.
-- Dans le volet volant, modifiez les champs disponibles. Pour les balises système, vous pouvez uniquement modifier la description. Pour les balises personnalisées, vous pouvez modifier le nom et la description.
-- Lorsque vous avez terminé, sélectionnez **Envoyer** pour enregistrer vos modifications.
+- Recherchez la balise dans la liste à modifier, puis sélectionnez l’icône **Modifier** le crayon en regard de son nom.
+- Dans le volet volant, apportez vos modifications dans les champs disponibles. Pour les balises système, vous pouvez uniquement modifier la description. Pour les balises personnalisées, vous pouvez modifier le nom et la description.
+- Lorsque vous avez terminé, **sélectionnez Envoyer** pour enregistrer vos modifications.
 
 Les paramètres de balise s’appliquent à toutes les demandes de droits d’objet.
 
-En savoir plus sur [l’application de balises lors de l’examen des données d’une demande de droits d’objet](subject-rights-requests-data-review.md#apply-tags).
+En savoir plus sur [l’application de balises lors de l’examen des données pour une demande de droits d’objet](subject-rights-requests-data-review.md#apply-tags).

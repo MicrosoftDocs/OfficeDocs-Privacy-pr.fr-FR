@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Découvrez comment créer et gérer des stratégies dans Microsoft Priva Privacy Risk Management pour gérer les données personnelles de votre organisation dans Microsoft 365.
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Découvrez comment créer et gérer des stratégies dans Gestion des risques de confidentialité Microsoft Priva pour gérer les données personnelles de votre organisation dans Microsoft 365.
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014494"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046608"
 ---
 # <a name="privacy-risk-management-policies"></a>Stratégies de gestion des risques liés à la confidentialité
 
@@ -43,7 +43,7 @@ La gestion des risques liés à la confidentialité a trois modèles de stratég
 
 Lors de la création d’une stratégie directement à partir d’un modèle, la plupart des paramètres sont choisis automatiquement pour vous aider à être opérationnel rapidement. Procédez comme suit pour créer une stratégie avec des paramètres par défaut à l’aide de l’un de nos modèles :
 
-1. Dans le [centre de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation de gauche et sélectionnez **Stratégies**.
+1. Dans le [centre de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Gestion des risques de confidentialité Priva dans le volet de navigation gauche et sélectionnez **Stratégies**.
 
 2. Sélectionnez **Créer une stratégie** dans le coin supérieur droit de l’écran, qui affiche un volet volant répertoriant toutes les options de création de stratégie.
 
@@ -61,7 +61,7 @@ L’option de stratégie personnalisée est un processus guidé pour la créatio
 
 Suivez les étapes ci-dessous pour créer une stratégie :
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation gauche. Dans le menu déroulant, sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Gestion des risques de confidentialité Priva dans le volet de navigation de gauche. Dans le menu déroulant, sélectionnez **Stratégies**.
 
 2. Sélectionnez **Créer une stratégie**.
 
@@ -273,7 +273,7 @@ Vous pouvez modifier les paramètres d’une stratégie à tout moment, que ce s
 
 Pour modifier une stratégie, suivez les étapes ci-dessous :
 
-1. Dans le [Centre de conformité Microsoft 365](https://compliance.microsoft.com/), recherchez Priva Privacy Risk Management dans le volet de navigation gauche. Dans le menu déroulant, sélectionnez **Stratégies**.
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), recherchez Gestion des risques de confidentialité Priva dans le volet de navigation de gauche. Dans le menu déroulant, sélectionnez **Stratégies**.
 
 2. Sélectionnez la stratégie que vous souhaitez modifier à partir de sa ligne dans la page **Stratégies** , qui affiche la page de détails de cette stratégie.
 
@@ -289,10 +289,10 @@ Si vous devez supprimer une stratégie de gestion des risques de confidentialit�
 
 Vous serez invité à confirmer votre choix avant que la suppression soit définitive et que la stratégie soit définitivement supprimée. La suppression d’une stratégie n’affecte aucun fichier précédemment évalué par la stratégie, et les problèmes et alertes générés par la stratégie sont toujours répertoriés dans les pages **Alertes** et **problèmes** .
 
-## <a name="next-steps"></a>Prochaines étapes
+## <a name="next-steps"></a>Étapes suivantes
 
 Une fois que votre stratégie est activée et commence à générer des alertes, vous devez commencer à comprendre les risques qu’elles peuvent présenter à votre organisation. Découvrez comment gérer les alertes, examiner les événements et prendre des mesures correctives dans la gestion des risques liés à la confidentialité en visitant [Examiner et corriger les alertes](risk-management-alerts.md).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva exclusion de responsabilité légale](priva-disclaimer.md)

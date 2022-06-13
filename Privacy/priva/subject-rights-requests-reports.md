@@ -1,5 +1,5 @@
 ---
-title: Générer des rapports pour répondre à une demande de droits d’objet
+title: Générer des rapports et fermer une requête
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment gérer les packages de données créés par Microsoft Priva pour les demandes de droits d’objet et traiter la demande à la personne concernée.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851660"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046688"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>Générer des rapports pour répondre à une demande de droits d’objet
+# <a name="generate-reports-and-close-a-request"></a>Générer des rapports et fermer une requête
 
-Après avoir effectué votre examen des données pour une demande de droits d’objet dans Microsoft Priva, vous pouvez passer à la demande. Priva crée des rapports et collecte les fichiers marqués comme **Include** pendant le processus de révision des données. Les fichiers sélectionnés à partir de ces packages de données peuvent être envoyés à votre sujet de données pour terminer leur demande.
+**Dans cet article** : Comprendre le type de rapports générés dans les demandes de droits des personnes concernées. Découvrez les périodes de rétention des données collectées et trouvez des instructions pour fournir des résultats à la personne concernée et fermer la demande.
+
+Une fois que vous avez terminé votre examen des données pour une demande de droits d’objet, l’étape suivante consiste à générer les rapports nécessaires pour répondre à la demande. Priva crée des rapports et collecte les fichiers marqués comme **Include** pendant le processus de révision des données. Les fichiers sélectionnés à partir de ces packages de données peuvent être envoyés à votre sujet de données pour terminer leur demande.
 
 ## <a name="understanding-reports"></a>Présentation des rapports
 
@@ -37,7 +39,7 @@ Les rapports sont divisés en deux sections :
    > Un package de données ne sera généré que si vous **marquez** des éléments comme Inclus pendant votre révision des données.
 
    > [!IMPORTANT]
-   > Un package de données ne sera généré que pour **les types de demandes d’exportation** et **d’accès** . Un package de données ne sera pas généré pour une **liste balisé pour la demande de suivi** . Passez en revue les détails sur les [types de demandes de droits d’objet](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+   > Un package de données ne sera généré que pour **les types de demandes d’exportation** et **d’accès** . Un package de données ne sera pas généré pour une **liste balisé pour la demande de suivi** . Passez en revue les détails sur les [types de demandes de droits d’objet](subject-rights-requests-create.md#request-types).
 
 2. **Rapports à des fins d’utilisation interne** : ces rapports concernent les enregistrements internes de votre organisation liés à la demande de droits d’objet. Ils incluent un journal d’audit et une liste de tous les fichiers auxquels vous avez appliqué des balises pendant la révision des données afin de suivre ou de prendre des mesures supplémentaires.
 
@@ -102,6 +104,12 @@ La période de rétention des données est définie dans Priva **Paramètres** e
 4. Sélectionnez **Enregistrer** pour enregistrer vos paramètres.
 
 Veillez à vérifier que les périodes de rétention des données que vous avez choisies sont conformes aux stratégies et obligations légales de votre organisation.
+
+## <a name="close-the-request"></a>Fermer la demande
+
+Une fois que vous avez effectué toutes les actions nécessaires liées à la demande de droits d’objet, marquez la demande comme fermée en sélectionnant **Fermer la demande** dans le coin supérieur droit de la page de détails de la demande. Une demande fermée signifie qu’elle n’est plus active et indique qu’aucun travail supplémentaire n’est nécessaire pour répondre à la demande d’origine de la personne concernée à votre organisation.
+
+Les demandes fermées ne peuvent pas être rouvertes, mais vous pouvez revenir à la demande pour afficher les détails et les notes de la demande. Les rapports de la demande sont conservés en fonction de la [période de rétention](#retention-periods-for-reports-and-data) établie.
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
