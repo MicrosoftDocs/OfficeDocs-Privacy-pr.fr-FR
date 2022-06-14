@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Comprendre les étapes du flux de travail et la page des détails de la demande dans Demandes de droits des personnes concernées Microsoft Priva.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046742"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060086"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>Comprendre les pages de détails du flux de travail et des demandes
 
@@ -45,9 +45,15 @@ Chaque requête passe par plusieurs étapes. Certaines étapes progressent autom
 
 ## <a name="understanding-the-request-details-page"></a>Présentation de la page de détails de la demande
 
-Sélectionnez **Demandes de droits des personnes concernées Priva** dans le volet de navigation gauche du portail de conformité Microsoft Purview pour accéder aux demandes créées par votre organisation et afficher leur état. Les cartes d’état de la page principale demandes de droits d’objet indiquent le nombre de demandes actives, fermées et en retard, ainsi que les principaux types de demandes. Le tableau sous les cartes d’état répertorie toutes les demandes créées par votre organisation, avec la demande la plus récente en haut.
+Sélectionnez **Demandes de droits des personnes concernées Priva** dans le volet de navigation gauche du portail de conformité Microsoft Purview pour accéder aux demandes créées par votre organisation et afficher leur état. Les cartes d’état de la page principale demandes de droits d’objet, affichées ci-dessous, indiquent le nombre de demandes actives, fermées et en retard, ainsi que les principaux types de demandes. Le tableau sous les cartes d’état répertorie toutes les demandes créées par votre organisation, avec la demande la plus récente en haut.
 
-Pour ouvrir la page de détails d’une demande, sélectionnez le nom de la demande dans la table. Ici, vous pouvez en savoir plus sur les propriétés de la demande, les résultats de la recherche et l’état de la demande. Cette page deviendra votre hub pour travailler et collaborer sur la gestion des fichiers trouvés, la création de rapports et d’exportations et la réalisation de la demande.
+**Page principale des demandes de droits d’objet :** 
+![ Page principale demandes de droits d’objet.](../media/priva-srr-overview.png)
+
+Pour ouvrir la page de détails d’une demande, sélectionnez le nom de la demande dans la table. Ici, vous pouvez en savoir plus sur les propriétés de la demande, les résultats de la recherche et l’état de la demande. La page de détails, affichée ci-dessous, deviendra votre hub pour travailler et collaborer sur la gestion des fichiers trouvés, la création de rapports et d’exportations et la réalisation de la demande.
+
+**Page de détails d’une demande :**
+![ Page de détails de la demande de droits d’objet.](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>Onglet Overview
 
@@ -105,7 +111,7 @@ L’onglet **Rapports** affiche tous les rapports générés automatiquement lor
 
 **L’onglet Historique** récapitule les événements de niveau supérieur pour la demande, y compris les modifications de l’étape de progression et les agrégats pour le nombre d’éléments inclus, exclus et supprimés.
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 Visitez [Créer une demande de droits d’objet](subject-rights-requests-create.md) pour savoir comment être indiqué avec votre première demande.
 

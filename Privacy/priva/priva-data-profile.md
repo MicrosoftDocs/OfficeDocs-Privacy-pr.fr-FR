@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la vue d’ensemble et le profil de données dans Priva et comment obtenir des insights sur les données personnelles dans l’environnement Microsoft 365 de votre organisation.
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059748"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060059"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Rechercher et visualiser des données personnelles dans Microsoft Priva
 
@@ -33,27 +33,32 @@ Pour commencer, accédez à la section Priva du [portail de conformité Microsof
 - **Vue d’ensemble** : fournit une vue d’ensemble des données de votre organisation dans Microsoft 365. Les administrateurs de la confidentialité peuvent surveiller les tendances et les activités, identifier et examiner les risques potentiels liés aux données personnelles, et intégrer des activités clés telles que la gestion des stratégies ou les actions de demande de droits des personnes concernées.
 - **Profil de données** : fournit un instantané des données personnelles que votre organisation stocke dans Microsoft 365. Cette page vous aide à visualiser l’endroit où se trouvent les données personnelles, les types les plus répandus dans votre organisation et le nombre de types différents qui existent entre les emplacements de votre environnement Microsoft 365. Vous pouvez également explorer les données personnelles à partir de cet emplacement.
 
-À mesure que vos données changent et que Priva fait de nouvelles découvertes, les informations affichées sur ces pages seront mises à jour. Notez que la représentation des nouvelles données dans les graphiques peut prendre jusqu’à 24 heures.
+À mesure que vos données changent et Priva font de nouvelles découvertes, les informations affichées sur ces pages sont mises à jour. Notez que la représentation des nouvelles données dans les graphiques peut prendre jusqu’à 24 heures.
 
 ## <a name="explore-the-overview-page"></a>Explorer la page vue d’ensemble
 
-La page de vue d’ensemble se compose de trois sections principales. Les vignettes en haut de la page fournissent des statistiques récentes essentielles sur vos données. La section informations clés fournit des opportunités d’investigation sur les tendances et les domaines d’intérêt clés. Pour plus d’informations sur votre environnement de données, consultez les graphiques de courbe de tendance. Pour en savoir plus sur ces domaines, consultez les sections ci-dessous.
+La page **vue d’ensemble Priva** est disponible pour tous les clients Priva. La page, affichée ci-dessous, se compose de trois sections principales :
 
-![Exemple de page de vue d’ensemble.](../media/priva-overview.png)
+1. [Les vignettes](#top-tiles) en haut de la page fournissent des statistiques récentes essentielles sur vos données. 
+2. La section [Insights clés fournit des](#key-insights) opportunités d’investigation sur les tendances et les domaines d’intérêt clés.
+3. Les [graphiques de courbe de tendance](#trendline-graphs) fournissent des perspectives supplémentaires sur votre environnement de données.
+
+**page vue d’ensemble Priva :**
+![ Exemple de page de vue d’ensemble.](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>Vignettes principales
 
 #### <a name="policy-matches-over-past-7-days"></a>Correspondances de stratégie au cours des 7 derniers jours
 
-Lorsque des stratégies sont définies dans Priva Privacy Risk Management, vos données sont évaluées en fonction de vos stratégies pour certaines conditions susceptibles de présenter des risques en matière de confidentialité. Les correspondances de stratégie indiquent des découvertes de données qui peuvent nécessiter une révision ou une correction ultérieures. Cette vignette indique le nombre de correspondances de stratégie qui se sont produites au cours des sept derniers jours. Les correspondances s’affichent ici, que les stratégies soient activées ou sont en cours d’exécution en mode test, afin que vous puissiez voir les résultats de toutes vos stratégies actives. Si vous sélectionnez cette vignette, vous accédez à une vue filtrée de la page **Stratégies** de gestion des risques de confidentialité, montrant les stratégies qui ont eu une correspondance au cours des sept derniers jours.
+Lorsque des stratégies sont définies dans Gestion des risques de confidentialité Priva, vos données sont évaluées en fonction de vos stratégies pour certaines conditions susceptibles de présenter des risques en matière de confidentialité. Les correspondances de stratégie indiquent des découvertes de données qui peuvent nécessiter une révision ou une correction ultérieures. Cette vignette indique le nombre de correspondances de stratégie qui se sont produites au cours des sept derniers jours. Les correspondances s’affichent ici, que les stratégies soient activées ou sont en cours d’exécution en mode test, afin que vous puissiez voir les résultats de toutes vos stratégies actives. Si vous sélectionnez cette vignette, vous accédez à une vue filtrée de la page **Stratégies** de gestion des risques de confidentialité, montrant les stratégies qui ont eu une correspondance au cours des sept derniers jours.
 
 #### <a name="items-with-personal-data"></a>Éléments avec des données personnelles
 
-Pour voir les fonctionnalités de découverte automatisée de Priva à l’œuvre, consultez la vignette **Éléments avec données personnelles** . Cette vignette indique le nombre de nouveaux éléments contenant des données personnelles basés sur vos paramètres qui ont été découverts dans l’environnement Microsoft 365 de votre organisation au cours des sept derniers jours. La sélection de cette vignette charge une vue des 100 derniers éléments découverts.
+Pour voir les fonctionnalités de découverte automatisée de Priva au travail, consultez la vignette **Éléments avec données personnelles**. Cette vignette indique le nombre de nouveaux éléments contenant des données personnelles basés sur vos paramètres qui ont été découverts dans l’environnement Microsoft 365 de votre organisation au cours des sept derniers jours. La sélection de cette vignette charge une vue des 100 derniers éléments découverts.
 
 #### <a name="subject-rights-requests"></a>Demandes de droits d’objet
 
-La page de vue d’ensemble comprend une vignette qui indique le nombre de demandes de droits d’objet qui ont été créées au cours des sept derniers jours. Une deuxième vignette, le cas échéant, indique le nombre de demandes en retard en fonction de vos échéances désignées et peut nécessiter une attention immédiate. La sélection de ces vignettes permet aux utilisateurs disposant des autorisations appropriées d’accéder à la page de demande de droits d’objet de Priva.
+La page de vue d’ensemble comprend une vignette qui indique le nombre de demandes de droits d’objet qui ont été créées au cours des sept derniers jours. Une deuxième vignette, le cas échéant, indique le nombre de demandes en retard en fonction de vos échéances désignées et peut nécessiter une attention immédiate. La sélection de ces vignettes permet aux utilisateurs disposant des autorisations appropriées d’accéder à la page principale droits de l’objet.
 
 ### <a name="key-insights"></a>Insights clés
 
@@ -65,7 +70,7 @@ Sélectionnez **Afficher le résumé** pour une vue récapitulative des élémen
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>Stratégies avec le plus de correspondances au cours de la dernière semaine
 
-Cet aperçu présente les stratégies qui ont été mises en correspondance le plus fréquemment au cours des sept derniers jours, que ce soit en mode « Activé » ou « Test ». Il permet d’illustrer les performances de vos stratégies et les effets du travail en cours à mesure que vos utilisateurs Priva affinent leurs comportements de confidentialité.
+Cet aperçu présente les stratégies qui ont été mises en correspondance le plus fréquemment au cours des sept derniers jours, que ce soit en mode « Activé » ou « Test ». Il permet d’illustrer les performances de vos stratégies et les effets du travail continu à mesure que vos Priva utilisateurs affinent leurs comportements de confidentialité.
 
 Sélectionnez **Afficher le résumé** pour un résumé des 10 principales stratégies mises en correspondance et des propriétaires de contenu du contenu associé. Vous verrez également combien de notifications utilisateur ont été envoyées en raison de ces correspondances de stratégie et le nombre d’actions de l’utilisateur effectuées. Sélectionnez **Examiner** pour afficher la page Stratégies dans Gestion des risques liés à la confidentialité, filtrée pour afficher les stratégies à partir de l’affichage récapitulatif. Cette vue d’enquête affiche des statistiques pour toute la durée de vie de la stratégie. Sélectionnez-le pour afficher des détails tels que le moment où les éléments correspondants ont été détectés initialement.
 
@@ -125,9 +130,10 @@ Cette vue cartographique vous permet de visualiser votre volume de demandes de d
 
 ## <a name="explore-the-data-profile-page"></a>Explorer la page de profil de données
 
-La page profil de données de Priva fournit une vue instantanée des données personnelles que votre organisation stocke dans Microsoft 365 et où elle réside. Il fournit également des insights sur les types de données que vous stockez. Les vignettes principales sont les suivantes.
+La page **Profil de données**, affichée ci-dessous, fournit une vue instantanée des données personnelles que votre organisation stocke dans Microsoft 365 et où elle réside. Il fournit également des insights sur les types de données que vous stockez. Les graphiques de la page sont décrits ci-dessous.
 
-![Exemple de page de profil de données.](../media/priva-dataprofile.png)
+**page de profil de données Priva :**
+![ Exemple de page de profil de données.](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>Instances de type de données personnelles détectées dans Microsoft 365
 
@@ -149,4 +155,4 @@ La sélection **d’Explorer** sur une vignette de profil de données ouvre l’
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale
 
-[Exclusion de responsabilité légale de Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva exclusion de responsabilité légale](priva-disclaimer.md)

@@ -30,11 +30,15 @@
   items:
     - name: En savoir plus sur les demandes de droits de personnes concernées
       href: subject-rights-requests.md
-    - name: Créer des demandes
+    - name: Comprendre les pages de détails du flux de travail et des demandes
+      href: subject-rights-requests-workflow.md
+    - name: Créer des demandes et définir votre recherche
       href: subject-rights-requests-create.md
+    - name: Estimation et récupération des données
+      href: subject-rights-requests-data-retrieval.md
     - name: Examiner des données et collaborer
       href: subject-rights-requests-data-review.md
-    - name: Générer des rapports pour répondre aux demandes
+    - name: Obtenir des rapports et fermer les demandes
       href: subject-rights-requests-reports.md
     - name: Intégrer avec l’API Microsoft Graph et Power Automate
       href: subject-rights-requests-automate.md
