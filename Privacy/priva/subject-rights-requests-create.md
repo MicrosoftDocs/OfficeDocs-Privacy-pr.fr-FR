@@ -16,18 +16,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment créer une demande de droits d’objet et définir des paramètres de recherche dans Demandes de droits des personnes concernées Microsoft Priva.
-ms.openlocfilehash: 7314fefa370b24bcb215a99b67b74c13b8b27613
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: bd67b68a1c0d017b8f0d667fb3e4ad21726cc976
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046638"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166653"
 ---
 # <a name="create-a-request-and-define-search-settings"></a>Créer une demande et définir des paramètres de recherche
 
 **Dans cet article** : Découvrez comment créer une demande dans Priva pour commencer à traiter une demande de droits d’objet. Comprendre les paramètres de recherche pour la récupération des données et comment affiner votre recherche.
 
-Les utilisateurs qui détiennent un rôle dans le groupe de rôles Administrateurs de demande de droits d’objet autre que l’affichage uniquement ([voir Priva autorisations](priva-permissions.md)) peuvent créer une demande dans les demandes de droits d’objet. Un processus guidé vous guide tout au long des paramètres de recherche de données personnelles sur une personne concernée et de démarrage du processus de traitement de sa demande.
+Les utilisateurs qui détiennent un rôle dans le groupe de rôles Administrateurs de demande de droits d’objet autres que le rôle d’affichage uniquement (voir [Priva autorisations](priva-permissions.md)) peuvent créer une demande. Il existe deux façons de créer une requête :
+
+- À partir d’un [modèle](#quick-setup-use-a-template-with-default-settings), une option rapide « out-of-box » qui utilise des paramètres par défaut personnalisés ; Ou
+- L’option [personnalisée](#custom-setup-guided-process-to-choose-all-settings) , qui est un processus guidé pour parcourir tous les paramètres.
+
+> [!TIP]
+> La première fois que vous visitez la solution **Demandes de droits des personnes concernées** , nous vous proposons un moyen simplifié de créer une demande et d’explorer les fonctionnalités. Consultez [La prise en main de votre première demande](#getting-started-with-your-first-request) ci-dessous.
 
 ## <a name="request-types"></a>Types de demandes
 
@@ -37,7 +43,7 @@ Demandes de droits des personnes concernées Priva prend en charge trois types d
 
 2. **Exportation** : fournit un résumé et un fichier exporté d’éléments de contenu qui contiennent les informations personnelles de la personne concernée. Il s’agit des éléments examinés et marqués comme **inclus** lors de votre examen des données collectées par vos paramètres de recherche.
 
-3. **Liste balisé pour le suivi** : génère un résumé de tous les fichiers qui ont été marqués lors de l’examen des données qui peuvent nécessiter une action supplémentaire en dehors de Priva. Par exemple, vous devrez peut-être faciliter la suppression des informations personnelles de la personne concernée en fonction de sa demande. Vous pouvez afficher les balises incluses et configurer des balises personnalisées pour votre organisation dans [Priva paramètres](priva-settings.md).
+3. **Liste balisé pour le suivi** : génère un résumé de tous les fichiers qui ont été marqués lors de l’examen des données qui peuvent nécessiter plus d’action en dehors de Priva. Par exemple, vous devrez peut-être faciliter la suppression des informations personnelles de la personne concernée en fonction de sa demande. Vous pouvez afficher les balises incluses et configurer des balises personnalisées pour votre organisation dans [Priva paramètres](priva-settings.md).
 
 ## <a name="getting-started-with-your-first-request"></a>Bien démarrer avec votre première demande
 
@@ -45,44 +51,90 @@ Lorsque vous démarrez une version d’évaluation ou un abonnement de demandes 
 
 La première fois que vous accédez à la page Demandes de droits des personnes concernées, une bannière apparaît en haut avec un bouton **Démarrage**. Lorsqu’un utilisateur sélectionne ce bouton, un volet volant s’affiche avec les informations de cet utilisateur préremplies dans les champs de nom et d’e-mail, et affiche tous les paramètres par défaut.
 
-**Exploration des fonctionnalités de demande avec vos informations** : l’essai d’une demande de droits d’objet basée sur vos propres informations peut vous aider à vous familiariser et à vous familiariser avec le passage à chaque étape du processus. Vous verrez ce qu’une recherche par défaut génère et pouvez vous entraîner à affiner les résultats en ajustant les paramètres de recherche. Sous l’onglet **Données collectées** , vous pouvez passer en revue les éléments de la zone d’aperçu à droite et appliquer du texte, appliquer des balises, entrer des notes et marquer des éléments à inclure ou exclure pour le rapport final (pour plus d’informations sur les données de révision [d’une demande de droits d’objet](subject-rights-requests-data-review.md)).
+**Exploration des fonctionnalités de demande avec vos informations** : l’essai d’une demande de droits d’objet basée sur vos propres informations peut vous aider à vous familiariser et à vous familiariser avec le passage à chaque étape du processus. Vous verrez ce qu’une recherche par défaut retournera et pourrez vous entraîner à affiner les résultats en ajustant les paramètres de recherche. Sous l’onglet **Données collectées** , vous pouvez passer en revue les éléments de la zone d’aperçu à droite et appliquer du texte, appliquer des balises, entrer des notes et marquer des éléments à inclure ou exclure pour le rapport final (pour plus d’informations sur les données de révision [d’une demande de droits d’objet](subject-rights-requests-data-review.md)).
 
 - Vous n’avez pas besoin d’utiliser vos informations pour créer votre première demande. Si vous êtes prêt à démarrer une demande pour un sujet de données, remplacez votre nom et votre adresse e-mail par les informations de la personne concernée.
 
-Pour accepter tous les paramètres et créer la demande, sélectionnez **Créer**. Le volet se ferme et vous voyez votre nouvelle demande répertoriée dans votre page **Demandes de droits** d’objet. Pour modifier l’un des paramètres par défaut avant de créer la demande, sélectionnez **Modifier les détails** de la demande, ce qui vous place dans l’Assistant [de création de la demande de droits d’objet](#create-a-request).
+Pour accepter tous les paramètres et créer la demande, sélectionnez **Créer**. Le volet se ferme et vous voyez votre nouvelle demande répertoriée dans votre page **Demandes de droits** d’objet. Pour modifier l’un des paramètres par défaut avant de créer la demande, sélectionnez **Modifier les détails** de la demande, ce qui vous place dans l’Assistant [de création de la demande de droits d’objet](#custom-setup-guided-process-to-choose-all-settings).
 
 > [!NOTE]
 > Toutes les demandes que vous créez sont comptabilisées dans votre allocation d’abonnement payant ou d’évaluation, quelles que soient les informations de la personne concernée utilisées pour la demande. La période de conservation des données standard de 30 jours s’applique après la fermeture de la demande. Découvrez comment modifier [les périodes de rétention pour les demandes de droits d’objet](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
-## <a name="create-a-request"></a>Créer une demande
+## <a name="quick-setup-use-a-template-with-default-settings"></a>Configuration rapide : utiliser un modèle avec les paramètres par défaut
 
-Suivez les étapes ci-dessous pour commencer à répondre à une demande de droits d’objet :
+Lors de la création d’une requête directement à partir d’un modèle, les paramètres par défaut sont destinés à vous aider à être opérationnel rapidement. Les trois modèles correspondent aux [trois types de demandes](#request-types) : **Accès aux données**, **Exportation de données** et **Données balisés pour une action supplémentaire.**  Vous pouvez afficher les paramètres par défaut d’un modèle et apporter des modifications pendant le processus de création de la demande.
 
-1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Demandes de droits des personnes concernées Priva** dans le volet de navigation de gauche.
+##### <a name="selecting-the-relationship"></a>Sélection de la relation
+
+Chaque modèle vous permet de sélectionner le type de relation entre la personne concernée et votre organisation, qui détermine à son tour les paramètres par défaut. Les points ci-dessous expliquent comment la relation que vous choisissez affecte les paramètres de recherche dans les modèles :
+
+- **Employé actuel** : les résultats de la recherche sont adaptés pour éviter les e-mails ou les conversations Teams auxquelles l’employé a participé, ou les fichiers créés par l’employé. Ce paramètre simplifie les résultats de la recherche, car les employés actuels ont généralement accès au contenu qu’ils ont créé ou à la communication auquel ils ont participé.
+
+- **Ancien employé** : les paramètres de recherche hiérarchisent la boîte aux lettres de l’ancien employé (le cas échéant) et les éléments créés par l’employé. Ces paramètres visent à renvoyer le contenu généré ou participé par les anciens employés.
+
+- **Client**, **employé potentiel** et **autres** : les résultats de la recherche pour ces relations n’incluent pas le contenu créé par la personne concernée et incluent uniquement les versions les plus récentes d’éléments SharePoint (en savoir plus sur les [options de recherche avancées](#advanced-search-options)).
+
+> [!TIP]
+> Dans la page principale **demandes de droits** d’objet, vous pouvez trier votre liste de demandes par relation dans la colonne **Relation à l’organisation** .
+
+#### <a name="steps-for-creating-a-request-from-a-template"></a>Étapes de création d’une requête à partir d’un modèle
+
+1. Dans le [centre de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Demandes de droits des personnes concernées Priva** dans le volet de navigation de gauche.
 
 2. Dans le coin supérieur droit de l’écran, **sélectionnez Créer une requête**.
 
-3. Dans la page **d’informations sur l’objet de** données, entrez le prénom et le nom et l’adresse e-mail de la personne concernée. Sélectionnez **Ajouter une résidence** pour choisir le pays de résidence de la personne concernée. Sélectionnez l’option qui identifie la façon dont la personne concernée est liée à votre organisation (par exemple, le client ou l’employé actuel), puis sélectionnez **Suivant** pour passer à l’étape suivante.
+3. Recherchez le type de requête que vous souhaitez créer (**accès aux données**, **exportation de données** ou **données marquées pour une action supplémentaire**), puis sélectionnez **Démarrage**. Un volet volant s’affiche.
 
-4. Dans la page **Emplacements** , choisissez l’emplacement où vous souhaitez rechercher les informations de la personne concernée. Choisissez l’un des emplacements suivants ou les deux en déplaçant le commutateur bascule d’état en regard de chaque option vers la position **On** :
+4. Dans **Relation à l’organisation**, sélectionnez l’option qui décrit la [relation](#selecting-the-relationship) entre la personne concernée et votre organisation. Si vous sélectionnez **Autre**, un champ **de texte Autre relation** s’affiche dans le volet de menu volant. Entrez un terme qui a du sens pour votre organisation; par exemple, « patient » ou « étudiant ». 
+
+5. Si vous souhaitez passer en revue tous les paramètres par défaut et apporter des modifications à l’un d’eux, sélectionnez le bouton **Afficher les paramètres** . Les paramètres s’affichent dans le volet volant. Pour modifier les paramètres, **sélectionnez Modifier les paramètres**, ce qui vous permet d’accéder au [processus guidé](#custom-setup-guided-process-to-choose-all-settings) décrit ci-dessous.
+
+6. Entrez les détails de la personne concernée :
+    - Le prénom et le nom, ainsi que l’adresse e-mail, sont des champs obligatoires. Pour les employés actuels et anciens, la saisie du nom de la personne concernée dans le champ **Rechercher un sujet de données** affiche une liste d’utilisateurs parmi lesquels choisir. Vous pouvez également sélectionner le lien sous ce champ pour entrer manuellement leur nom et leur adresse e-mail.
+    - Il est facultatif d’entrer le pays de résidence de la personne concernée, le règlement de confidentialité associé à sa demande et un délai.
+   
+    > [!TIP]
+    >La plage de temps par défaut recherche le contenu créé ou modifié au cours des 12 derniers mois. Vous pouvez modifier ce paramètre pour sélectionner tout le contenu créé à tout moment ou définir une plage de temps personnalisée.
+
+7. Lorsque vous avez terminé, sélectionnez **Créer**. Vous revenez à la page de votre **demande de droits** d’objet avec votre nouvelle demande répertoriée en haut de la liste des demandes.
+
+Par défaut, votre demande est nommée avec le nom et le type de requête de l’objet de données. Pour modifier le nom de la demande, sélectionnez la demande dans la liste pour ouvrir sa page de détails, puis sélectionnez la commande **Modifier** en haut de l’écran. Vous accédez à l’Assistant Création de demande. Sélectionnez **Suivant** jusqu’à ce que vous accédiez à la page Nom de la **demande** , où vous pouvez modifier le nom et ajouter une description.
+
+Aucun des modèles ne [s’interrompt automatiquement à l’étape d’estimation des données](subject-rights-requests-data-retrieval.md#pause-in-data-estimate). Toutefois, vous pouvez modifier ce paramètre et d’autres [paramètres de recherche](subject-rights-requests-create.md#defining-search-settings) en sélectionnant **Afficher Paramètres** dans le volet volant du modèle.
+
+## <a name="custom-setup-guided-process-to-choose-all-settings"></a>Configuration personnalisée : processus guidé pour choisir tous les paramètres
+
+L’option de demande personnalisée est un processus guidé pour la création d’une stratégie. Vous allez commencer par choisir un modèle, puis parcourir chaque paramètre pour personnaliser votre stratégie. Les instructions ci-dessous fournissent des détails sur les paramètres de base qui s’appliquent à chacun des trois types de stratégie. Lorsque les paramètres diffèrent par type de stratégie, nous allons établir un lien vers des instructions spécifiques.
+
+Suivez les étapes ci-dessous pour créer une requête :
+
+1. Dans le [portail de conformité Microsoft Purview](https://compliance.microsoft.com/), sélectionnez **Demandes de droits des personnes concernées Priva** dans le volet de navigation gauche.
+
+2. Dans le coin supérieur droit de l’écran, **sélectionnez Créer une requête**.
+
+3. Sous l’option **Personnalisée**, sélectionnez **Démarrage**. Vous serez intégré à l’Assistant Création de demande.
+
+4. Dans la page **d’informations sur l’objet de** données, entrez le prénom et le nom et l’adresse e-mail de la personne concernée. Sélectionnez **Ajouter une résidence** pour choisir le pays de résidence de la personne concernée. Sélectionnez l’option qui identifie la façon dont la personne concernée est liée à votre organisation. Si vous choisissez **Autre**, entrez un terme pour décrire la relation qui est logique pour votre organisation; par exemple, « patient » ou « étudiant ». Sélectionnez **Suivant** pour passer à l’étape suivante.
+
+5. Dans la page **Emplacements** , choisissez l’emplacement où vous souhaitez rechercher les informations de la personne concernée. Choisissez l’un des emplacements suivants ou les deux en déplaçant le commutateur bascule d’état en regard de chaque option vers la position **On** :
 
    - **Exchange** : recherchez des données dans des boîtes aux lettres Exchange et dans des conversations Teams individuelles ou de groupe. Vous pouvez choisir de rechercher tous les comptes Exchange de votre organisation, ou de sélectionner **des comptes** pour sélectionner des utilisateurs individuels dans le volet volant **Exchange boîtes aux lettres**.
 
    - **SharePoint** : recherchez des données dans des sites SharePoint, des sites OneDrive Entreprise et des canaux Teams. Vous pouvez choisir de rechercher tous les sites SharePoint de votre organisation, ou sélectionner **Choisir des sites** pour sélectionner des utilisateurs individuels dans le volet volant **SharePoint sites**.
 
-> [!TIP]
-> Pour obtenir de l’aide sur l’identification des termes de recherche appropriés, reportez-vous aux rubriques suivantes :
-> - SharePoint sites et URL : [La gestion des sites dans le centre d’administration SharePoint](/sharepoint/manage-sites-in-new-admin-center) fournit des conseils sur le tri et le filtrage des sites, ainsi que sur la recherche d’un site SharePoint. Utilisez cette option pour rechercher des URL à entrer dans le champ de recherche dans le volet de menu volant **SharePoint sites**.
-> - Teams conversations et canaux : [Get-Team](/powershell/module/teams/get-team) montre comment trouver des équipes dans Microsoft Teams en fournissant des propriétés ou des informations spécifiques.
-> - OneDrive sites et URL : [À propos des URL OneDrive](/onedrive/list-onedrive-urls#about-onedrive-urls) fournit des informations sur le format et les propriétés appropriés pour l’URL OneDrive d’un utilisateur. Utilisez-la pour vous aider à identifier OneDrive sites dans votre recherche.
+    > [!TIP]
+    > Pour obtenir de l’aide sur l’identification des termes de recherche appropriés, reportez-vous aux rubriques suivantes :
+    > - SharePoint sites et URL : [La gestion des sites dans le centre d’administration SharePoint](/sharepoint/manage-sites-in-new-admin-center) fournit des conseils sur le tri et le filtrage des sites, ainsi que sur la recherche d’un site SharePoint. Utilisez cette option pour rechercher des URL à entrer dans le champ de recherche dans le volet de menu volant **SharePoint sites**.
+    > - Teams conversations et canaux : [Get-Team](/powershell/module/teams/get-team) montre comment trouver des équipes dans Microsoft Teams en fournissant des propriétés ou des informations spécifiques.
+    > - OneDrive sites et URL : [À propos des URL OneDrive](/onedrive/list-onedrive-urls#about-onedrive-urls) fournit des informations sur le format et les propriétés appropriés pour l’URL OneDrive d’un utilisateur. Utilisez-la pour vous aider à identifier OneDrive sites dans votre recherche.
 
-5. Dans la page **Définir les paramètres de recherche** , vous pouvez choisir d’apporter des modifications à la recherche par défaut en choisissant parmi les différentes options de recherche avancées. C’est ici que vous pouvez également choisir d’obtenir une estimation avant que les données ne sont retournées automatiquement. Si vous choisissez l’une de ces options, lorsque vous sélectionnez **Suivant** , vous passez à des écrans supplémentaires. Pour plus d’informations, consultez [Définir les paramètres de recherche ci-dessous](#defining-search-settings) . Si vous ne souhaitez pas modifier votre recherche, laissez toutes les options vides et sélectionnez **Suivant** pour passer à l’étape suivante.
+6. Dans la page **Définir les paramètres de recherche** , vous pouvez choisir d’apporter des modifications à la recherche par défaut en choisissant parmi les différentes options de recherche avancées. C’est ici que vous pouvez également choisir d’obtenir une estimation avant que les données ne sont retournées automatiquement. Si vous choisissez l’une de ces options, lorsque vous sélectionnez **Suivant** , vous passez à des écrans supplémentaires. Pour plus d’informations, consultez [Définir les paramètres de recherche ci-dessous](#defining-search-settings) . Si vous ne souhaitez pas modifier votre recherche, laissez toutes les options vides et sélectionnez **Suivant** pour passer à l’étape suivante.
 
-6. Dans la page **Sélectionner le type de demande** , choisissez le type de demande : **Access**, **Export** ou **Tagged list pour le suivi** ([voir les descriptions ci-dessus](#request-types)). Indiquez si la demande concerne un règlement sur la confidentialité des données. Passez en revue ou apportez des modifications à l’échéance d’achèvement, qui est par défaut de deux semaines après la date de création de la demande. Ensuite, sélectionnez **Suivant**.
+7. Dans la page **Sélectionner le type de demande** , choisissez le type de demande : **Access**, **Export** ou **Tagged list pour le suivi** ([voir les descriptions ci-dessus](#request-types)). Indiquez si la demande concerne un règlement sur la confidentialité des données. Passez en revue ou apportez des modifications à l’échéance d’achèvement, qui est par défaut de deux semaines après la date de création de la demande. Ensuite, sélectionnez **Suivant**.
 
-7. Dans la page **Confirmer ou modifier le nom de cette demande** , vous pouvez conserver ou modifier le nom convivial fourni pour la demande, puis entrer une description facultative. Ensuite, sélectionnez **Suivant**.
+8. Dans la page **Confirmer ou modifier le nom de cette demande** , vous pouvez conserver ou modifier le nom convivial fourni pour la demande, puis entrer une description facultative. Ensuite, sélectionnez **Suivant**.
 
-8. Dans la page **Révision et fin** , passez en revue le résumé de ce que vous avez entré au cours des étapes précédentes. N’importe quel champ peut être modifié en sélectionnant le **lien Modifier** dans chaque section. Lorsque vous avez terminé, **sélectionnez Créer une requête**.
+9. Dans la page **Révision et fin** , passez en revue le résumé de ce que vous avez entré au cours des étapes précédentes. N’importe quel champ peut être modifié en sélectionnant le **lien Modifier** dans chaque section. Lorsque vous avez terminé, **sélectionnez Créer une requête**.
 
 Un écran de confirmation s’affiche une fois la demande créée. Sélectionnez **Terminé** pour revenir à l’écran principal demandes de droits d’objet. La nouvelle demande est répertoriée en haut de votre liste de demandes. Sélectionnez-la dans la liste pour commencer à examiner et à parcourir les étapes de progression.
 
@@ -94,7 +146,7 @@ Nous allons calculer une estimation de la quantité de données qu’il s’atte
  
  - Si vous n’avez pas choisi de vous arrêter à l’estimation des données, mais que nous prévoyons que votre recherche générera un grand volume de données, vous verrez une barre de messages en haut de votre demande avec un lien pour modifier votre recherche avant de passer à la **récupération des données**.
 
-Visitez [l’estimation et la récupération des données](subject-rights-requests-data-retrieval.md)pour en savoir plus sur ces étapes.
+Visitez [l’estimation et la récupération des données](subject-rights-requests-data-retrieval.md) pour en savoir plus sur ces étapes.
 
 ## <a name="defining-search-settings"></a>Définition des paramètres de recherche
 
@@ -127,7 +179,7 @@ Entrez des valeurs dans les champs de texte pour les noms, surnoms, adresses e-m
 
 Sélectionnez le bouton **Ajouter une condition** pour choisir parmi une plage de conditions pour cibler davantage votre recherche, notamment le nom de l’élément, les noms d’expéditeur et de destinataire, le type de données personnelles, et si l’élément a été partagé en externe à l’extérieur de votre organisation. Les champs de texte prennent en charge plusieurs entrées séparées par un point-virgule. Lorsque vous avez terminé, sélectionnez **Suivant** pour enregistrer vos paramètres de recherche et la progression vers le paramètre de type de requête.
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 Une fois que vous avez créé votre demande, elle apparaît dans la page de votre demande de droits d’objet. Pour en savoir plus sur la procédure de révision, consultez [Vérifier les données et collaborer sur les demandes](subject-rights-requests-data-review.md).
 

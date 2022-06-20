@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez comment examiner les données de demande de droits d’objet collectées par Microsoft Priva et collaborer à l’exécution de la demande.
-ms.openlocfilehash: 0182be22efe224481625c121dc98ebe1d96a06ec
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 6120fdaa97cf79ac122f6992f9ce476fdc4c5da3
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046628"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166643"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Examiner les données d’une demande de droits d’objet
 
@@ -31,18 +31,46 @@ Une fois que les données ont été collectées pour une demande de droits d’o
 
 ## <a name="tasks-for-completing-the-data-review"></a>Tâches pour terminer la révision des données
 
-À ce stade, vos contributeurs doivent examiner les résultats sous l’onglet **Données collectées**. Un canal Teams est automatiquement configuré pour faciliter l’examen du contenu par toutes les parties prenantes. Pour plus d’informations, consultez [Collaboration pour la révision des données](#collaboration-for-data-review) ci-dessous. Les tâches essentielles pour l’étape de révision des données sont décrites ci-dessous.
+La phase **de révision des données** se situe lorsque les collaborateurs examinent les éléments de contenu sous l’onglet **Données collectées**. Un canal Teams est automatiquement configuré pour faciliter l’examen du contenu par toutes les parties prenantes. Pour plus d’informations, consultez [Collaboration pour la révision des données](#collaboration-for-data-review) ci-dessous. Les tâches essentielles pour l’étape de révision des données sont décrites ci-dessous.
+
+#### <a name="import-additional-files"></a>Importer des fichiers supplémentaires
+
+Vous souhaiterez peut-être ajouter des éléments de contenu supplémentaires dans la demande de révision de vos données. Par exemple, les fichiers stockés en dehors de l’environnement Microsoft 365 de votre organisation, ou d’autres éléments que vous jugez pertinents, mais qui n’ont pas été inclus dans la recherche. Vous pouvez importer des fichiers dans l’onglet **Données collectées** d’une demande individuelle sur laquelle examiner et travailler, ainsi que les autres éléments. Les fichiers importés sont ajoutés au même conteneur Stockage Blob Azure avec les autres éléments de contenu récupérés à partir de votre recherche.
+
+Suivez les étapes ci-dessous pour importer des fichiers :
+
+1. Dans la page détails de la demande, sélectionnez **Importer des fichiers** dans la barre de commandes en haut de la page.
+
+2.  Une zone **Importer des fichiers** s’affiche à l’écran. **Sélectionnez Choisir des fichiers** et, dans l’affichage explorateur de fichiers, choisissez un ou plusieurs fichiers à importer.
+
+3. Vous revenez à la zone **Importer des fichiers** , qui répertorie les fichiers que vous avez choisis. Vous pouvez sélectionner **à nouveau Choisir des fichiers** pour ajouter d’autres éléments à la liste. Pour supprimer l’un des fichiers, sélectionnez **Effacer**, ce qui supprime tous les fichiers, puis choisissez à nouveau les fichiers.
+
+4. Lorsque tous les fichiers souhaités sont répertoriés dans la zone **Importer des fichiers** , sélectionnez **Importer**. Pour quitter sans téléchargement, sélectionnez **Annuler l’importation**.
+
+Lorsque l’importation commence, vous êtes redébasé dans l’onglet **Données collectées** de la demande. Un message au-dessus de l’onglet indique que votre chargement est en cours. En cas de problème avec le chargement, le message vous indique et fournit une option pour réessayer.
+
+Un message de confirmation s’affiche au-dessus de l’onglet **Données collectées** une fois l’importation terminée.
+
+**Plus d’informations sur l’importation de fichiers :**
+
+- La taille de fichier individuelle ne peut pas dépasser 4 Mo. Un message d’avertissement s’affiche dans la zone **Importer des fichiers** lorsqu’un fichier est trop volumineux pour être chargé.
+
+- Jusqu’à 20 minutes peuvent être nécessaires avant que les fichiers importés ne soient disponibles sous l’onglet **Données collectées** .
+
+- Si une importation est déjà en cours pour un utilisateur, le même utilisateur ne pourra pas charger des fichiers supplémentaires tant que le processus de chargement précédent n’est pas terminé. Plusieurs utilisateurs peuvent charger simultanément des fichiers vers la même requête. Toutefois, plus le nombre de chargements en cours est long, plus leur exécution est longue. Les messages d’état de la demande indiquent quand un chargement est terminé et que les fichiers sont prêts à être examinés.
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Marquer des éléments comme Inclure ou Exclure et ajouter des notes
 
-Passez en revue la liste des éléments identifiés retournés par votre recherche. Si vous décidez que l’élément doit être inclus dans le rapport final à l’objet de données, **sélectionnez Inclure** dans la barre de commandes en haut de la liste des éléments. Vous pouvez également sélectionner le bouton **Inclure** bleu dans la zone de révision de contenu à droite de la liste des éléments. Lorsque vous **sélectionnez Inclure**, un volet volant s’affiche avec une option permettant d’ajouter des notes. Lorsque vous avez terminé, **sélectionnez Envoyer** pour enregistrer l’état de révision de l’élément en tant **qu’Inclure**.
+Passez en revue les éléments répertoriés sous l’onglet **Données collectées** de la demande.  Si vous décidez que l’élément doit être inclus dans le rapport final à l’objet de données, **sélectionnez Inclure** dans la barre de commandes en haut de la liste des éléments. Vous pouvez également sélectionner le bouton **Inclure** bleu dans la zone de révision de contenu à droite de la liste des éléments. Lorsque vous **sélectionnez Inclure**, un volet volant s’affiche avec une option permettant d’ajouter des notes. Lorsque vous avez terminé, **sélectionnez Envoyer** pour enregistrer l’état de révision de l’élément en tant **qu’Inclure**.
 
-Si l’élément n’appartient pas à la demande, **sélectionnez Exclure** dans la barre de commandes ou le bouton **Exclure** dans la zone de révision de contenu. L’exclusion d’un élément signifie qu’il ne sera pas inclus dans les [rapports finaux générés pour la personne concernée](subject-rights-requests-reports.md).
+Si l’élément n’appartient pas à la demande, vous pouvez sélectionner **Exclure** dans la barre de commandes ou le bouton **Exclure** dans la zone de révision de contenu. Le marquage explicite d’un élément comme **Exclude** est souvent requis pour les enregistrements internes.
+
+Par défaut, seuls les éléments que vous **marquez comme Include** sont inclus dans les [rapports finaux générés pour la personne concernée](subject-rights-requests-reports.md).
 
 > [!NOTE]
 > Si vous **marquez** un élément comme Exclu, vous devez ajouter une note pour justifier pourquoi il ne concerne pas la demande de droits d’objet. Les notes sont à des fins internes et ne sont pas incluses dans les rapports finaux.
 
-Si le contenu semble être un faux positif, sélectionnez **Non une correspondance** et, dans le volet de menu volant, **sélectionnez Confirmer**. Cette action exclut le fichier de vos rapports finaux et signale l’élément comme quelque chose qui n’aurait pas dû être détecté dans la recherche.
+Si le contenu semble être un faux positif pour votre requête de recherche, sélectionnez **Non une correspondance** et, dans le volet de menu volant, sélectionnez **Confirmer**. Cette action signale l’élément comme quelque chose qui n’aurait pas dû être détecté dans la recherche.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -84,7 +112,7 @@ Pour ajouter d’autres collaborateurs, **sélectionnez Ajouter un collaborateur
 
 Pour démarrer une conversation Teams, n’importe quel collaborateur peut sélectionner **Conversation avec des collaborateurs** en haut à droite de la page de détails de la demande. Cette action ouvre Teams et vous place dans le canal **Général** pour le site d’équipe de votre demande de droits d’objet.
 
-Vous pouvez modifier le comportement par défaut de la création de canaux Teams pour les demandes de droits d’objet en accédant à Priva **Paramètres** dans le coin supérieur droit de la demande de droits de l’objet. Sélectionnez **Teams collaboration**, puis décochez la case sur la page pour désactiver Teams fonctionnalités pour toutes les requêtes relatives aux droits d’objet.
+Vous pouvez modifier le comportement par défaut de la création de canaux Teams pour les demandes de droits d’objet en accédant à Priva **Paramètres** dans le coin supérieur droit de la demande de droits de l’objet. Sélectionnez **Teams collaboration**, puis décochez la case sur la page pour désactiver Teams fonctionnalités pour toutes les demandes de droits d’objet.
 
 La commande **Partager** en haut à droite de la page de détails d’une requête crée un lien partageable qui accède directement à la demande dans Priva. Donnez ce lien aux collaborateurs afin qu’ils puissent accéder à la demande à laquelle vous les avez ajoutés.
 
@@ -96,7 +124,7 @@ Sélectionnez le bouton **Terminer la révision** dans le coin supérieur droit 
 
 Sélectionnez **Terminer la révision** dans le volet de menu volant pour terminer l’étape de révision. Cette action prépare la demande pour les étapes finales du processus : génération de rapports et fermeture de la demande. Les résumés de vos décisions seront fournis ultérieurement sous l’onglet **Rapports** .
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 Découvrez comment générer le rapport final et travailler à l’achèvement de la demande dans [Générer des rapports et fermer une demande](subject-rights-requests-reports.md).
 
 ## <a name="legal-disclaimer"></a>Exclusion de responsabilité légale

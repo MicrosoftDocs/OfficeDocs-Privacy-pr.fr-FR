@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Découvrez la Microsoft Priva version d’évaluation, consultez les actions recommandées à prendre pendant votre période d’essai et consultez les liens vers une documentation importante.
-ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046588"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166633"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Playbook d'essai : Microsoft Priva
 
@@ -138,7 +138,7 @@ Conformément à certaines réglementations en matière de confidentialité dans
 
 Les administrateurs de gestion des droits de l’objet peuvent ouvrir de nouvelles demandes de droits d’objet via la page principale demandes de droits d’objet. Un Assistant vous guide tout au long du processus de recherche de données personnelles sur un sujet de données et de démarrage du processus de traitement de leur demande.
 
-1. [Utiliser l’Assistant Demande de droits d’objet](subject-rights-requests-create.md#create-a-request) : créer une demande
+1. [Utiliser l’Assistant Demande de droits d’objet](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) : créer une demande
 1. [Définir les paramètres de recherche](subject-rights-requests-create.md#defining-search-settings)
 1. [Affiner les paramètres de recherche](subject-rights-requests-create.md#refining-your-search)
 

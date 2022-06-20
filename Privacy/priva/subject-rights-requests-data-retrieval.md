@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Comprendre comment les données sont récupérées et comment modifier les paramètres de recherche dans Demandes de droits des personnes concernées Microsoft Priva.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046731"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166663"
 ---
 # <a name="data-estimate-and-retrieval"></a>Estimation et récupération des données
 
@@ -36,7 +36,7 @@ Votre demande passe automatiquement à l’étape suivante de la **récupératio
 
 Il existe deux raisons pour lesquelles une demande s’interrompt à l’étape **d’estimation des données** :
 
-1. Lorsque vous créez une demande pour la première fois, vous pouvez choisir d’obtenir une estimation en premier. Pour plus d’informations, consultez l’étape 5 de [création d’une demande](subject-rights-requests-create.md#create-a-request) .
+1. Lors de la création d’une demande, vous pouvez choisir d’obtenir une estimation en premier. Pour plus d’informations, consultez l’étape 6 de [création d’une demande personnalisée](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) .
 
 2. Si l’estimation est projetée pour retourner un grand nombre d’éléments à examiner (plus de 10 000 éléments), le flux de travail s’interrompt. À ce stade, vous pouvez afficher un aperçu des résultats et décider s’il faut [modifier votre requête de recherche](subject-rights-requests-create.md#refining-your-search) ou continuer à récupérer les éléments identifiés.
 
@@ -59,11 +59,11 @@ Lorsque vous êtes prêt à continuer, **sélectionnez récupérer les données*
 
 ## <a name="retrieve-data"></a>Récupérer des données
 
-L’étape de récupération des données consiste à récupérer tous les fichiers, e-mails, conversations, images et autres éléments de contenu contenant les données personnelles de la personne concernée. Les éléments sont regroupés dans un conteneur de stockage d’objets blob Azure à des fins de révision. La récupération des données peut prendre quelques minutes ou beaucoup plus longtemps en fonction du volume de données.
+L’étape de récupération des données consiste à récupérer tous les fichiers, e-mails, conversations, images et autres éléments de contenu contenant les données personnelles de la personne concernée. Les éléments sont regroupés dans un conteneur Stockage Blob Azure à réviser. La récupération des données peut prendre quelques minutes ou beaucoup plus longtemps en fonction du volume de données.
 
 Une fois cette étape terminée, la demande passe automatiquement à l’étape suivante de **la révision des données**.
 
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 [Visitez les données de révision pour une demande de droits de sujet](subject-rights-requests-data-review.md) pour en savoir plus sur les tâches clés et la collaboration avec les parties prenantes pour **l’étape De révision des données**.
 
